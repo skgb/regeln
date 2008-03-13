@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
+<regeln version="0.5" xmlns="http://www.skgb.de/2005/regeln">
+	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
+	<ordnung>
+		<name>Bootshausordnung</name>
+		<p>
+			<titel>Grundsätzliche Verwendungszwecke</titel>
+			<s>Das Bootshaus dient in den Wintermonaten als Lager für Jollen und wird in der übrigen Zeit zur Durchführung geselliger Veranstaltungen und für Arbeiten an Booten oder anderem Material genutzt.</s>
+			<s>Insbesondere finden im Bootshaus Mitgliederversammlungen, Rahmenveranstaltungen bei Regatten, Verpflegungen bei Arbeitseinsätzen, verschiedene Veranstaltungen der Jugendabteilung und vielfältige sonstige (auch gesellige) Veranstaltungen statt.</s>
+			<s>Die Nutzung untersteht den nachfolgend aufgeführten Bedingungen.</s>
+			<s>Die Nutzungszwecke für gesellige Veranstaltungen und für Arbeiten sind gleichwertig.</s>
+		</p>
+		<p>
+			<titel>Winterlager</titel>
+			<abs>
+				<s>Die Zeiträume des Winterlagers werden vom Vorstand durch die Termine zur Bootseinlagerung bzw. Bootsauslagerung festgelegt.</s>
+				<s>Vereinsboote und eigene Jollen von Vereinsmitgliedern können ins Bootshaus eingelagert werden. Boote sind vor der Einlagerung zu reinigen.</s>
+			</abs>
+			<abs>
+				<s>Für die Einlagerung der Vereinsboote ist die Anwesenheit der Nutzer bei den Terminen der Ein- bzw. Auslagerung verpflichtend (Die Jugendwarte regeln Abweichendes für Optisegler).</s>
+			</abs>
+			<abs>
+				<s>Bei privaten Booten ist entsprechend die Anwesenheit des Eigners oder eines Vertreters erforderlich und außerdem die Einlagerungsgebühr gemäß Finanzordnung zu entrichten.</s>
+				<s>Der Steg- und Zeugwart führt  eine Liste, auf der sich betreffende Bootseigner einzutragen haben.</s>
+				<s>Der Verein haftet nicht für eingelagerte Gegenstände; der Eigner hat die Haftungsausschlußerklärung vor der ersten Einlagerung zu unterschreiben.</s>
+			</abs>
+			<abs>
+				<s>Der Zutritt zum Boothaus wird für diese Zeit eingeschränkt.</s>
+			</abs>
+			<abs eingefuegtam="2001-10-27">
+				<s>Zum Winterlager können auch Boote auf dem Bootshausgelände abgestellt werden.</s>
+				<s>Die Stellplätze werden vom Steg - und Zeugwart zugewiesen.</s>
+				<s>Die Boote müssen im Frühjahr spätestens zwei Wochen nach dem Stegaufbau abgeholt werden.</s>
+				<s>Ausnahmen kann der Vorstand in begründeten Fällen zulassen.</s>
+			</abs>
+		</p>
+		<p eingefuegtam="2008-03-08">
+			<titel>Nutzung der Außenfläche</titel>
+			<abs>
+				<s>Das Abstellen von Trailern, Slipwagen, Booten, Masten oder anderem Bootszubehör auf dem Bootshausgelände ist mit dem Vorstand abzustimmen.</s>
+				<s>Alles abgestellte Privatmaterial ist mit Namen des Bootes oder Eigners wetterbeständig zu kennzeichnen.</s>
+				<s>Die Stellplätze vergibt der Vorstand nach Verfügbarkeit.</s>
+			</abs>
+			<abs>
+				<s>Kann abgestelltes oder im Bootshaus eingelagertes Material keinem Vereinsmitglied zugeordnet werden, so kann der Vorstand per Vereinsrundschreiben das Mitglied zur Kontaktaufnahme oder zum Entfernen des Materials auffordern.</s>
+				<s>Erfolgt innerhalb sechs Wochen keine Reaktion, kann der Vorstand über das Material verfügen.</s>
+			</abs>
+			<abs>
+				<s>Während des Winterlagers können auf der Waldseite des Bootshauses (bergauf gerichtete Seite) bis zu vier Dickschiffe einschließlich des Vereinsbootes gelagert werden.</s>
+				<s>Der vereinseigene 3fach-Trailer wird in Tornähe abgestellt, um Aktivitäten in dieser Zeit nicht zu behindern.</s>
+				<s>Auf der Seeseite neben dem Bootshaus können Jollen und Trailer, hinter dem Bootshaus Trailer und Slipwagen abgestellt werden.  </s>
+			</abs>
+			<abs>
+				<s>Außerhalb der Winterlagerzeit werden auf dem Bootshausgelände keine Boote von Mitgliedern gelagert.</s>
+				<s>Über Ausnahmen entscheidet der Vorstand auf Anfrage.</s>
+				<s>Neben und hinter dem Bootshaus können Trailer und Slipwagen der Vereinsboote und von Mitgliedern abgestellt werden.</s>
+				<s>Für die Vereinstrailer ist der dem Tor zugewandte Bereich freizuhalten.</s>
+				<s>Vor dem Bootshaus werden keine Trailer gelagert.</s>
+				<s>Dies betrifft den Bereich vor der nach beiden Seiten verlängerten Linie der Bootshausvorderseite.</s>
+			</abs>
+			<abs>
+				<s>Alle Boote, Trailer und Slipwagen sind ordentlich und so zu lagern, dass alle Bereiche des Bootshauses zugänglich, ein mindestens ein Meter breiter Fluchtweg an der Waldseite des Bootshauses und außerhalb der Winterlagerzeit ein weiterer Weg an der Seeseite bleiben.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Gesellige Veranstaltungen</titel>
+			<abs>
+				<s>Termine von Vereinsveranstaltungen werden neben der üblichen Bekanntmachung auch in den Bootshauskalender eingetragen.</s>
+			</abs>
+			<abs>
+				<s>Vereinsmitglieder können auch private Veranstaltungen im Bootshaus durchführen. Für solche private Veranstaltungen gelten folgende Bedingungen:</s>
+				<lit>
+					<s>Die Gäste müssen im wesentlichen Vereinsmitglieder sein.</s>
+					<s>Ausnahmen kann der Vorstand in besonders begründeten Einzelfällen zulassen.</s>
+				</lit>
+				<lit>
+					<s>Die Zustimmung des Vorstandes muß rechtzeitig vorher eingeholt werden; wenn die Zustimmung vorliegt, wird der Termin durch Eintrag im Bootshauskalender reserviert.</s>
+				</lit>
+			</abs>
+			<abs>
+				<s>Das Bootshaus ist nach einer Veranstaltung im erforderlichen Maße zu reinigen.</s>
+				<s>Hierfür hat der Leiter der Veranstaltung oder ein Beauftragter, bei privaten Veranstaltungen das veranstaltende Vereinsmitglied Sorge zu tragen.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Arbeiten</titel>
+			<abs>
+				<s>Vereinsboote (im Ausnahmefall auch private Boote) und sonstiges Vereinsmaterial können unter den nachfolgenden Auflagen im Bootshaus bear beitet werden.</s>
+				<s>Bei länger geplanten Arbeiten werden deren Termine im Bootshauskalender eingetragen.</s>
+				<s>Solche Planungen sind mit dem Vorstand abzustimmen.</s>
+			</abs>
+			<abs>
+				<s>Rechtzeitig vor einer Veranstaltung ist das Bootshaus zu räumen und im erforderlichen Maße zu reinigen</s>
+			</abs>
+			<abs>
+				<s>Auflagen für Arbeiten im Bootshaus:</s>
+				<lit>
+					<s>Spritzlack-, Schleif- und ähnliche Arbeiten sind im Bootshaus nicht gestattet.</s>
+				</lit>
+				<lit>
+					<s>Bei Lack-, Gelcoat-, Spachtel- oder ähnlichen Arbeiten ist der Boden durch geeignete Unterlagen gegen Verschmutzungen zu schützen.</s>
+					<s>Das Bootshaus ist dabei gut zu lüften.</s>
+				</lit>
+				<lit>
+					<s>Beabsichtigte Arbeiten im Bootshaus sind vorher mit dem Vorstand abzusprechen.</s>
+					<s>Bei privaten Arbeiten wird anschließend eine Abnahme durch den Vorstand vorgenommen.</s>
+					<s>Ansprechpartner hierfür ist der Steg- und Zeugwart.</s>
+				</lit>
+			</abs>
+		</p>
+		<p>
+			<titel>Trocknen von Segeln und Bekleidung</titel>
+			<abs>
+				<s>Nasse Jollensegel, insbesondere der Vereinsboote, und nasse Bekleidung können im Bootshaus zum Trocknen aufgehängt werden.</s>
+				<s>Das Bootshaus ist dabei gut zu lüften.</s>
+			</abs>
+			<abs>
+				<s>Das Betreten des Jugendraumes mit nassen Gegenständen ist verboten.</s>
+				<s>Dort darf auch nichts Nasses aufgehängt werden, da dort Teppichboden liegt.</s>
+			</abs>
+			<abs>
+				<s>Aufgehängte Gegenstände sind rechtzeitig vor Veranstaltungen, ansonsten zu Beginn des folgenden Wochenendes abzunehmen.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Der Bootshauskalender</titel>
+			<s>Alle Termine von Veranstaltungen und geplanten Arbeiten sind im Bootshauskalender einzutragen, damit sie bei weiteren Planungen berücksichtigt werden können.</s>
+			<s>Der Kalender befindet sich ab der Frühjahresversammlung auf der Innenseite des zweiten Türflügels.</s>
+		</p>
+		<p>
+			<titel>Inkrafttreten</titel>
+			<s>Diese Boothausordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und tritt sofort in Kraft.</s>
+			<s nachgefuehrtam="2001-10-27 2008-03-08">§ 2 Abs. 5 eingefügt am 27. Oktober 2001, § 3 eingefügt am 8. März 2008.</s>
+		</p>
+		<aktuell den="13. März 2008"/>
+	</ordnung>
+</regeln>
