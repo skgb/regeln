@@ -3,11 +3,13 @@ property templateFilename : "Vorlage.rtt"
 property DEBUG_TemplatePath : "Macintosh HD:SKGB:Satzung/Ordnungen:Vorlage.rtt"
 
 -- format constants
+property FORMAT_VERSION : "0.5"
+property FORMAT_NAMESPACE : "http://www.skgb.de/2005/regeln"
 property ROOT_ELEMENT_NAME : "regeln"
-property ELEMENTS_WITH_PCDATA_CONTENT : {"präambel", "name", "titel", "s", "gestrichen", "eingefügt", "dump"}
-property IGNORE_ELEMENTS : {"gestrichen"}
-property NEW_RAGTIME_PARAGRAPH_AT : {"ordnung", "name", "präambel", "p", "titel", "abs", "lit", "dump"}
-property RAGTIME_PARAGRAPH_STYLE_SHEETS : {|name|:"Werktitel", |präambel|:"Präambel", titel:"Paragraph-Titel", p:"", abs:"Absatz", lit:"Liste"}
+property ELEMENTS_WITH_PCDATA_CONTENT : {"praeambel", "name", "titel", "s", "nachfuehrung", "dump"}
+property IGNORE_ELEMENTS_WITH_ATTRIBUTES : {"gestrichenam"}
+property NEW_RAGTIME_PARAGRAPH_AT : {"ordnung", "name", "praeambel", "p", "titel", "abs", "lit", "dump"}
+property RAGTIME_PARAGRAPH_STYLE_SHEETS : {|name|:"Werktitel", praeambel:"Präambel", titel:"Paragraph-Titel", p:"", abs:"Absatz", lit:"Liste"}
 property RAGTIME_DEFAULT_STYLE_SHEET : "Standardabsatz"
 
 -- globals
@@ -78,15 +80,18 @@ on openFiles(theFiles)
 			my convertToRagTime()
 			
 		on error theMessage number theNumber
-			if currentCount < (the count of theFiles) then
-				set theButtons to {"Continue", "Stop"}
-			else
-				set theButtons to {"OK"}
-			end if
-			set theDefaultButton to item (the count of theButtons) in theButtons
-			display alert "Error while processing “" & name of (info for (aFile)) & "”" message theMessage & return & "(Error " & theNumber & ")" buttons theButtons default button theDefaultButton as warning
-			if the button returned of the result is theDefaultButton then
-				error number -128
+			if theNumber is not 405 then
+				if currentCount < (the count of theFiles) then
+					set theButtons to {"Stop", "Continue"}
+				else
+					set theButtons to {"OK"}
+				end if
+				set theStopButton to item 1 in theButtons
+				set theDefaultButton to item (the count of theButtons) in theButtons
+				display alert "Error while processing “" & name of (info for (aFile)) & "”" message theMessage & return & "(Error " & theNumber & ")" buttons theButtons default button theDefaultButton as warning
+				if the button returned of the result is theStopButton then
+					error number -128
+				end if
 			end if
 		end try
 		set currentCount to currentCount + 1
@@ -113,12 +118,40 @@ on parseFile(theFile)
 	-- we're using the DOM-style parser here, at least for now
 	-- the SAX-style parser might improve readability of this code though
 	try
-		set root to parse XML (theData)
+		set root to parse XML (theData) encoding "UTF-8"
+		try
+			set foundOurnamespace to false
+			repeat with namespace in (every item of root's XML namespaces)
+				if (namespace's XML namespace uri is FORMAT_NAMESPACE) then
+					set foundOurnamespace to true -- :BUG: namespace prefixes are ignored here (the parser should do that for us, we shouldn't have to roll that ourselves... anyway, better this than nothing)
+					exit repeat
+				end if
+			end repeat
+			if not foundOurnamespace then
+				error number 407
+			end if
+		on error
+			error "XML parsing error: root element in wrong namespace" number 406
+		end try
 		if XML tag of root is not ROOT_ELEMENT_NAME then
 			error "XML parsing error: wrong root element name" number 403
 		end if
+		try
+			set theVersion to (get user property "version" in root's XML attributes)
+			if theVersion is not FORMAT_VERSION then
+				display alert "Warning: File Format Version Mismatch" message "The file “" & name of (info for (theFile)) & "” conforms to version " & theVersion & " of 'SKGB-Regeln', but this script is made for version " & FORMAT_VERSION & ". You may continue processing, but the results may not be what you expect." buttons {"Skip this File", "Continue"} default button "Skip this File" as warning
+				if the button returned of the result is "Skip this File" then
+					error number 405
+				end if
+			end if
+		on error
+			error "XML parsing error: root element version attribute missing" number 404
+		end try
 	on error theMessage number theNumber
-		error "Not an 'SKGB-Regeln' file." & return & theMessage & return & "(Original error code: " & theNumber & ")" number 401
+		if theNumber is 405 then
+			error number 405
+		end if
+		error "Not an 'SKGB-Regeln' file." & return & return & theMessage & return & "(Original error code: " & theNumber & ")" number 401
 	end try
 	
 	my parseElement(root)
@@ -130,9 +163,13 @@ end parseFile
 on parseElement(element)
 	global paragraphBreakNecessary
 	
-	if XML tag of element is in IGNORE_ELEMENTS then
-		return
-	end if
+	try
+		repeat with attribute in (get user property names element's XML attributes)
+			if attribute is in IGNORE_ELEMENTS_WITH_ATTRIBUTES then
+				return
+			end if
+		end repeat
+	end try
 	
 	repeat with subElement in XML contents of element
 		if class of subElement is XML element then
