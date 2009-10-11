@@ -1,5 +1,11 @@
-Jüngstensegel-Vorschrift
-Die Jüngstensegelschein-Vorschrift des Deutschen Segler-Verbandes vom 24. März 1973 in der Fassung vom 23. März 1996 sieht in Paragraph 8 ergänzende Vorschriften der Verbandsvereine vor. Die Durchführungsvorschrift zu Paragraph 1 regelt, was diese ergänzenden Vorschriften enthalten müssen. Mit der folgenden Jüngstensegel-Vorschrift kommt die Segel- und Kanugemeinschaft Bruchertalsperre diesen Anforderungen nach. Die Jüngstensegel-Vorschrift tritt sofort in Kraft.
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
+<regeln version="0.5" xmlns="http://www.skgb.de/2005/regeln">
+	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
+	<vorschrift>
+		<name>Jüngstensegel-Vorschrift</name>
+		<praeambel>Die Jüngstensegelschein-Vorschrift des Deutschen Segler-Verbandes vom 24. März 1973 in der Fassung vom 23. März 1996 sieht in Paragraph 8 ergänzende Vorschriften der Verbandsvereine vor. Die Durchführungsvorschrift zu Paragraph 1 regelt, was diese ergänzenden Vorschriften enthalten müssen. Mit der folgenden Jüngstensegel-Vorschrift kommt die Segel- und Kanugemeinschaft Bruchertalsperre diesen Anforderungen nach. Die Jüngstensegel-Vorschrift tritt sofort in Kraft.</praeambel>
+<dump>
 1. Das Jüngstensegelrevier
 a) Das Gebiet:
 Das Revier der Jüngstensegler ist grundsätzlich die südliche Hälfte der Bruchertalsperre, und zwar bis zur Linie zwischen dem Anlegesteg der Bootsvermietung und dem Wassereinlauf in der Bucht. Dieses Gebiet kann im Einzelfall vom Aufsichtsführenden unter Beachtung der gegebenen Sicherheitsaspekte erweitert oder eingeschränkt werden.
@@ -14,3 +20,6 @@ Die Aufsicht über das Jüngstensegeln ist grundsätzlich den gewählten Jugendw
 3. Rettungswestenpflicht
 Jüngstensegler müssen grundsätzlich ohnmachtssichere Rettungswesten in Signalfarbe tragen. Wenn ausreichende Rettungsmöglichkeiten bestehen und die weiteren Umstände es erlauben, kann der Aufsichtsführende das Tragen von Schwimmwesten oder weitere Erleichterungen zulassen.
 (Beschlossen am 19. April 1997 vom Vereinsjugendausschuss, bestätigt in 1997 vom Vorstand)
+</dump>
+	</vorschrift>
+</regeln>
