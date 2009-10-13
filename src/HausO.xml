@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.5" xmlns="http://www.skgb.de/2005/regeln">
+<regeln version="0.6" xmlns="http://www.skgb.de/2005/regeln">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Bootshausordnung</name>

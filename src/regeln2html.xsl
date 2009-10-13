@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <!--
 
@@ -9,62 +9,97 @@ Proprietary/Confidential. All Rights Reserved.
 -->
 
 
-<!-- format version: SKGB-Regeln 0.5 -->
-
-<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln">
+<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="regeln html">
+	
+	<xsl:template name='check-version'>
+		<xsl:variable name="version" select="number(0.6)"/><!-- SKGB-Regeln format version -->
+		
+		<xsl:if test="number(.//@version) &lt; $version">
+			<xsl:message>
+				<xsl:text>Warning: Document Format Version Mismatch! The processed document conforms to version </xsl:text>
+				<xsl:value-of select="number(.//@version)"/>
+				<xsl:text> of 'SKGB-Regeln', but this XSLT is made for version </xsl:text>
+				<xsl:value-of select="$version"/>
+				<xsl:text>. The results may not be what you expect.</xsl:text>
+			</xsl:message>
+		</xsl:if>
+	</xsl:template>
+	
+	
+	<xsl:namespace-alias stylesheet-prefix="html" result-prefix="#default"/>
 
 	<!-- Need to instruct the XSLT processor to use HTML output rules.
 		 See http://www.w3.org/TR/xslt#output for more details
 	-->
-	<xsl:output method="html" media-type="text/html" encoding="utf-8" doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN" doctype-system="http://www.w3.org/TR/html4/loose.dtd" omit-xml-declaration="yes" indent="no"/>
-	
-	
+	<xsl:output method="xml" media-type="application/xhtml+xml" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" omit-xml-declaration="no" standalone="no" indent="no"/>
+		
+	<xsl:template match="html:*">
+		<!--xsl:copy><xsl:apply-templates/></xsl:copy-->
+		<xsl:element name="{local-name()}"><xsl:apply-templates/></xsl:element>
+	</xsl:template>
 	
 	<xsl:template match="/">
-		<HTML LANG="de">
-		<STYLE TYPE="text/css">
+		<xsl:call-template name="check-version"/>
+		<xsl:processing-instruction name="xml-stylesheet">href="#style" type="text/css"</xsl:processing-instruction>
+		<html xml:lang="de">
+		<head>
+		<style type="text/css" id="style">
 			<xsl:text>
-HTML {
+html {
 	margin: 8px;
 }
-BODY {
+body {
 	margin: 0;
 }
-INS, INS * {
+pre {
+	width: 100%;
+	white-space: pre-line;
+	font-size: 92%;
+	font-family: monospace;
+	font-family: "Courier", "CMU Typewriter Text", "Free Mono", "Prestige Elite Std", "Courier New";
+}
+ins, ins * {
 	text-decoration: none;
 }
-DEL, DEL * {
+del, del * {
 	display: none;
 }
 /*
-INS, INS * {
+ins, ins * {
 	background: #7f7;
 }
-DEL, DEL * {
+del, del * {
 	background: #f77;
 }
 */
-H1 {
+h1 {
 	counter-reset: sections;
 	font-size: 1.5em;
 	font-weight: normal;
 	text-align: center;
+	background-image: url(logo_skgb.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 107px;
 }
-H2:before {
+h2:before {
 	content: '§ 'counter(sections)' ';
 	counter-increment: sections;
 	padding-right: 1ex;
 }
-H2 {
+h2 {
 	font-size: 1em;
 }
 .preamble, .up-to-date, .signature {
 	font-style: italic;
 }
-P.up-to-date {
+.preamble:before {
+	content: 'Präambel: ';
+}
+p.up-to-date {
 	margin-bottom: 0;
 }
-ADDRESS.signature SPAN.signature {
+address.signature span.signature {
 	padding-top: 56px;
 	display: inline-block;
 	background-repeat: no-repeat;
@@ -72,54 +107,58 @@ ADDRESS.signature SPAN.signature {
 	background-image: url(data:image/gif;base64,R0lGODlhMAAwAJEAAP%2F%2F%2FzxGUre7wXeAiiH5BAEAAAAALAAAAAAwADAAAAL%2FhI95MhP%2FhhCq2osYjNpxDFoCJI1DpQVUGI7PCjTUhL7s5cKGxEtR4ropHCcDjdGIEFWN2E4lfMI6qlck0PBIFtCbY%2FX9GnWT5LcLwLIcCCUal20e1JjRyro1ejZoJHKuo6BCg4WmRQNQBnGQNZJoZ2EVkPhgZIPzEyPD5qjQSVIkxmKy07FT1IYqyhaVNqlpCPS6QMHaqlkqx4AgJ3vLFQqZ1jaWaPAmRAQpg9TF6lE7e2P6dFoi52yDjKHsBPj49VkzmmUU89fkV9ppfAqiTltYIs04MYu6rSdXhJSlvVCPSKNjKGTwYoIFWrMZlTRtSkKQl8EFPbp1WPajH6WG96%2FgGesX51qeNDN0laOWcGQif40mmAi0LQ5FHycoTGoUx2W5CoMSzDumBUrKliU8eqpSs5ZNoFvSKTHYL9AQHotIWnVI6VjKMioxDOK6o5TWImqKdpvW0dyurCud6qETRY2LpjDuGRQodc2sqtLivIHbCtKRWqgoMQgkLIqwTMN8FoYKOISoQq96tVmRY04%2BWdlKsD1qqcvhD0MYn7mT190jzdH4bMiTwi6IyNAkDlwZ43W1EHBNMKbHMOElW7z5yUvyQqfrhp%2B9zBotiYRwf4Z%2FEUnlr1Cas9R%2BZabFtWY7SoV%2Fve1acKJ5Ty6wuNQpcP00v7dbFQAAOw==);
 }
 			</xsl:text>
-		</STYLE>
-			<TITLE><xsl:value-of select="//regeln:name"/></TITLE>
+		</style>
+			<title><xsl:value-of select="//regeln:name"/></title>
+			</head>
+			<body>
 			<xsl:apply-templates/>
-		</HTML>
+			<!--xsl:apply-templates select="descendant-or-self::regeln:regeln/*"/-->
+			</body>
+		</html>
 	</xsl:template>
 	
 	<xsl:template match="regeln:name">
-		<H1>
+		<h1>
 			<xsl:apply-templates/>
-		</H1>
+		</h1>
 	</xsl:template>
 	
 	<xsl:template match="regeln:satzung">
-		<DIV CLASS="bylaws">
+		<div class="bylaws">
 			<xsl:apply-templates/>
-		</DIV>
+		</div>
 	</xsl:template>
 	
 	<xsl:template match="regeln:ordnung">
-		<DIV CLASS="rules">
+		<div class="rules">
 			<xsl:apply-templates/>
-		</DIV>
+		</div>
 	</xsl:template>
 	
 	<xsl:template match="regeln:vorschrift">
-		<DIV CLASS="directive">
+		<div class="directive">
 			<xsl:apply-templates/>
-		</DIV>
+		</div>
 	</xsl:template>
 	
 	<xsl:template match="regeln:praeambel">
-		<P CLASS="preamble">
+		<p class="preamble">
 			<xsl:apply-templates/>
-		</P>
+		</p>
 	</xsl:template>
 	
 	<xsl:template match='regeln:p'>
-		<H2><xsl:value-of select="regeln:titel"/></H2>
+		<h2><xsl:value-of select="regeln:titel"/></h2>
 		<xsl:choose>
 			<xsl:when test="regeln:abs">
-				<OL>
+				<ol>
 					<xsl:apply-templates/>
-				</OL>
+				</ol>
 			</xsl:when>
 			<xsl:otherwise>
-				<DIV>
+				<div>
 					<xsl:apply-templates/>
-				</DIV>
+				</div>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -129,9 +168,9 @@ ADDRESS.signature SPAN.signature {
 	</xsl:template>
 	
 	<xsl:template name='list-item'>
-		<LI>
+		<li>
 			<xsl:apply-templates/>
-		</LI>
+		</li>
 	</xsl:template>
 	
 	<xsl:template match='regeln:titel'>
@@ -144,14 +183,14 @@ ADDRESS.signature SPAN.signature {
 	<xsl:template name='ins-del'>
 		<xsl:choose>
 			<xsl:when test="attribute::gestrichenam">
-				<DEL DATETIME="{attribute::gestrichenam}">
+				<del datetime="{attribute::gestrichenam}">
 					<xsl:apply-templates/>
-				</DEL>
+				</del>
 			</xsl:when>
 			<xsl:when test="attribute::eingefuegtam">
-				<INS DATETIME="{attribute::eingefuegtam}">
+				<ins datetime="{attribute::eingefuegtam}">
 					<xsl:apply-templates/>
-				</INS>
+				</ins>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:apply-templates/>
@@ -160,67 +199,35 @@ ADDRESS.signature SPAN.signature {
 	</xsl:template>
 	
 	<xsl:template match='regeln:lit[1]'>
-		<OL TYPE="a">
+		<ol type="a">
 			<xsl:call-template name="list-item"/>
 			<xsl:for-each select="following-sibling::*[local-name()='lit']">
 				<xsl:call-template name="list-item"/>
 			</xsl:for-each>
-		</OL>
+		</ol>
 	</xsl:template>
 	
 	<xsl:template match='regeln:lit'>
 	</xsl:template>
 	
-	<xsl:template match='regeln:gestrichen'>
-		<!-- SKGB-Regeln pre-0.5 -->
-		<xsl:choose>
-			<xsl:when test="attribute::am">
-				<DEL DATETIME="{attribute::am}">
-					<xsl:apply-templates/>
-				</DEL>
-			</xsl:when>
-			<xsl:otherwise>
-				<DEL>
-					<xsl:apply-templates/>
-				</DEL>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
-	
-	<xsl:template match='regeln:eingefuegt'>
-		<!-- SKGB-Regeln pre-0.5 -->
-		<xsl:choose>
-			<xsl:when test="attribute::am">
-				<INS DATETIME="{attribute::am}">
-					<xsl:apply-templates/>
-				</INS>
-			</xsl:when>
-			<xsl:otherwise>
-				<INS>
-					<xsl:apply-templates/>
-				</INS>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
-	
 	<xsl:template match='regeln:aktuell'>
 		<xsl:choose>
 			<xsl:when test="attribute::den">
-				<P CLASS="up-to-date">
-					Marienheide, den <xsl:value-of select="attribute::den"/><BR/>
-				</P>
-				<ADDRESS CLASS="signature">
-					Segel- und Kanugemeinschaft Brucher Talsperre<BR/>
-					<SPAN CLASS="signature">Der Vorstand</SPAN>
-				</ADDRESS>
+				<p class="up-to-date">
+					Marienheide, den <xsl:value-of select="attribute::den"/><br/>
+				</p>
+				<address class="signature">
+					Segel- und Kanugemeinschaft Brucher Talsperre<br/>
+					<span class="signature">Der Vorstand</span>
+				</address>
 			</xsl:when>
 		</xsl:choose>
 	</xsl:template>
 	
 	<xsl:template match='regeln:dump'>
-		<PRE>
+		<pre>
 			<xsl:apply-templates/>
-		</PRE>
+		</pre>
 	</xsl:template>
 	
 </xsl:transform>
