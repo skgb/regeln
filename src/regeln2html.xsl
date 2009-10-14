@@ -12,12 +12,12 @@ Proprietary/Confidential. All Rights Reserved.
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="regeln html">
 	
 	<xsl:template name='check-version'>
-		<xsl:variable name="version" select="number(0.6)"/><!-- SKGB-Regeln format version -->
+		<xsl:variable name="version" select="number(0.61)"/><!-- SKGB-Regeln format version -->
 		
-		<xsl:if test="number(.//@version) &lt; $version">
+		<xsl:if test="number(/.//regeln:regeln//@version) &lt; $version">
 			<xsl:message>
 				<xsl:text>Warning: Document Format Version Mismatch! The processed document conforms to version </xsl:text>
-				<xsl:value-of select="number(.//@version)"/>
+				<xsl:value-of select="number(/.//regeln:regeln//@version)"/>
 				<xsl:text> of 'SKGB-Regeln', but this XSLT is made for version </xsl:text>
 				<xsl:value-of select="$version"/>
 				<xsl:text>. The results may not be what you expect.</xsl:text>
@@ -42,9 +42,13 @@ Proprietary/Confidential. All Rights Reserved.
 		<xsl:call-template name="check-version"/>
 		<xsl:processing-instruction name="xml-stylesheet">href="#style" type="text/css"</xsl:processing-instruction>
 		<html xml:lang="de">
-		<head>
-		<style type="text/css" id="style">
-			<xsl:text>
+			<head>
+				<title>
+					<xsl:value-of select="//regeln:name"/>
+					<xsl:text> SKGB</xsl:text>
+				</title>
+				<style type="text/css" id="style">
+					<xsl:text>
 html {
 	margin: 8px;
 }
@@ -58,20 +62,9 @@ pre {
 	font-family: monospace;
 	font-family: "Courier", "CMU Typewriter Text", "Free Mono", "Prestige Elite Std", "Courier New";
 }
-ins, ins * {
-	text-decoration: none;
-}
-del, del * {
-	display: none;
-}
-/*
-ins, ins * {
-	background: #7f7;
-}
-del, del * {
+del, del *, ins del, ins del * {
 	background: #f77;
 }
-*/
 h1 {
 	counter-reset: sections;
 	font-size: 1.5em;
@@ -81,6 +74,11 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: center top;
 	padding-top: 107px;
+	margin-bottom: 0;
+}
+p.stand {
+	text-align: center;
+	margin: .5em 0 2em;
 }
 h2:before {
 	content: '§ 'counter(sections)' ';
@@ -106,13 +104,14 @@ address.signature span.signature {
 	background-position: 0 5px;
 	background-image: url(data:image/gif;base64,R0lGODlhMAAwAJEAAP%2F%2F%2FzxGUre7wXeAiiH5BAEAAAAALAAAAAAwADAAAAL%2FhI95MhP%2FhhCq2osYjNpxDFoCJI1DpQVUGI7PCjTUhL7s5cKGxEtR4ropHCcDjdGIEFWN2E4lfMI6qlck0PBIFtCbY%2FX9GnWT5LcLwLIcCCUal20e1JjRyro1ejZoJHKuo6BCg4WmRQNQBnGQNZJoZ2EVkPhgZIPzEyPD5qjQSVIkxmKy07FT1IYqyhaVNqlpCPS6QMHaqlkqx4AgJ3vLFQqZ1jaWaPAmRAQpg9TF6lE7e2P6dFoi52yDjKHsBPj49VkzmmUU89fkV9ppfAqiTltYIs04MYu6rSdXhJSlvVCPSKNjKGTwYoIFWrMZlTRtSkKQl8EFPbp1WPajH6WG96%2FgGesX51qeNDN0laOWcGQif40mmAi0LQ5FHycoTGoUx2W5CoMSzDumBUrKliU8eqpSs5ZNoFvSKTHYL9AQHotIWnVI6VjKMioxDOK6o5TWImqKdpvW0dyurCud6qETRY2LpjDuGRQodc2sqtLivIHbCtKRWqgoMQgkLIqwTMN8FoYKOISoQq96tVmRY04%2BWdlKsD1qqcvhD0MYn7mT190jzdH4bMiTwi6IyNAkDlwZ43W1EHBNMKbHMOElW7z5yUvyQqfrhp%2B9zBotiYRwf4Z%2FEUnlr1Cas9R%2BZabFtWY7SoV%2Fve1acKJ5Ty6wuNQpcP00v7dbFQAAOw==);
 }
-			</xsl:text>
-		</style>
-			<title><xsl:value-of select="//regeln:name"/></title>
+					</xsl:text>
+				</style>
+				<link rel="stylesheet" title="Änderungen verbergen" type="text/css" href="data:text/css,ins%2Cins%20*%7Btext-decoration%3Anone%7Ddel%2Cdel%20*%7Bdisplay%3Anone%7D"/>
+				<link rel="alternate stylesheet" title="Änderungen zeigen" type="text/css" href="data:text/css,ins%2Cins%20*%7Bbackground%3A%237f7%7D"/>
 			</head>
 			<body>
-			<xsl:apply-templates/>
-			<!--xsl:apply-templates select="descendant-or-self::regeln:regeln/*"/-->
+				<xsl:apply-templates/>
+				<!--xsl:apply-templates select="descendant-or-self::regeln:regeln/*"/-->
 			</body>
 		</html>
 	</xsl:template>
@@ -121,6 +120,36 @@ address.signature span.signature {
 		<h1>
 			<xsl:apply-templates/>
 		</h1>
+		<p class="stand">
+			<xsl:choose>
+				<xsl:when test="..//regeln:stand/@stand">
+					<xsl:call-template name="fassung-vom">
+						<xsl:with-param name="stand" select="..//regeln:stand/@stand"/>
+					</xsl:call-template>
+				</xsl:when>
+				<xsl:when test="..//regeln:stand">
+					<xsl:call-template name="fassung-vom">
+						<xsl:with-param name="stand" select="..//regeln:stand"/>
+					</xsl:call-template>
+				</xsl:when>
+				<xsl:when test="..//@stand">
+					<xsl:call-template name="fassung-vom">
+						<xsl:with-param name="stand" select="..//@stand"/>
+					</xsl:call-template>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:call-template name="fassung-vom"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</p>
+	</xsl:template>
+	
+	<xsl:template name='fassung-vom'>
+		<xsl:param name="stand"/>
+		<xsl:if test="$stand">
+			<xsl:text>in der Fassung vom </xsl:text>
+			<xsl:value-of select="$stand"/>
+		</xsl:if>
 	</xsl:template>
 	
 	<xsl:template match="regeln:satzung">
@@ -148,6 +177,10 @@ address.signature span.signature {
 	</xsl:template>
 	
 	<xsl:template match='regeln:p'>
+		<xsl:call-template name="ins-del"/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:p' mode="ins-del">
 		<h2><xsl:value-of select="regeln:titel"/></h2>
 		<xsl:choose>
 			<xsl:when test="regeln:abs">
@@ -164,13 +197,13 @@ address.signature span.signature {
 	</xsl:template>
 	
 	<xsl:template match='regeln:abs'>
-		<xsl:call-template name="list-item"/>
+		<li>
+			<xsl:call-template name="ins-del"/>
+		</li>
 	</xsl:template>
 	
-	<xsl:template name='list-item'>
-		<li>
-			<xsl:apply-templates/>
-		</li>
+	<xsl:template match='regeln:abs' mode="ins-del">
+		<xsl:apply-templates/>
 	</xsl:template>
 	
 	<xsl:template match='regeln:titel'>
@@ -179,30 +212,54 @@ address.signature span.signature {
 	<xsl:template match='regeln:s'>
 		<xsl:call-template name="ins-del"/>
 	</xsl:template>
+		
+	<xsl:template match='regeln:s' mode="ins-del">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+	<xsl:template match='regeln:steil'>
+		<xsl:call-template name="ins-del"/>
+	</xsl:template>
 	
+	<xsl:template match='regeln:steil' mode="ins-del">
+		<xsl:apply-templates/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:bereich'>
+		<xsl:call-template name="ins-del"/>
+	</xsl:template>
+		
+	<xsl:template match='regeln:bereich' mode="ins-del">
+		<xsl:apply-templates/>
+	</xsl:template>
+
 	<xsl:template name='ins-del'>
 		<xsl:choose>
 			<xsl:when test="attribute::gestrichenam">
 				<del datetime="{attribute::gestrichenam}">
-					<xsl:apply-templates/>
+					<xsl:apply-templates select="." mode="ins-del"/>
 				</del>
 			</xsl:when>
 			<xsl:when test="attribute::eingefuegtam">
 				<ins datetime="{attribute::eingefuegtam}">
-					<xsl:apply-templates/>
+					<xsl:apply-templates select="." mode="ins-del"/>
 				</ins>
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:apply-templates/>
+				<xsl:apply-templates select="." mode="ins-del"/>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 	
 	<xsl:template match='regeln:lit[1]'>
 		<ol type="a">
-			<xsl:call-template name="list-item"/>
+			<li>
+				<xsl:apply-templates/>
+			</li>
 			<xsl:for-each select="following-sibling::*[local-name()='lit']">
-				<xsl:call-template name="list-item"/>
+				<li>
+					<xsl:apply-templates/>
+				</li>
 			</xsl:for-each>
 		</ol>
 	</xsl:template>

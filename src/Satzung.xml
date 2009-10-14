@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.6" xmlns="http://www.skgb.de/2005/regeln">
+<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<satzung>
 		<name>Satzung</name>
@@ -363,7 +363,7 @@
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s nachgefuehrtam="2006-03-18">Diese Satzung wurde von der Mitgliederversammlung am 17. März 2001 beschlossen und geändert von der Mitgliederversammlung am 18. März 2006.</s>
+			<s nachgefuehrtam="2006-03-18">Diese Satzung wurde von der Mitgliederversammlung am 17. März 2001 beschlossen und geändert von der Mitgliederversammlung am <stand>18. März 2006</stand>.</s>
 			<s>Sie tritt sofort nach Eintragung beim Amtsgericht in Kraft.</s>
 		</p>
 		<aktuell den="7. Dezember 2006"/>

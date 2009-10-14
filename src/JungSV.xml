@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.6" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<vorschrift>
 		<name>Jüngstensegel-Vorschrift</name>
@@ -31,7 +31,7 @@ Die Aufsicht über das Jüngstensegeln ist grundsätzlich den gewählten Jugendw
 Jüngstensegler müssen grundsätzlich ohnmachtssichere Rettungswesten in Signalfarbe tragen. Wenn ausreichende Rettungsmöglichkeiten bestehen und die weiteren Umstände es erlauben, kann der Aufsichtsführende das Tragen von Schwimmwesten oder weitere Erleichterungen zulassen.
 
 
-(Beschlossen am 19. April 1997 vom Vereinsjugendausschuss, bestätigt in 1997 vom Vorstand)
+(Beschlossen am <stand>19. April 1997</stand> vom Vereinsjugendausschuss, bestätigt in 1997 vom Vorstand)
 </dump>
 	</vorschrift>
 </regeln>

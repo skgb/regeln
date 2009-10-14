@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.6" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Steg- und Liegeplatzordnung</name>
@@ -43,7 +43,7 @@ Das Lagern explosionsgefährlicher oder wassergefährdender Stoffe an Bord ist v
 - Vereinsfremde, die sich unbefugt auf dem Steg oder auf Booten an Land aufhalten, freundlich und bestimmt vom Vereinsgelände verweisen.
 - Sichtkontrolle des Bootshausgeländes (Beschädigung an Gebäude oder Zäunen); prüfen, ob Türen und Tore verschlossen sind.</html:b>
 
-3.) <s eingefuegtam="2002-03-09"><!-- keine wörtliche Übernahme aus Protokoll möglich, daher sinngemäße Umschrift erfolgt (arne 2009-10-11) -->Aktive Vereinsmitglieder, die ihrer Verpflichtung zum Stegdienst nicht nachkommen, werden zu einer Ausgleichszahlung in Höhe von 25,00 EUR verpflichtet. Ein Versäumnis liegt insbesondere vor, wenn für einen Dienstzeitraum im Stegbuch weder ein Eintrag des Mitgliedes noch ein Eintrag einer abgesprochenen Vertretung vorliegt oder wenn eine offensichtlich notwendige Anpassung des Steges an den Wasserstand nicht veranlaßt wurde.</s>
+3.) <s eingefuegtam="2002-03-09"><!-- keine wörtliche Übernahme aus Protokoll möglich, daher sinngemäße Umschrift erfolgt (arne 2009-10-11) -->Aktive Vereinsmitglieder, die ihrer Verpflichtung zum Stegdienst nicht nachkommen, werden zu einer Ausgleichszahlung in Höhe von 25,00 EUR <!-- verschieben in FinO - Beschluss lässt das zu! --> verpflichtet<!-- , deren Höhe in der Finanzordnung geregelt ist -->. Ein Versäumnis liegt insbesondere vor, wenn für einen Dienstzeitraum im Stegbuch weder ein Eintrag des Mitgliedes noch ein Eintrag einer abgesprochenen Vertretung vorliegt oder wenn eine offensichtlich notwendige Anpassung des Steges an den Wasserstand nicht veranlaßt wurde.</s>
 
 
 § 6 <html:u><html:i>Verhalten auf dem Steg</html:i></html:u>
@@ -57,7 +57,7 @@ Das Lagern explosionsgefährlicher oder wassergefährdender Stoffe an Bord ist v
 
 § 7 <html:u><html:i>Inkrafttreten</html:i></html:u>
 
-Diese Steg- und Liegeplatzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen. Sie tritt sofort in Kraft und löst die Stegordnung von November 1994 ab. <s nachgefuehrtam="2002-03-09 2003-11-08">Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002 und am 8. November 2003.</s>
+Diese Steg- und Liegeplatzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen. Sie tritt sofort in Kraft und löst die Stegordnung von November 1994 ab. <s nachgefuehrtam="2002-03-09 2003-11-08">Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002 und am <stand>8. November 2003</stand>.</s>
 </dump>
 		<aktuell den="11. Oktober 2009"/>
 	</ordnung>

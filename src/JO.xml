@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.6" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Jugendordnung</name>
@@ -96,7 +96,7 @@ e) bis zu zwei Beisitzern, die vom 1. Jugendwart berufen werden.
 
 § 7 <html:i>Inkrafttreten</html:i>
 
-Diese Jugendordnung wurde von der Jugendversammlung am 27. Oktober 2001 beschlossen und von der Mitgliederversammlung am 27. Oktober 2001 bestätigt. Sie tritt sofort in Kraft.
+Diese Jugendordnung wurde von der Jugendversammlung am <stand>27. Oktober 2001</stand> beschlossen und von der Mitgliederversammlung am 27. Oktober 2001 bestätigt. Sie tritt sofort in Kraft.
 
 
 Marienheide, den 27. Oktober 2001

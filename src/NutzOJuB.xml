@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.6" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Nutzungsordnung für die vereinseigenen Segeljollen der Typen 470er, 420er und Optimist (Jugendboote)</name>
@@ -43,7 +43,7 @@ Die Jugendboote werden grundsätzlich zum Winter ins Bootshaus eingelagert, die 
 
 Bei wiederholten oder groben Verstößen gegen diese Nutzungsordnung kann einem Segler die Nutzungsberechtigung vorübergehend oder dauerhaft entzogen werden; ein Anspruch auf Erstattung des anteiligen Nutzungsbeitrages besteht nicht.
 
-Diese Nutzungsordnung wurde unter Zustimmung der Jugendwarte und des Vereins-Jugendausschusses am 11. März 2000 von der Mitgliederversammung beschlossen und zuletzt von der Mitgliederversammlung am 17.03.2001 geändert. Sie tritt sofort in Kraft.
+Diese Nutzungsordnung wurde unter Zustimmung der Jugendwarte und des Vereins-Jugendausschusses am 11. März 2000 von der Mitgliederversammung beschlossen und zuletzt von der Mitgliederversammlung am <stand stand="17. März 2001">17.03.2001</stand> geändert. Sie tritt sofort in Kraft.
 </dump>
 		<!--aktuell den="13. Oktober 2009"/-->
 	</ordnung>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.6" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Nutzungsordnung für die vereinseigene Segeljolle vom Typ Sailhorse</name>
@@ -10,12 +10,12 @@
 Das Schiff kann von Vereinsmitgliedern zu den nachfolgenden Bedingungen zum individuellen Segeln außerhalb bestimmter Vereinsveranstaltungen oder Kurse genutzt werden. Das Segelrevier ist dabei grundsätzlich die Bruchertalsperre. Das Schiff wird außerdem vom Verein zur Aus- und Fortbildung genutzt und auch von der Jugendabteilung zur Durchführung von Jugendmaßnahmen oder zu Zwecken der Aus- und Fortbildung eingesetzt. Im Rahmen der Vereinsmaßnahmen kann das Schiff sowohl auf der Bruchertalsperre als auch auf anderen Segelrevieren eingesetzt werden.
 
 
-2.)  <html:u>Versicherungsschutz, Haftung</html:u>
+2.) <html:u>Versicherungsschutz, Haftung</html:u>
 
 Für das Vereinsboot besteht Haftpflichtversicherungsschutz über die Sporthilfe e.V. beim LandesSportBund, sofern es für satzungsgemäße Vereinszwecke eingesetzt wird. Weiterer Versicherungsschutz besteht nicht. Bei unberechtigter Nutzung besteht <html:u>kein</html:u> Versicherungsschutz.
 
 
-3.)  <html:u>Nutzungsbedingungen, Verwaltung und Pflege</html:u>
+3.) <html:u>Nutzungsbedingungen, Verwaltung und Pflege</html:u>
 
 <html:i>Führerschein &amp; Mitgliedschaft:</html:i>
 Wer das Vereinsboot nutzen möchte, muß aktives Mitglied der Segel- und Kanugemeinschaft Bruchertalsperre sein (Ausnahmen sind nur in besonders begründeten Einzelfällen möglich) und den Sportbootführerschein Binnen unter Segeln oder einen gleichwertigen Befähigungsnachweis (z.B. Segelführerschein A des DSV) besitzen. <s eingefuegtam="2004-03-20">Lebenspartner dieser Mitglieder, die selber Mitglied des Vereins sind und einen gleichwertigen Befähigungsnachweis besitzen, sind ohne zusätzliche Nutzungsgebühr nutzungsberechtigt.</s> Für Mitglieder der Jugendabteilung gelten untenstehende Sonderbedingungen.
@@ -76,7 +76,7 @@ Dieses Vereinsboot ist ein neues Projekt der SKGB. Es lebt besonders von der Koo
 Alle beteiligten Mitglieder der SKGB sind angehalten, ihren Beitrag zuleisten, damit das Projekt nicht fehlschlägt sondern ein voller Erfolg wird.
 
 
-Diese Nutzungsordnung wurde am 23. Oktober 1999 vom Vorstand beschlossen und am 11. März 2000 von der Mitgliederversammlung bestätigt. Sie tritt sofort in Kraft. <s nachgefuehrtam="2002-03-09 2004-03-20">Sie wurde geändert durch die Mitgliederversammlungen am 9. März 2002 und am 20. März 2004.</s>
+Diese Nutzungsordnung wurde am 23. Oktober 1999 vom Vorstand beschlossen und am 11. März 2000 von der Mitgliederversammlung bestätigt. Sie tritt sofort in Kraft. <s nachgefuehrtam="2002-03-09 2004-03-20">Sie wurde geändert durch die Mitgliederversammlungen am 9. März 2002 und am <stand>20. März 2004</stand>.</s>
 </dump>
 		<aktuell den="11. Oktober 2009"/>
 	</ordnung>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.6" xmlns="http://www.skgb.de/2005/regeln">
+<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Bootshausordnung</name>
@@ -86,12 +86,12 @@
 		<p>
 			<titel>Arbeiten</titel>
 			<abs>
-				<s>Vereinsboote (im Ausnahmefall auch private Boote) und sonstiges Vereinsmaterial können unter den nachfolgenden Auflagen im Bootshaus bear beitet werden.</s>
+				<s>Vereinsboote (im Ausnahmefall auch private Boote) und sonstiges Vereinsmaterial können unter den nachfolgenden Auflagen im Bootshaus bearbeitet werden.</s>
 				<s>Bei länger geplanten Arbeiten werden deren Termine im Bootshauskalender eingetragen.</s>
 				<s>Solche Planungen sind mit dem Vorstand abzustimmen.</s>
 			</abs>
 			<abs>
-				<s>Rechtzeitig vor einer Veranstaltung ist das Bootshaus zu räumen und im erforderlichen Maße zu reinigen</s>
+				<s>Rechtzeitig vor einer Veranstaltung ist das Bootshaus zu räumen und im erforderlichen Maße zu reinigen.</s>
 			</abs>
 			<abs>
 				<s>Auflagen für Arbeiten im Bootshaus:</s>
@@ -131,7 +131,7 @@
 		<p>
 			<titel>Inkrafttreten</titel>
 			<s>Diese Boothausordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und tritt sofort in Kraft.</s>
-			<s nachgefuehrtam="2001-10-27 2008-03-08">§ 2 Abs. 5 eingefügt am 27. Oktober 2001, § 3 eingefügt am 8. März 2008.</s>
+			<s nachgefuehrtam="2001-10-27 2008-03-08">§ 2 Abs. 5 eingefügt am 27. Oktober 2001, § 3 eingefügt am <stand>8. März 2008</stand>.</s>
 		</p>
 		<aktuell den="13. März 2008"/>
 	</ordnung>
