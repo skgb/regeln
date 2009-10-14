@@ -3,12 +3,12 @@ property templateFilename : "Vorlage.rtt"
 property DEBUG_TemplatePath : "Macintosh HD:SKGB:Satzung/Ordnungen:Vorlage.rtt"
 
 -- format constants
-property FORMAT_VERSION : "0.5"
+property FORMAT_VERSION : "0.61"
 property FORMAT_NAMESPACE : "http://www.skgb.de/2005/regeln"
 property ROOT_ELEMENT_NAME : "regeln"
-property ELEMENTS_WITH_PCDATA_CONTENT : {"praeambel", "name", "titel", "s", "nachfuehrung", "dump"}
+property ELEMENTS_WITH_PCDATA_CONTENT : {"praeambel", "name", "titel", "s", "steil", "bereich", "stand", "dump"}
 property IGNORE_ELEMENTS_WITH_ATTRIBUTES : {"gestrichenam"}
-property NEW_RAGTIME_PARAGRAPH_AT : {"ordnung", "name", "praeambel", "p", "titel", "abs", "lit", "dump"}
+property NEW_RAGTIME_PARAGRAPH_AT : {"ordnung", "satzung", "vorschrift", "name", "praeambel", "p", "titel", "abs", "lit", "dump"}
 property RAGTIME_PARAGRAPH_STYLE_SHEETS : {|name|:"Werktitel", praeambel:"Präambel", titel:"Paragraph-Titel", p:"", abs:"Absatz", lit:"Liste"}
 property RAGTIME_DEFAULT_STYLE_SHEET : "Standardabsatz"
 
@@ -154,13 +154,13 @@ on parseFile(theFile)
 		error "Not an 'SKGB-Regeln' file." & return & return & theMessage & return & "(Original error code: " & theNumber & ")" number 401
 	end try
 	
-	my parseElement(root)
+	my parseElement(root, FORMAT_NAMESPACE)
 end parseFile
 
 
 
 -- parse one XML element recursively
-on parseElement(element)
+on parseElement(element, parentNamespace)
 	global paragraphBreakNecessary
 	
 	try
@@ -172,11 +172,15 @@ on parseElement(element)
 	end try
 	
 	repeat with subElement in XML contents of element
+		set myNamespace to parentNamespace
+		try -- :BUG: teh slowness?
+			set myNamespace to XML namespace uri of element
+		end try
 		if class of subElement is XML element then
-			my handleElement(XML tag of subElement, XML tag of element)
-			my parseElement(subElement)
+			my handleElement(XML tag of subElement, XML tag of element, myNamespace)
+			my parseElement(subElement, myNamespace)
 		else if class of subElement is string then
-			my handlePcdata(subElement, XML tag of element)
+			my handlePcdata(subElement, XML tag of element, myNamespace)
 		end if
 	end repeat
 	
@@ -188,9 +192,13 @@ end parseElement
 
 
 -- add parsed character data to the plain text global
-on handleElement(elementName, parentName)
+on handleElement(elementName, parentName, namespace)
 	-- :BUG: we don't handle <lit> yet
 	global entireText, paragraphBreakNecessary, pcdataAbsCount, pcdataSectionCount
+	
+	if namespace is not "http://www.w3.org/1999/xhtml" then
+		return
+	end if
 	
 	-- add numbers to content as appropriate
 	if elementName is "titel" and parentName is "p" then
@@ -211,12 +219,16 @@ end handleElement
 
 
 -- add parsed character data to the plain text global
-on handlePcdata(pcdata, elementName)
+on handlePcdata(pcdata, elementName, namespace)
 	global entireText, paragraphBreakNecessary, pcdataParagraphStyleSheet
 	
+	if the length of pcdata is 0 then
+		return
+	end if
+	
 	-- if somebody tries to mess with us, this is a likely spot where things go wrong
-	if elementName is not in ELEMENTS_WITH_PCDATA_CONTENT then
-		error "Unexpected character data parsed in <" & elementName & "> element." number 402
+	if elementName is not in ELEMENTS_WITH_PCDATA_CONTENT and namespace is "http://www.w3.org/1999/xhtml" then
+		error "Unexpected character data '" & pcdata & "' parsed in <" & elementName & "> element." number 402
 	end if
 	
 	if paragraphBreakNecessary then
