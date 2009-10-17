@@ -114,11 +114,12 @@ on parseFile(theFile)
 	set pcdataPCount to 0
 	set pcdataParagraphStyleSheet to missing value
 	
-	set theData to read theFile
+	
+	--set theData to read theFile as «class utf8»
 	-- we're using the DOM-style parser here, at least for now
 	-- the SAX-style parser might improve readability of this code though
 	try
-		set root to parse XML (theData) encoding "UTF-8"
+		set root to parse XML (theFile)
 		try
 			set foundOurnamespace to false
 			repeat with namespace in (every item of root's XML namespaces)
