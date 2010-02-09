@@ -107,7 +107,7 @@ address.signature span.signature {
 					</xsl:text>
 				</style>
 				<link rel="stylesheet" title="Änderungen verbergen" type="text/css" href="data:text/css,ins%2Cins%20*%7Btext-decoration%3Anone%7Ddel%2Cdel%20*%7Bdisplay%3Anone%7D"/>
-				<link rel="alternate stylesheet" title="Änderungen zeigen" type="text/css" href="data:text/css,ins%2Cins%20*%7Bbackground%3A%237f7%7D"/>
+				<link rel="alternate stylesheet" title="Änderungen zeigen" type="text/css" href="data:text/css,ins%2Cins%20*%7Bbackground%3A%237f7%7Dspan.geaendert%7Bbackground%3A%23ff7%7D"/>
 			</head>
 			<body>
 				<xsl:apply-templates/>
@@ -235,15 +235,20 @@ address.signature span.signature {
 
 	<xsl:template name='ins-del'>
 		<xsl:choose>
-			<xsl:when test="attribute::gestrichenam">
-				<del datetime="{attribute::gestrichenam}">
+			<xsl:when test="@gestrichenam">
+				<del datetime="{@gestrichenam}" title="gestrichen am {@gestrichenam}">
 					<xsl:apply-templates select="." mode="ins-del"/>
 				</del>
 			</xsl:when>
-			<xsl:when test="attribute::eingefuegtam">
-				<ins datetime="{attribute::eingefuegtam}">
+			<xsl:when test="@eingefuegtam">
+				<ins datetime="{@eingefuegtam}" title="eingefügt am {@eingefuegtam}">
 					<xsl:apply-templates select="." mode="ins-del"/>
 				</ins>
+			</xsl:when>
+			<xsl:when test="@nachgefuehrtam">
+				<span class="geaendert">
+					<xsl:apply-templates select="." mode="ins-del"/>
+				</span>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:apply-templates select="." mode="ins-del"/>
