@@ -244,31 +244,33 @@
 		<p>
 			<titel>Vorstand</titel>
 			<abs>
-				<s>Der Vorstand besteht aus</s>
-				<lit>
-					<s>dem 1. Vorsitzenden,</s>
-				</lit>
-				<lit>
-					<s>dem 2. Vorsitzenden, der zugleich Geschäftsführer ist,</s>
-				</lit>
-				<lit>
-					<s>dem 3. Vorsitzenden, der zugleich Schatzmeister ist.</s>
-				</lit>
-				<lit>
-					<s>dem Pressewart,</s>
-				</lit>
-				<lit>
-					<s>dem 2. Schatzmeister,</s>
-				</lit>
-				<lit>
-					<s>dem 1. Steg- und Zeugwart und seinem Vertreter,</s>
-				</lit>
-				<lit>
-					<s>dem 1. Sportwart und seinem Vertreter,</s>
-				</lit>
-				<lit>
-					<s>dem 1. Jugendwart und seinem Vertreter.</s>
-				</lit>
+				<s>
+					<steil>Der Vorstand besteht aus</steil>
+					<lit>
+						<steil>dem 1. Vorsitzenden,</steil>
+					</lit>
+					<lit>
+						<steil>dem 2. Vorsitzenden, der zugleich Geschäftsführer ist,</steil>
+					</lit>
+					<lit>
+						<steil>dem 3. Vorsitzenden, der zugleich Schatzmeister ist.</steil>
+					</lit>
+					<lit>
+						<steil>dem Pressewart,</steil>
+					</lit>
+					<lit>
+						<steil>dem 2. Schatzmeister,</steil>
+					</lit>
+					<lit>
+						<steil>dem 1. Steg- und Zeugwart und seinem Vertreter,</steil>
+					</lit>
+					<lit>
+						<steil>dem 1. Sportwart und seinem Vertreter,</steil>
+					</lit>
+					<lit>
+						<steil>dem 1. Jugendwart und seinem Vertreter.</steil>
+					</lit>
+				</s>
 				<s>In den Vorstand kann gewählt werden, wer mindestens 18 Jahre alt ist.</s>
 				<s>Der 1. Jugendsprecher und sein Vertreter gemäß Jugendordnung können beratend an den Vorstandsitzungen teilnehmen.</s>
 				<s>Sie haben Stimmrecht in Angelegenheiten, die die Jugend betreffen.</s>
@@ -366,6 +368,6 @@
 			<s nachgefuehrtam="2006-03-18">Diese Satzung wurde von der Mitgliederversammlung am 17. März 2001 beschlossen und geändert von der Mitgliederversammlung am <stand>18. März 2006</stand>.</s>
 			<s>Sie tritt sofort nach Eintragung beim Amtsgericht in Kraft.</s>
 		</p>
-		<aktuell den="7. Dezember 2006"/>
+		<aktuell den="14. Februar 2010"/>
 	</satzung>
 </regeln>

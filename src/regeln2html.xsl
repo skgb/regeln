@@ -12,7 +12,7 @@ Proprietary/Confidential. All Rights Reserved.
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="regeln html">
 	
 	<xsl:template name='check-version'>
-		<xsl:variable name="version" select="number(0.61)"/><!-- SKGB-Regeln format version -->
+		<xsl:variable name="version" select="number(0.63)"/><!-- SKGB-Regeln format version -->
 		
 		<xsl:if test="number(/.//regeln:regeln//@version) &lt; $version">
 			<xsl:message>
@@ -87,6 +87,7 @@ h2:before {
 }
 h2 {
 	font-size: 1em;
+	margin: 1.5em 0 .5em;
 }
 .preamble, .up-to-date, .signature {
 	font-style: italic;
@@ -96,6 +97,13 @@ h2 {
 }
 p.up-to-date {
 	margin-bottom: 0;
+}
+ol, li {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.bylaws>ol>li, .rules>ol>li, .directive>ol>li, ol.nr>li {
+	margin: .5em 0;
 }
 address.signature span.signature {
 	padding-top: 56px;
@@ -270,6 +278,22 @@ address.signature span.signature {
 	</xsl:template>
 	
 	<xsl:template match='regeln:lit'>
+	</xsl:template>
+	
+	<xsl:template match='regeln:nr[1]'>
+		<ol class="nr">
+			<li>
+				<xsl:apply-templates/>
+			</li>
+			<xsl:for-each select="following-sibling::*[local-name()='nr']">
+				<li>
+					<xsl:apply-templates/>
+				</li>
+			</xsl:for-each>
+		</ol>
+	</xsl:template>
+	
+	<xsl:template match='regeln:nr'>
 	</xsl:template>
 	
 	<xsl:template match='regeln:aktuell'>
