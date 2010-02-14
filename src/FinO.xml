@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.63" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Finanzordnung</name>
-<dump>
-§ 1 <html:u><html:i>Beitrags- und Gebührenarten, Zuständigkeiten für die Festlegung</html:i></html:u>
-
-1.) Es werden Mitgliedsbeiträge für die verschiedenen Mitgliedschaftsarten gemäß Satzung unterschieden. Nach der Mitgliedschaftsart richtet sich die Höhe der Aufnahmegebühr. Die Aufnahmegebühr ist grundsätzlich nur bei Neuaufnahme in den Verein zu entrichten. Für den Wechsel zwischen verschiedenen Mitgliedschaftsarten gelten weitere Regelungen. Die Mitgliedsbeiträge und Aufnahmegebühren, die nicht die Mitglieder der Jugendabteilung betreffen, werden von der Mitgliederversammlung festgelegt. Die Mitgliedsbeiträge und Aufnahmegebühren für Mitglieder der Jugendabteilung werden von der Jugendversammlung festgelegt und bedürfen der Zustimmung durch die Mitgliederversammlung.
-
-2.) Aktive Mitglieder, die ihre Arbeitsstunden gemäß § 5, Abs. 3 der Satzung nicht vollständig geleistet haben, müssen für die nicht geleisteten Arbeitsstunden einen Fehlstundenbeitrag zahlen. Dieser wird von der Mitgliederversammlung festgelegt. Die zu leistenden Arbeitsstunden werden vom Vorstand festgelegt.
-
-3.) Für Liegeplätze an der Steganlage und für die Einlagerung von Jollen ins Bootshaus werden Gebühren erhoben. Diese werden von der Mitgliederversammlung festgelegt. Landliegeplätze auf dem Vereinsgelände sind bereits im Beitrag enthalten.
-
-4.) Es werden Nutzungsbeiträge für die Benutzung der vereinseigenen Boote gemäß der jeweiligen Nutzungsordnung erhoben. Diese gelten je Person und werden vom Gesamtvorstand festgelegt. Für die Nutzungsbeiträge der Jugendboote haben die Jugendwarte und der Vereins-Jugendausschuß Vorschlagsrecht. Diese Vorschläge sind zu berücksichtigen.
-
-5.) Für die Überlassung eines Vereinsschlüssels wird ein Pfandbetrag erhoben. Die Höhe legt der Vorstand anhand der entstandenen Schlüsselkosten fest. Der Pfandbetrag wird bei Rückgabe des Schlüssels unverzinzt erstattet.
-
-
-§ 2 <html:u><html:i>Beitrags- und Gebührenhöhen</html:i></html:u>
-
-Die folgenden Beiträge und Gebühren verstehen sich als Jahresbeträge, sofern im Einzelnen nichts anderes angegeben ist. Die Aufnahmegebühren sind einmalige Beträge.
-<!--
- Mitgliedsbeiträge: -->
-Mitgliedsbeitrag Aktiv: <steil gestrichenam="2001-10-27">200,– DM</steil><steil eingefuegtam="2001-10-27">120,– €</steil>
+		<p>
+			<titel>Beitrags- und Gebührenarten, Zuständigkeiten für die Festlegung</titel>
+			<abs>
+				<s>Es werden Mitgliedsbeiträge für die verschiedenen Mitgliedschaftsarten gemäß Satzung unterschieden.</s>
+				<s>Nach der Mitgliedschaftsart richtet sich die Höhe der Aufnahmegebühr.</s>
+				<s>Die Aufnahmegebühr ist grundsätzlich nur bei Neuaufnahme in den Verein zu entrichten.</s>
+				<s>Für den Wechsel zwischen verschiedenen Mitgliedschaftsarten gelten weitere Regelungen.</s>
+				<s>Die Mitgliedsbeiträge und Aufnahmegebühren, die nicht die Mitglieder der Jugendabteilung betreffen, werden von der Mitgliederversammlung festgelegt.</s>
+				<s>Die Mitgliedsbeiträge und Aufnahmegebühren für Mitglieder der Jugendabteilung werden von der Jugendversammlung festgelegt und bedürfen der Zustimmung durch die Mitgliederversammlung.</s>
+			</abs>
+			<abs>
+				<s>Aktive Mitglieder, die ihre Arbeitsstunden gemäß § 5, Abs. 3 der Satzung nicht vollständig geleistet haben, müssen für die nicht geleisteten Arbeitsstunden einen Fehlstundenbeitrag zahlen.</s>
+				<s>Dieser wird von der Mitgliederversammlung festgelegt.</s>
+				<s>Die zu leistenden Arbeitsstunden werden vom Vorstand festgelegt.</s>
+			</abs>
+			<abs>
+				<s>Für Liegeplätze an der Steganlage und für die Einlagerung von Jollen ins Bootshaus werden Gebühren erhoben.</s>
+				<s>Diese werden von der Mitgliederversammlung festgelegt.</s>
+				<s>Landliegeplätze auf dem Vereinsgelände sind bereits im Beitrag enthalten.</s>
+			</abs>
+			<abs>
+				<s>Es werden Nutzungsbeiträge für die Benutzung der vereinseigenen Boote gemäß der jeweiligen Nutzungsordnung erhoben.</s>
+				<s>Diese gelten je Person und werden vom Gesamtvorstand festgelegt.</s>
+				<s>Für die Nutzungsbeiträge der Jugendboote haben die Jugendwarte und der Vereins-Jugendausschuß Vorschlagsrecht.</s>
+				<s>Diese Vorschläge sind zu berücksichtigen.</s>
+			</abs>
+			<abs>
+				<s>Für die Überlassung eines Vereinsschlüssels wird ein Pfandbetrag erhoben.</s>
+				<s>Die Höhe legt der Vorstand anhand der entstandenen Schlüsselkosten fest.</s>
+				<s>Der Pfandbetrag wird bei Rückgabe des Schlüssels unverzinzt erstattet.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Beitrags- und Gebührenhöhen</titel>
+			<s>Die folgenden Beiträge und Gebühren verstehen sich als Jahresbeträge, sofern im Einzelnen nichts anderes angegeben ist.</s>
+			<s>Die Aufnahmegebühren sind einmalige Beträge.</s>
+<dump><!-- 
+ Mitgliedsbeiträge:
+-->Mitgliedsbeitrag Aktiv: <steil gestrichenam="2001-10-27">200,– DM</steil><steil eingefuegtam="2001-10-27">120,– €</steil>
 Mitgliedsbeitrag Aktiv in Schul- / Berufsausbildung o.ä.: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingefuegtam="2001-10-27">60,– €</steil>
 Mitgliedsbeitrag Passiv: <steil gestrichenam="2001-10-27">70,– DM</steil><steil eingefuegtam="2001-10-27">36,– €</steil>
 Mitgliedsbeitrag Jugend: <steil gestrichenam="2001-10-27">60,– DM</steil><steil eingefuegtam="2001-10-27">35,– €</steil>
@@ -37,45 +56,72 @@ Aufnahmegebühr Jugend: <steil gestrichenam="2001-10-27">20,– DM</steil><steil
 <!--
  Arbeitsausgleich: -->
 Fehlstundenbeitrag (je Stunde): <steil gestrichenam="2001-10-27">15,– DM</steil><steil eingefuegtam="2001-10-27">10,– €</steil>
-<!-- Stegdienst hier einfügen (Beschluss lässt dies zu)
---><!--
+Stegdienstversäumnis-Ausgleichszahlung: <steil eingefuegtam="2002-03-09">25,– €</steil>
+<!--
  Gebühren für Leistungen: -->
 Stegliegeplatz: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingefuegtam="2001-10-27">65,– €</steil>
 Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">[…] DM</steil><steil eingefuegtam="2002-03-09">75,– €</steil>
 Nutzungsbeitrag für die SAILHORSE-Jolle: <steil gestrichenam="2001-10-27">150,– DM</steil><steil eingefuegtam="2001-10-27">90,– €</steil>
 Nutzungsbeitrag für die Jugendboote: <steil gestrichenam="2001-10-27">55,– DM</steil><steil eingefuegtam="2001-10-27">55,– €</steil>
-
-Der Mitgliedsbeitrag Aktiv in Schul- / Berufsausbildung o.ä. wird auf Antrag gewährt. Die Voraussetzungen werden durch den Vorstand geprüft. Der Vorstand kann in besonders begründeten Einzelfällen abweichende Beiträge oder Gebühren festsetzen, um Härten zu vermeiden.
-
-Um den Verwaltungsaufwand gering zu halten, sind alle Vereinsmitglieder angehalten und neu aufzunehmende Mitglieder verpflichtet, sich am Lastschriftverfahren zu beteiligen. Ausnahmen kann der Vorstand nur in besonders begründeten Einzelfällen zulassen.
-
-
-§ 3 <html:u><html:i>Fälligkeiten</html:i></html:u>
-
-<bereich gestrichenam="2002-03-09">1.) Die Aufnahmegebühr ist bei der endgültigen Aufnahme als Mitglied mit allen Rechten und Pflichten fällig. Bei der Aufnahme als Gastmitglied wird zunächst keine Aufnahmegebühr erhoben. Kann auch nach Ablauf eines Jahres noch nicht über die Aufnahme eines Gastmitgliedes abgestimmt werden, ist bei aktiven Gastmitgliedern ein Viertel, bei allen anderen Mitgliedschaftsarten die volle Aufnahmegebühr fällig. Von der vorzeitigen Erhebung der Aufnahmegebühr soll der Vorstand absehen, wenn das Gastmitglied die Verzögerung nicht zu vertreten hat.
-</bereich><bereich eingefuegtam="2002-03-09">1.) Bei der Aufnahme als Gast wird zunächst keine Aufnahmegebühr erhoben. Die Aufnahmegebühr ist unabhängig von der tatsächlichen Aufnahme grundsätzlich im zweiten Geschäftsjahr der Mitgliedschaft (einschließlich Gastmitgliedschaft) fällig, frühestens jedoch nach der Mitgliederversammlung, in der die endgültige Aufnahme laut Satzung erstmals möglich ist. Über Ausnahmen entscheidet der Vorstand. Die Aufnahmegebühr ist nicht fällig, wenn der Aufnahmeantrag abgelehnt wurde.</bereich>
-
-2.) Alle anderen Zahlungen sind im ersten Quartal eines Jahres fällig. Bei späterem Entstehen einer Zahlungsverpflichtung ist diese sofort fällig.
-
-
-§ 4 <html:u><html:i>Wechsel zwischen verschiedenen Mitgliedschaftsarten</html:i></html:u>
-
-Der Wechsel zwischen den Mitgliedschaftsarten (Mitgliedsstatuswechsel) ist außer in den nachfolgend genannten Fällen gebührenfrei.
-
-1.) <html:i>Passiv auf Aktiv:</html:i>
-Passiven Mitgliedern wird bei ihrem Wechsel in die aktive Mitgliedschaft für jedes Jahr ihrer beitragspflichtigen, passiven Mitgliedschaft die Aufnahmegebühr für aktive Mitglieder um ein Viertel reduziert. <s gestrichenam="2006-03-18">Der Restbetrag wird abzüglich der für die passive Mitgliedschaft gezahlten Aufnahmegebühr erhoben.</s> Nach vier Jahren passiver Mitgliedschaft ist der Wechsel damit gebührenfrei. <bereich gestrichenam="2006-03-18">Diese Regelung gilt nur für Mitglieder, die vor dem Wechsel noch nicht aktive Mitglieder waren. Bei passiven Mitgliedern, die zuvor mindestens ein Jahr Mitglieder der Jugendabteilung waren, wird keine weitere Aufnahmegebühr erhoben. Anderenfalls wird der Jahresbeitrag in der Jugendabteilung wie ein passiver Mitgliedsbeitrag anerkannt.</bereich><s eingefuegtam="2006-03-18">Diese Regelung gilt nur für Mitglieder, die bis vor dem Wechsel weder aktive Mitglieder noch Mitglieder der Jugendabteilung waren.</s>
-
-<bereich gestrichenam="2006-03-18">
-2.) <html:i>Jugend auf Aktiv:</html:i>
-Von Mitgliedern der Jugendabteilung, die vor ihrem Wechsel weniger als ein Jahr beitragspflichtig der Jugendabteilung angehört haben, wird die Aufnahmegebühr für die aktive Mitgliedschaft abzüglich der für die Jugendmitgliedschaft gezahlten Aufnahmegebühr erhoben.
-
-
-</bereich>
-§ 5 <html:u><html:i>Inkrafttreten</html:i></html:u>
-
-<s nachgefuehrtam="2001-10-27 2002-03-09 2006-03-18">Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und geändert von den Mitgliederversammlungen am 27. Oktober 2001, 9. März 2002 und <stand>18. März 2006</stand>.</s> Sie tritt sofort in Kraft.
+<!--
+ durch den Vorstand festgelegte Verwaltungsgebühren: -->
+<s nachgefuehrtam="2007-07-23 [per E-Mail] 2010-02-14">Mahngebühr: 5,– € (nachrichtlich)</s>
+<s nachgefuehrtam="2010-02-14">Schlüsselpfand: 25,– €</s>
 </dump>
-		<aktuell den="14. Oktober 2009"/>
-		<!-- nur aktuell, soweit es MVs betrifft; es sollten aber noch eiige teils ältere nachrichtliche Übernahmen eingearbeitet werde (vgl. OPL) -->
+			<s>Der Mitgliedsbeitrag Aktiv in Schul- / Berufsausbildung o.ä. wird auf Antrag gewährt.</s>
+			<s>Die Voraussetzungen werden durch den Vorstand geprüft.</s>
+			<s>Der Vorstand kann in besonders begründeten Einzelfällen abweichende Beiträge oder Gebühren festsetzen, um Härten zu vermeiden.</s>
+			<html:br/>
+			<html:br/>
+			<s>Um den Verwaltungsaufwand gering zu halten, sind alle Vereinsmitglieder angehalten und neu aufzunehmende Mitglieder verpflichtet, sich am Lastschriftverfahren zu beteiligen.</s>
+			<s>Ausnahmen kann der Vorstand nur in besonders begründeten Einzelfällen zulassen.</s>
+		</p>
+		<p>
+			<titel>Fälligkeiten</titel>
+			<bereich gestrichenam="2002-03-09"><abs>
+				<s>Die Aufnahmegebühr ist bei der endgültigen Aufnahme als Mitglied mit allen Rechten und Pflichten fällig.</s>
+				<s>Bei der Aufnahme als Gastmitglied wird zunächst keine Aufnahmegebühr erhoben.</s>
+				<s>Kann auch nach Ablauf eines Jahres noch nicht über die Aufnahme eines Gastmitgliedes abgestimmt werden, ist bei aktiven Gastmitgliedern ein Viertel, bei allen anderen Mitgliedschaftsarten die volle Aufnahmegebühr fällig.</s>
+				<s>Von der vorzeitigen Erhebung der Aufnahmegebühr soll der Vorstand absehen, wenn das Gastmitglied die Verzögerung nicht zu vertreten hat.</s>
+			</abs></bereich>
+			<abs eingefuegtam="2002-03-09">
+				<s>Bei der Aufnahme als Gast wird zunächst keine Aufnahmegebühr erhoben.</s>
+				<s>Die Aufnahmegebühr ist unabhängig von der tatsächlichen Aufnahme grundsätzlich im zweiten Geschäftsjahr der Mitgliedschaft (einschließlich Gastmitgliedschaft) fällig, frühestens jedoch nach der Mitgliederversammlung, in der die endgültige Aufnahme laut Satzung erstmals möglich ist.</s>
+				<s>Über Ausnahmen entscheidet der Vorstand.</s>
+				<s>Die Aufnahmegebühr ist nicht fällig, wenn der Aufnahmeantrag abgelehnt wurde.</s>
+			</abs>
+			<abs>
+				<s>Alle anderen Zahlungen sind im ersten Quartal eines Jahres fällig.</s>
+				<s>Bei späterem Entstehen einer Zahlungsverpflichtung ist diese sofort fällig.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Wechsel zwischen verschiedenen Mitgliedschaftsarten</titel>
+			<s>Der Wechsel zwischen den Mitgliedschaftsarten (Mitgliedsstatuswechsel) ist außer in den nachfolgend genannten Fällen gebührenfrei.</s>
+			<nr>
+				<html:em>Passiv auf Aktiv:</html:em><html:br/>
+				<s>Passiven Mitgliedern wird bei ihrem Wechsel in die aktive Mitgliedschaft für jedes Jahr ihrer beitragspflichtigen, passiven Mitgliedschaft die Aufnahmegebühr für aktive Mitglieder um ein Viertel reduziert.</s>
+				<s gestrichenam="2006-03-18">Der Restbetrag wird abzüglich der für die passive Mitgliedschaft gezahlten Aufnahmegebühr erhoben.</s>
+				<s>Nach vier Jahren passiver Mitgliedschaft ist der Wechsel damit gebührenfrei.</s>
+				<bereich gestrichenam="2006-03-18">
+					<s>Diese Regelung gilt nur für Mitglieder, die vor dem Wechsel noch nicht aktive Mitglieder waren.</s>
+					<s>Bei passiven Mitgliedern, die zuvor mindestens ein Jahr Mitglieder der Jugendabteilung waren, wird keine weitere Aufnahmegebühr erhoben.</s>
+					<s>Anderenfalls wird der Jahresbeitrag in der Jugendabteilung wie ein passiver Mitgliedsbeitrag anerkannt.</s>
+				</bereich>
+				<s eingefuegtam="2006-03-18">Diese Regelung gilt nur für Mitglieder, die bis vor dem Wechsel weder aktive Mitglieder noch Mitglieder der Jugendabteilung waren.</s>
+			</nr>
+			<bereich gestrichenam="2002-03-09"><nr>
+				<html:em>Jugend auf Aktiv:</html:em><html:br/>
+				<s>Von Mitgliedern der Jugendabteilung, die vor ihrem Wechsel weniger als ein Jahr beitragspflichtig der Jugendabteilung angehört haben, wird die Aufnahmegebühr für die aktive Mitgliedschaft abzüglich der für die Jugendmitgliedschaft gezahlten Aufnahmegebühr erhoben.</s>
+			</nr></bereich>
+		</p>
+		<p>
+			<titel>Inkrafttreten</titel>
+			<abs>
+				<s nachgefuehrtam="2001-10-27 2002-03-09 2006-03-18">Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und geändert von den Mitgliederversammlungen am 27. Oktober 2001, 9. März 2002 und <stand>18. März 2006</stand>.</s>
+				<s>Sie tritt sofort in Kraft.</s>
+			</abs>
+		</p>
+		<aktuell den="14. Februar 2010"/>
 	</ordnung>
 </regeln>
