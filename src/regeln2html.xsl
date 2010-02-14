@@ -12,7 +12,7 @@ Proprietary/Confidential. All Rights Reserved.
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="regeln html">
 	
 	<xsl:template name='check-version'>
-		<xsl:variable name="version" select="number(0.61)"/><!-- SKGB-Regeln format version -->
+		<xsl:variable name="version" select="number(0.63)"/><!-- SKGB-Regeln format version -->
 		
 		<xsl:if test="number(/.//regeln:regeln//@version) &lt; $version">
 			<xsl:message>
@@ -87,6 +87,7 @@ h2:before {
 }
 h2 {
 	font-size: 1em;
+	margin: 1.5em 0 .5em;
 }
 .preamble, .up-to-date, .signature {
 	font-style: italic;
@@ -96,6 +97,13 @@ h2 {
 }
 p.up-to-date {
 	margin-bottom: 0;
+}
+ol, li {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.bylaws>ol>li, .rules>ol>li, .directive>ol>li, ol.nr>li {
+	margin: .5em 0;
 }
 address.signature span.signature {
 	padding-top: 56px;
@@ -107,7 +115,7 @@ address.signature span.signature {
 					</xsl:text>
 				</style>
 				<link rel="stylesheet" title="Änderungen verbergen" type="text/css" href="data:text/css,ins%2Cins%20*%7Btext-decoration%3Anone%7Ddel%2Cdel%20*%7Bdisplay%3Anone%7D"/>
-				<link rel="alternate stylesheet" title="Änderungen zeigen" type="text/css" href="data:text/css,ins%2Cins%20*%7Bbackground%3A%237f7%7D"/>
+				<link rel="alternate stylesheet" title="Änderungen zeigen" type="text/css" href="data:text/css,ins%2Cins%20*%7Bbackground%3A%237f7%7Dspan.geaendert%7Bbackground%3A%23ff7%7D"/>
 			</head>
 			<body>
 				<xsl:apply-templates/>
@@ -235,15 +243,20 @@ address.signature span.signature {
 
 	<xsl:template name='ins-del'>
 		<xsl:choose>
-			<xsl:when test="attribute::gestrichenam">
-				<del datetime="{attribute::gestrichenam}">
+			<xsl:when test="@gestrichenam">
+				<del datetime="{@gestrichenam}" title="gestrichen am {@gestrichenam}">
 					<xsl:apply-templates select="." mode="ins-del"/>
 				</del>
 			</xsl:when>
-			<xsl:when test="attribute::eingefuegtam">
-				<ins datetime="{attribute::eingefuegtam}">
+			<xsl:when test="@eingefuegtam">
+				<ins datetime="{@eingefuegtam}" title="eingefügt am {@eingefuegtam}">
 					<xsl:apply-templates select="." mode="ins-del"/>
 				</ins>
+			</xsl:when>
+			<xsl:when test="@nachgefuehrtam">
+				<span class="geaendert">
+					<xsl:apply-templates select="." mode="ins-del"/>
+				</span>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:apply-templates select="." mode="ins-del"/>
@@ -265,6 +278,22 @@ address.signature span.signature {
 	</xsl:template>
 	
 	<xsl:template match='regeln:lit'>
+	</xsl:template>
+	
+	<xsl:template match='regeln:nr[1]'>
+		<ol class="nr">
+			<li>
+				<xsl:apply-templates/>
+			</li>
+			<xsl:for-each select="following-sibling::*[local-name()='nr']">
+				<li>
+					<xsl:apply-templates/>
+				</li>
+			</xsl:for-each>
+		</ol>
+	</xsl:template>
+	
+	<xsl:template match='regeln:nr'>
 	</xsl:template>
 	
 	<xsl:template match='regeln:aktuell'>
