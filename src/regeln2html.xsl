@@ -12,7 +12,7 @@ Proprietary/Confidential. All Rights Reserved.
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="regeln html">
 	
 	<xsl:template name='check-version'>
-		<xsl:variable name="version" select="number(0.63)"/><!-- SKGB-Regeln format version -->
+		<xsl:variable name="version" select="number(0.64)"/><!-- SKGB-Regeln format version -->
 		
 		<xsl:if test="number(/.//regeln:regeln//@version) &lt; $version">
 			<xsl:message>
@@ -45,7 +45,7 @@ Proprietary/Confidential. All Rights Reserved.
 			<head>
 				<title>
 					<xsl:value-of select="//regeln:name"/>
-					<xsl:text> SKGB</xsl:text>
+					<xsl:text> – SKGB</xsl:text>
 				</title>
 				<style type="text/css" id="style">
 					<xsl:text>
@@ -89,7 +89,7 @@ h2 {
 	font-size: 1em;
 	margin: 1.5em 0 .5em;
 }
-.preamble, .up-to-date, .signature {
+.preamble, .postamble, .up-to-date, .signature {
 	font-style: italic;
 }
 .preamble:before {
@@ -102,7 +102,7 @@ ol, li {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.bylaws>ol>li, .rules>ol>li, .directive>ol>li, ol.nr>li {
+.bylaws>ol>li, .rules>ol>li, .directive>ol>li {
 	margin: .5em 0;
 }
 address.signature span.signature {
@@ -111,6 +111,20 @@ address.signature span.signature {
 	background-repeat: no-repeat;
 	background-position: 0 5px;
 	background-image: url(data:image/gif;base64,R0lGODlhMAAwAJEAAP%2F%2F%2FzxGUre7wXeAiiH5BAEAAAAALAAAAAAwADAAAAL%2FhI95MhP%2FhhCq2osYjNpxDFoCJI1DpQVUGI7PCjTUhL7s5cKGxEtR4ropHCcDjdGIEFWN2E4lfMI6qlck0PBIFtCbY%2FX9GnWT5LcLwLIcCCUal20e1JjRyro1ejZoJHKuo6BCg4WmRQNQBnGQNZJoZ2EVkPhgZIPzEyPD5qjQSVIkxmKy07FT1IYqyhaVNqlpCPS6QMHaqlkqx4AgJ3vLFQqZ1jaWaPAmRAQpg9TF6lE7e2P6dFoi52yDjKHsBPj49VkzmmUU89fkV9ppfAqiTltYIs04MYu6rSdXhJSlvVCPSKNjKGTwYoIFWrMZlTRtSkKQl8EFPbp1WPajH6WG96%2FgGesX51qeNDN0laOWcGQif40mmAi0LQ5FHycoTGoUx2W5CoMSzDumBUrKliU8eqpSs5ZNoFvSKTHYL9AQHotIWnVI6VjKMioxDOK6o5TWImqKdpvW0dyurCud6qETRY2LpjDuGRQodc2sqtLivIHbCtKRWqgoMQgkLIqwTMN8FoYKOISoQq96tVmRY04%2BWdlKsD1qqcvhD0MYn7mT190jzdH4bMiTwi6IyNAkDlwZ43W1EHBNMKbHMOElW7z5yUvyQqfrhp%2B9zBotiYRwf4Z%2FEUnlr1Cas9R%2BZabFtWY7SoV%2Fve1acKJ5Ty6wuNQpcP00v7dbFQAAOw==);
+}
+@media print {
+	body {
+		font-size: 11pt !important;
+	}
+	pre {
+		font-size: 9pt !important;
+	}
+	h2 {
+		page-break-after: avoid;
+	}
+	ol, li:first-child {
+		page-break-before: avoid;
+	}
 }
 					</xsl:text>
 				</style>
@@ -180,6 +194,12 @@ address.signature span.signature {
 	
 	<xsl:template match="regeln:praeambel">
 		<p class="preamble">
+			<xsl:apply-templates/>
+		</p>
+	</xsl:template>
+	
+	<xsl:template match="regeln:postambel">
+		<p class="postamble">
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
