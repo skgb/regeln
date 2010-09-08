@@ -60,12 +60,12 @@ Stegdienstversäumnis-Ausgleichszahlung: <steil eingefuegtam="2002-03-09">25,–
 <!--
  Gebühren für Leistungen: -->
 Stegliegeplatz: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingefuegtam="2001-10-27">65,– €</steil>
-Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">[…] DM</steil><steil eingefuegtam="2002-03-09">75,– €</steil>
+Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">150,– DM</steil><steil eingefuegtam="2002-03-09">75,– €</steil>
 Nutzungsbeitrag für die SAILHORSE-Jolle: <steil gestrichenam="2001-10-27">150,– DM</steil><steil eingefuegtam="2001-10-27">90,– €</steil>
 Nutzungsbeitrag für die Jugendboote: <steil gestrichenam="2001-10-27">55,– DM</steil><steil eingefuegtam="2001-10-27">55,– €</steil>
 <!--
- durch den Vorstand festgelegte Verwaltungsgebühren: -->
-<s nachgefuehrtam="2007-07-23 [per E-Mail] 2010-02-14">Mahngebühr: 5,– € (nachrichtlich)</s>
+ durch den Vorstand festgelegte Verwaltungsgebühren: 
+ --><!--s nachgefuehrtam="2007-07-23 [per E-Mail] 2010-02-14">Mahngebühr: 5,– € (nachrichtlich)</s--><!-- keine Grundlage: neu beschließen in 2011 -->
 <s nachgefuehrtam="2010-02-14">Schlüsselpfand: 25,– €</s>
 </dump>
 			<s>Der Mitgliedsbeitrag Aktiv in Schul- / Berufsausbildung o.ä. wird auf Antrag gewährt.</s>
