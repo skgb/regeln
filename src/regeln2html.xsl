@@ -12,7 +12,7 @@ Proprietary/Confidential. All Rights Reserved.
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="regeln html">
 	
 	<xsl:template name='check-version'>
-		<xsl:variable name="version" select="number(0.64)"/><!-- SKGB-Regeln format version -->
+		<xsl:variable name="version" select="number(0.70)"/><!-- SKGB-Regeln format version -->
 		
 		<xsl:if test="number(/.//regeln:regeln//@version) &lt; $version">
 			<xsl:message>
@@ -62,11 +62,10 @@ pre {
 	font-family: monospace;
 	font-family: "Courier", "CMU Typewriter Text", "Free Mono", "Prestige Elite Std", "Courier New";
 }
-del, del *, ins del, ins del * {
+del, del *, ins del, ins del *, del ins, del ins *, li.gestrichen {
 	background: #f77;
 }
 h1 {
-	counter-reset: sections;
 	font-size: 1.5em;
 	font-weight: normal;
 	text-align: center;
@@ -76,13 +75,37 @@ h1 {
 	padding-top: 107px;
 	margin-bottom: 0;
 }
+.rules {
+	position: relative;
+}
+.rules+.rules {
+	border-top: .05cm dotted black;
+	margin-top: 2.5em;
+	padding-top: .5em;
+}
+.draftnotice>strong {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.draftnotice>strong:before, .draftnotice>strong:after {
+	content: '—';
+}
+.draftnotice {
+	text-align: right;
+	font-size: 2.4em;
+	margin: 0;
+	position: absolute;
+	top: .6em;
+	right: .6em;
+	-webkit-transform: rotate(15deg) translateY(.6em);
+	-moz-transform: rotate(15deg) translateY(.6em);
+	-o-transform: rotate(15deg) translateY(.6em);
+}
 p.stand {
 	text-align: center;
 	margin: .5em 0 2em;
 }
-h2:before {
-	content: '§ 'counter(sections)' ';
-	counter-increment: sections;
+h2>.p-number {
 	padding-right: 1ex;
 }
 h2 {
@@ -102,8 +125,17 @@ ol, li {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.bylaws>ol>li, .rules>ol>li, .directive>ol>li {
+ol {
+	padding-left: 3em;
+}
+.bylaws>ol>li, .rules>ol>li, .directive>ol>li /* , ol.nr>li */ {
 	margin: .5em 0;
+}
+ol.alleine {
+	padding-left: 0;
+}
+ol.alleine li {
+	display: block;
 }
 address.signature span.signature {
 	padding-top: 56px;
@@ -128,7 +160,7 @@ address.signature span.signature {
 }
 					</xsl:text>
 				</style>
-				<link rel="stylesheet" title="Änderungen verbergen" type="text/css" href="data:text/css,ins%2Cins%20*%7Btext-decoration%3Anone%7Ddel%2Cdel%20*%7Bdisplay%3Anone%7D"/>
+				<link rel="stylesheet" title="Änderungen verbergen" type="text/css" href="data:text/css,ins%2Cins%20*%7Btext-decoration%3Anone%7Ddel%2Cdel%20*%2C.gestrichen%7Bdisplay%3Anone%7D"/>
 				<link rel="alternate stylesheet" title="Änderungen zeigen" type="text/css" href="data:text/css,ins%2Cins%20*%7Bbackground%3A%237f7%7Dspan.geaendert%7Bbackground%3A%23ff7%7D"/>
 			</head>
 			<body>
@@ -142,6 +174,11 @@ address.signature span.signature {
 		<h1>
 			<xsl:apply-templates/>
 		</h1>
+		<xsl:choose>
+			<xsl:when test="..//regeln:entwurf">
+				<xsl:call-template name="entwurfsvermerk"/>
+			</xsl:when>
+		</xsl:choose>
 		<p class="stand">
 			<xsl:choose>
 				<xsl:when test="..//regeln:stand/@stand">
@@ -209,12 +246,23 @@ address.signature span.signature {
 	</xsl:template>
 	
 	<xsl:template match='regeln:p' mode="ins-del">
-		<h2><xsl:value-of select="regeln:titel"/></h2>
+		<xsl:variable name="num" select="1 + count(preceding-sibling::regeln:p) - count(preceding-sibling::regeln:p/@gestrichenam)"/>
+		<h2 class="p-{$num}"><span class="p-number">§ <xsl:value-of select="$num"/></span> <xsl:value-of select="regeln:titel"/></h2>
 		<xsl:choose>
 			<xsl:when test="regeln:abs">
-				<ol>
-					<xsl:apply-templates/>
-				</ol>
+				<xsl:variable name="absCount" select="count(./regeln:abs) - count(./regeln:abs/@gestrichenam)"/>
+				<xsl:choose>
+					<xsl:when test="$absCount = 1">
+						<ol class="alleine">
+							<xsl:apply-templates/>
+						</ol>
+					</xsl:when>
+					<xsl:otherwise>
+						<ol>
+							<xsl:apply-templates/>
+						</ol>
+					</xsl:otherwise>
+				</xsl:choose>
 			</xsl:when>
 			<xsl:otherwise>
 				<div>
@@ -225,9 +273,19 @@ address.signature span.signature {
 	</xsl:template>
 	
 	<xsl:template match='regeln:abs'>
-		<li>
-			<xsl:call-template name="ins-del"/>
-		</li>
+		<xsl:variable name="num" select="1 + count(preceding-sibling::regeln:abs) - count(preceding-sibling::regeln:abs/@gestrichenam)"/>
+		<xsl:choose>
+			<xsl:when test="@gestrichenam">
+				<li value="{$num}" class="abs-{$num} gestrichen">
+					<xsl:call-template name="ins-del"/>
+				</li>
+			</xsl:when>
+			<xsl:otherwise>
+				<li value="{$num}" class="abs-{$num}">
+					<xsl:call-template name="ins-del"/>
+				</li>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 	
 	<xsl:template match='regeln:abs' mode="ins-del">
@@ -263,6 +321,11 @@ address.signature span.signature {
 
 	<xsl:template name='ins-del'>
 		<xsl:choose>
+			<xsl:when test="@eingefuegtam and @gestrichenam">
+				<del datetime="{@gestrichenam}" title="gestrichen am {@gestrichenam}"><ins datetime="{@eingefuegtam}" title="eingefügt am {@eingefuegtam}">
+					<xsl:apply-templates select="." mode="ins-del"/>
+				</ins></del>
+			</xsl:when>
 			<xsl:when test="@gestrichenam">
 				<del datetime="{@gestrichenam}" title="gestrichen am {@gestrichenam}">
 					<xsl:apply-templates select="." mode="ins-del"/>
@@ -314,6 +377,15 @@ address.signature span.signature {
 	</xsl:template>
 	
 	<xsl:template match='regeln:nr'>
+	</xsl:template>
+	
+	<xsl:template match='regeln:entwurf'>
+	</xsl:template>
+	
+	<xsl:template name='entwurfsvermerk'>
+		<p class="draftnotice">
+			<strong>Entwurf</strong>
+		</p>
 	</xsl:template>
 	
 	<xsl:template match='regeln:aktuell'>
