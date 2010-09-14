@@ -1,50 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.70" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Nutzungsordnung für die vereinseigenen Segeljollen der Typen 470er, 420er und Optimist (Jugendboote)</name>
 <dump>
-1.) <html:u>Verwendungszwecke</html:u>
+<steil nachgefuehrtam="2010-04-17">§ 1</steil> <html:u>Verwendungszwecke</html:u>
 
-Die vereinseigenen Segeljollen 470er, 420er und Optimisten, im Folgenden mit „Jugendboote“ bezeichnet, stehen jugendlichen, aktiven und Ehrenmitgliedern bis zum Alter von 21 Jahren und den im Vereinsauftrag tätigen Trainern und Übungsleitern zu den nachfolgenden Bedingungen zur Verfügung. Die Nutzung beinhaltet insbesondere auch die Teilnahme an Regatten und kann auch auf anderen geeigneten Revieren als der Bruchertalsperre erfolgen. Ausnahmeregelungen zu den Nutzungsberechtigten können kurzfristig von den Jugendwarten und längerfristig vom Vereinsvorstand bei entsprechenden Gründen genehmigt werden.
+Die vereinseigenen Segeljollen 470er, 420er und Optimisten, im Folgenden mit „Jugendboote“ bezeichnet, stehen jugendlichen, aktiven und Ehrenmitgliedern <steil gestrichenam="2010-04-17">bis zum Alter von 21 Jahren</steil> und den im Vereinsauftrag tätigen Trainern und Übungsleitern zu den nachfolgenden Bedingungen zur Verfügung. Die Nutzung beinhaltet insbesondere auch die Teilnahme an Regatten und kann auch auf anderen geeigneten Revieren als der Bruchertalsperre erfolgen. <steil gestrichenam="2010-04-17">Ausnahmeregelungen zu den Nutzungsberechtigten können kurzfristig von den Jugendwarten und längerfristig vom Vereinsvorstand bei entsprechenden Gründen genehmigt werden.</steil>
 
 
-2.) <html:u>Versicherungsschutz, Haftung</html:u>
+<steil nachgefuehrtam="2010-04-17">§ 2</steil> <html:u>Versicherungsschutz<steil gestrichenam="2010-04-17">, Haftung</steil></html:u>
 
 Für die Jugendboote besteht Haftpflichtversicherungsschutz über die Sporthilfe e.V. beim LandesSportBund, sofern sie für satzungsgemäße Vereinszwecke eingesetzt werden. Weiterer Versicherungsschutz besteht nicht. Bei unberechtigter Nutzung besteht <html:u>kein</html:u> Versicherungsschutz.
 
+<steil nachgefuehrtam="2010-04-17">§ 3</steil> <html:u>Verwaltung, Nutzungsbedingungen und Pflege</html:u>
 
-3.) <html:u>Verwaltung, Nutzungsbedingungen und Pflege</html:u>
+<steil eingefuegtam="2010-04-17">1.)</steil> <html:i>Verwaltung</html:i>
+Die Jugendboote werden von den Jugendwarten verwaltet. Interessierte Segler, die ein Jugendboot segeln wollen, haben dies mit den Jugendwarten abzusprechen. Die Entscheidung, welcher Segler welches Boot segeln soll, wird von den Jugendwarten getroffen. Diese sollen dabei die Belange der jeweiligen Segler und die Meinung des Trainers / Übungsleiters berücksichtigen. Die Zusammenstellung der Mannschaften für die Zweimannboote geschieht im Einvernehmen mit den interessierten Seglern. Kommt keine vertretbare Einigung zustande, kann kein Boot zugeteilt werden. Die Jugendboote werden in der Regel für eine Saison zugeteilt. Im Ausnahmefall sind auch kurzfristige Änderungen oder Abweichungen möglich. Die Zuteilung eines Jugendbootes <steil eingefuegtam="2010-04-17">an Jugendmitglieder</steil> setzt die regelmäßige Nutzung unter anderem durch Teilnahme am Training und an den angebotenen Regatten voraus. Wenn ein nicht genutztes Boot für einen oder mehrere interessierte Segler blockiert ist, können die Jugendwarte angemessene Umverteilungen  vornehmen. Wenn Boote <steil gestrichenam="2010-04-17">an Trainer / Übungsleiter</steil> <steil eingefuegtam="2010-04-17">Trainern, Übungsleitern oder aktiven Mitgliedern</steil> zugeteilt werden, ist darauf zu achten, daß der Trainingsbetrieb der Jugendsegler nicht unverhältnismäßig gestört wird; dies wägen die Jugendwarte im Einzelfall ab. Die Zuteilung erfolgt erforderlichenfalls vorübergehend.
 
-<html:i>Verwaltung</html:i>
-Die Jugendboote werden von den Jugendwarten verwaltet. Interessierte Segler, die ein Jugendboot segeln wollen, haben dies mit den Jugendwarten abzusprechen. Die Entscheidung, welcher Segler welches Boot segeln soll, wird von den Jugendwarten getroffen. Diese sollen dabei die Belange der jeweiligen Segler und die Meinung des Trainers / Übungsleiters berücksichtigen. Die Zusammenstellung der Mannschaften für die Zweimannboote geschieht im Einvernehmen mit den interessierten Seglern. Kommt keine vertretbare Einigung zustande, kann kein Boot zugeteilt werden. Die Jugendboote werden in der Regel für eine Saison zugeteilt. Im Ausnahmefall sind auch kurzfristige Änderungen oder Abweichungen möglich. Die Zuteilung eines Jugendbootes setzt die regelmäßige Nutzung unter anderem durch Teilnahme am Training und an den angebotenen Regatten voraus. Wenn ein nicht genutztes Boot für einen oder mehrere interessierte Segler blockiert ist, können die Jugendwarte angemessene Umverteilungen  vornehmen. Wenn Boote an Trainer / Übungsleiter zugeteilt werden, ist darauf zu achten, daß der Trainingsbetrieb der Jugendsegler nicht unverhältnismäßig gestört wird; dies wägen die Jugendwarte im Einzelfall ab. Die Zuteilung erfolgt erforderlichenfalls vorübergehend.
+<html:br/><steil eingefuegtam="2010-04-17">2.)</steil> <html:i>Nutzungsbedingungen</html:i>
+Auch nach erfolgter Zuteilung eines Bootes ist jede Nutzung der Jugendboote <steil eingefuegtam="2010-04-17">durch Jugendmitglieder</steil> außerhalb der Jugendsegelzeiten gemäß Jugendprogramm mit den Jugendwarten abzusprechen. Für die Benutzung der Jugendboote wird zusammen mit dem Mitgliedsbeitrag ein Nutzungsbeitrag erhoben, der in der Finanzordnung geregelt wird.
 
-<html:i>Nutzungsbedingungen</html:i>
-Auch nach erfolgter Zuteilung eines Bootes ist jede Nutzung der Jugendboote außerhalb der Jugendsegelzeiten gemäß Jugendprogramm mit den Jugendwarten abzusprechen. Für die Benutzung der Jugendboote wird zusammen mit dem Mitgliedsbeitrag ein Nutzungsbeitrag erhoben, der in der Finanzordnung geregelt wird.
-
-<html:i>Pflege</html:i>
+<steil eingefuegtam="2010-04-17">3.)</steil> <html:i>Pflege</html:i>
 Jeder Segler bzw. jede Mannschaft ist für die Feststellung von Mängeln und deren Behebung zunächst selbst verantwortlich. Abhängig vom Alter der Segler und von den anfallenden Arbeiten müssen sie dabei aber von den Jugendwarten und Trainern / Übungsleitern unterstützt werden. Gegebenenfalls fordern die Jugendwarte auch die Hilfe erwachsener Vereinsmitglieder oder von Eltern der Jugendsegler an. Vor der eigenständigen Behebung von Mängeln oder anderen Veränderungen am Boot ist auf jeden Fall die Zustimmung der Jugendwarte einzuholen. Die Jugendwarte können mit älteren Seglern vereinbaren, daß für bestimmte Instandhaltungsarbeiten die Zustimmung nicht jedesmal erneut eingeholt werden muß. Für die rechtzeitige Durchführung der notwendigen Instandhaltungsarbeiten sind die Jugendwarte zuständig. Grundsätzlich sollen die Segler entsprechend ihrem Alter dabei einbezogen werden.
 
-Für ihre Entscheidungen sind die Jugendwarte der Vereinsjugendversammlung und dem Vereinsvorstand verantwortlich.
+<steil eingefuegtam="2010-04-17">4.)</steil> Für ihre Entscheidungen sind die Jugendwarte der Vereinsjugendversammlung und dem Vereinsvorstand verantwortlich.
 
 
-4.) <html:u>Verantwortung an Bord und Haftung</html:u>
+<steil nachgefuehrtam="2010-04-17">§ 4</steil> <html:u>Verantwortung an Bord und Haftung</html:u>
 
-Für die ordnungsgemäße Führung des Bootes und für die Befolgung der Anweisungen der Trainer bzw. Übungsleiter ist die Besatzung und insbesondere der Steuermann verantwortlich, sofern nichts anderes hinsichtlich der Schiffsführung vereinbart wurde. Die Betriebsbereitschaft der Boote ist vor jedem Ablegen von der Besatzung zu überprüfen. Bei den angesetzten Trainings- bzw. Ausbildungsstunden hat der jeweilige Trainer oder Übungsleiter hierfür Sorge zu tragen und selbst eine Überprüfung vorzunehmen.
+<steil eingefuegtam="2010-04-17">1.)</steil> Für die ordnungsgemäße Führung des Bootes und für die Befolgung der Anweisungen der Trainer bzw. Übungsleiter ist die Besatzung und insbesondere der Steuermann verantwortlich, sofern nichts anderes hinsichtlich der Schiffsführung vereinbart wurde. Die Betriebsbereitschaft der Boote ist vor jedem Ablegen von der Besatzung zu überprüfen. Bei den angesetzten Trainings- bzw. Ausbildungsstunden hat der jeweilige Trainer oder Übungsleiter hierfür Sorge zu tragen und selbst eine Überprüfung vorzunehmen.
+
+<bereich eingefuegtam="2010-04-17">2.) Für die Nutzung außerhalb einer vom Verein angesetzten Übungseinheit ist grundsätzlich der Sportbootführerschein Binnen unter Segeln oder ein gleichwertiger Befähigungsnachweis (z. B. Segelführerschein A des DSV) Voraussetzung.
+
+3.) Die Teilnahme an einer Einweisung in die entsprechende Bootsklasse ist verpflichtend.</bereich>
 
 
-5.) <html:u>Winterlager</html:u>
+<steil nachgefuehrtam="2010-04-17">§ 5</steil> <html:u>Winterlager</html:u>
 
 Die Jugendboote werden grundsätzlich zum Winter ins Bootshaus eingelagert, die Termine legt der Vorstand fest. Für die Einlagerung ist die Anwesenheit der Nutzer bei den Terminen der Ein- und Auslagerung verpflichtend (Die Jugendwarte regeln Abweichendes für Optisegler). Die Boote sind vor der Einlagerung zu reinigen.
 
 
-6.) <html:u>Verstöße, Inkrafttreten</html:u>
+<bereich eingefuegtam="2010-04-17">§ 6 <html:u>Nutzungsbeitrag</html:u>
+
+1.) Für die Nutzung von Jugendbooten werden Beiträge erhoben. Näheres regelt die Finanzordnung.
+
+2.) Aktiven Mitgliedern kann bis zum Ablauf des Jahres, in dem sie das 21. Lebensjahr vollenden, für Jugendboote ein ermäßigter Nutzungsbeitrag gewährt werden. Soweit die Finanzordnung dies nicht anders regelt, gelten diese Mitglieder für Zwecke des Nutzungsbeitrags als in Schul- oder Berufsausbildung befindliche aktive Mitglieder.</bereich>
+
+
+<steil nachgefuehrtam="2010-04-17">§ 7</steil> <html:u>Verstöße<steil gestrichenam="2010-04-17">, Inkrafttreten</steil></html:u>
 
 Bei wiederholten oder groben Verstößen gegen diese Nutzungsordnung kann einem Segler die Nutzungsberechtigung vorübergehend oder dauerhaft entzogen werden; ein Anspruch auf Erstattung des anteiligen Nutzungsbeitrages besteht nicht.
 
-Diese Nutzungsordnung wurde unter Zustimmung der Jugendwarte und des Vereins-Jugendausschusses am 11. März 2000 von der Mitgliederversammung beschlossen und zuletzt von der Mitgliederversammlung am <stand stand="17. März 2001">17.03.2001</stand> geändert. Sie tritt sofort in Kraft.
+
+<bereich nachgefuehrtam="2010-04-17"><steil eingefuegtam="2010-04-17">§ 8</steil> <html:u>Inkrafttreten</html:u></bereich>
+
+<s nachgefuehrtam="2001-03-17 2010-04-17">Diese Nutzungsordnung wurde unter Zustimmung der Jugendwarte und des Vereins-Jugendausschusses am 11. März 2000 von der Mitgliederversammung beschlossen und geändert von den Mitgliederversammlungen am 17. März 2001 und <stand>17. April 2010</stand>.</s> <s>Sie tritt sofort in Kraft.</s>
 </dump>
-		<!--aktuell den="13. Oktober 2009"/-->
+		<aktuell den="13. September 2010"/>
 	</ordnung>
 </regeln>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.70" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Jugendordnung</name>
@@ -23,7 +23,7 @@
 		<p>
 			<titel>Aufnahme, Austritt und Ausschluß</titel>
 			<abs>
-				<s>
+				<s gestrichenam="2010-04-17">
 					<steil>Für die Aufnahme von Jugendmitgliedern gelten die Regelungen der Satzung (§4 Abs. 4) sinngemäß, jedoch tritt</steil>
 					<lit>
 						<steil>anstelle des Vorstandes der Vereinsjugendausschuss und</steil>
@@ -32,6 +32,7 @@
 						<steil>anstelle der Mitgliederversammlung die Jugendversammlung.</steil>
 					</lit>
 				</s>
+				<s eingefuegtam="2010-04-17">Die Aufnahme von Jugendmitgliedern erfolgt nach den Regelungen der Satzung (§ 4 Abs. 4 Sätze 1 bis 5 der Fassung vom 18. März 2006.).</s>
 			</abs>
 			<abs>
 				<s>Austritt und Ausschluss werden auch für Jugendmitglieder durch die Satzung geregelt.</s>
@@ -187,9 +188,9 @@
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s>Diese Jugendordnung wurde von der Jugendversammlung am <stand>27. Oktober 2001</stand> beschlossen und von der Mitgliederversammlung am 27. Oktober 2001 bestätigt.</s>
+			<s nachgefuehrtam="2010-04-17">Diese Jugendordnung wurde von der Jugendversammlung am 27. Oktober 2001 beschlossen, von der Mitgliederversammlung am 27. Oktober 2001 bestätigt und von der Mitgliederversammlung am <stand>17. April 2010</stand> geändert.</s>
 			<s>Sie tritt sofort in Kraft.</s>
 		</p>
-		<aktuell den="14. Februar 2010"/>
+		<aktuell den="11. Juni 2010"/>
 	</ordnung>
 </regeln>

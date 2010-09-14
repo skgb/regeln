@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.70" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Steg- und Liegeplatzordnung</name>
@@ -14,7 +14,10 @@
 
 1.) Die Stegliegeplätze (auch „Stegbox“ genannt) und Landliegeplätze werden den interessierten Bootseignern vom Steg- und Zeugwart zu den nachfolgend genannten Bedingungen zugeteilt. Bootseigner, denen ein Liegeplatz zugeteilt wurde, werden im folgenden als „Liegeplatzinhaber“ bezeichnet. Ein Anspruch auf einen bestimmten Liegeplatz besteht nicht. Der Steg- und Zeugwart kann bereits zugewiesene Liegeplätze austauschen.
 
-2.) Für die Zuteilung eines Stegliegeplatzes wird je Liegeplatz eine jährliche Gebühr erhoben, die in der Finanzordnung geregelt ist. Landliegeplätze auf dem Vereinsgelände (Jollenwiese) sind bereits im Beitrag enthalten.
+<bereich gestrichenam="2010-04-17">2.) Für die Zuteilung eines Stegliegeplatzes wird je Liegeplatz eine jährliche Gebühr erhoben, die in der Finanzordnung geregelt ist. Landliegeplätze auf dem Vereinsgelände (Jollenwiese) sind bereits im Beitrag enthalten.
+</bereich><bereich eingefuegtam="2010-04-17">2.) Für die Zuteilung von Liegeplätzen wird grundsätzlich je Boot eine jährliche Gebühr erhoben. Der Vorstand kann im Einzelfall begründete Ausnahmen zulassen. Näheres regelt die Finanzordnung.</bereich>
+
+<bereich eingefuegtam="2010-04-17">3.) Bei der Zuteilung von Liegeplätzen haben Segelboote Vorrang vor Kanus und anderen Bootsarten.</bereich>
 
 
 § 3 <html:u><html:i>Erfordernisse für Liegeplatzinhaber, „gekaufte Box“</html:i></html:u>
@@ -57,8 +60,8 @@ Das Lagern explosionsgefährlicher oder wassergefährdender Stoffe an Bord ist v
 
 § 7 <html:u><html:i>Inkrafttreten</html:i></html:u>
 
-Diese Steg- und Liegeplatzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen. Sie tritt sofort in Kraft und löst die Stegordnung von November 1994 ab. <s nachgefuehrtam="2002-03-09 2003-11-08">Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002 und am <stand>8. November 2003</stand>.</s>
+Diese Steg- und Liegeplatzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen. Sie <steil gestrichenam="2010-04-17">tritt sofort in Kraft und</steil> löst die Stegordnung von November 1994 ab. <s nachgefuehrtam="2002-03-09 2003-11-08">Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002, 8. November 2003 und <stand>17. April 2010</stand>.</s> <s eingefuegtam="2010-04-17">Sie tritt sofort in Kraft.</s>
 </dump>
-		<aktuell den="14. Februar 2010"/>
+		<aktuell den="14. September 2010"/>
 	</ordnung>
 </regeln>
