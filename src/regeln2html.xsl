@@ -3,7 +3,7 @@
 <!--
 
 XSLT conversion specification for 'SKGB-Regeln' to HTML
-(c) 2005-2009 Segel- und Kanugemeinschaft Brucher Talsperre (SKGB)
+(c) 2005-2010 Segel- und Kanugemeinschaft Brucher Talsperre (SKGB)
 Proprietary/Confidential. All Rights Reserved.
 
 -->
@@ -12,7 +12,7 @@ Proprietary/Confidential. All Rights Reserved.
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="regeln html">
 	
 	<xsl:template name='check-version'>
-		<xsl:variable name="version" select="number(0.70)"/><!-- SKGB-Regeln format version -->
+		<xsl:variable name="version" select="number(0.71)"/><!-- SKGB-Regeln format version -->
 		
 		<xsl:if test="number(/.//regeln:regeln//@version) &lt; $version">
 			<xsl:message>
@@ -128,7 +128,7 @@ ol, li {
 ol {
 	padding-left: 3em;
 }
-.bylaws>ol>li, .rules>ol>li, .directive>ol>li /* , ol.nr>li */ {
+.bylaws>ol>li, .rules>ol>li, .directive>ol>li, .bylaws>*>ol>li, .rules>*>ol>li, .directive>*>ol>li {
 	margin: .5em 0;
 }
 ol.alleine {
@@ -247,7 +247,7 @@ address.signature span.signature {
 	
 	<xsl:template match='regeln:p' mode="ins-del">
 		<xsl:variable name="num" select="1 + count(preceding-sibling::regeln:p) - count(preceding-sibling::regeln:p/@gestrichenam)"/>
-		<h2 class="p-{$num}"><span class="p-number">§ <xsl:value-of select="$num"/></span> <xsl:value-of select="regeln:titel"/></h2>
+		<h2 class="p-{$num}"><span class="p-number">§ <xsl:value-of select="$num"/></span> <xsl:apply-templates select="./regeln:titel" mode="apply-templates"/></h2>
 		<xsl:choose>
 			<xsl:when test="regeln:abs">
 				<xsl:variable name="absCount" select="count(./regeln:abs) - count(./regeln:abs/@gestrichenam)"/>
@@ -292,7 +292,27 @@ address.signature span.signature {
 		<xsl:apply-templates/>
 	</xsl:template>
 	
+	<xsl:template match='regeln:lit/regeln:titel'>
+		<em><xsl:value-of select="."/><xsl:text>:</xsl:text></em><br/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:nr/regeln:titel'>
+		<strong><xsl:value-of select="."/></strong><br/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:abs/regeln:titel'>
+		<em><xsl:value-of select="."/><xsl:text>:</xsl:text></em><br/>
+	</xsl:template>
+	
 	<xsl:template match='regeln:titel'>
+	</xsl:template>
+	
+	<xsl:template match='regeln:titel' mode="apply-templates">
+		<xsl:call-template name="ins-del"/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:titel' mode="ins-del">
+		<xsl:apply-templates/>
 	</xsl:template>
 	
 	<xsl:template match='regeln:s'>
