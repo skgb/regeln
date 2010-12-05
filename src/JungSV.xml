@@ -1,37 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.71" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<vorschrift>
 		<name>Jüngstensegel-Vorschrift</name>
-		<praeambel>Die Jüngstensegelschein-Vorschrift des Deutschen Segler-Verbandes vom 24. März 1973 in der Fassung vom 23. März 1996 sieht in Paragraph 8 ergänzende Vorschriften der Verbandsvereine vor. Die Durchführungsvorschrift zu Paragraph 1 regelt, was diese ergänzenden Vorschriften enthalten müssen. Mit der folgenden Jüngstensegel-Vorschrift kommt die Segel- und Kanugemeinschaft Bruchertalsperre diesen Anforderungen nach. Die Jüngstensegel-Vorschrift tritt sofort in Kraft.</praeambel>
-<dump>
-1. <html:u>Das Jüngstensegelrevier</html:u>
-
-a) <html:i>Das Gebiet:</html:i>
-Das Revier der Jüngstensegler ist grundsätzlich die südliche Hälfte der Bruchertalsperre, und zwar bis zur Linie zwischen dem Anlegesteg der Bootsvermietung und dem Wassereinlauf in der Bucht. Dieses Gebiet kann im Einzelfall vom Aufsichtsführenden unter Beachtung der gegebenen Sicherheitsaspekte erweitert oder eingeschränkt werden.
-
-b) <html:i>Die Jüngstensegelzeiten:</html:i>
-Die Jüngstensegelzeiten regelt das Jugendprogramm, das vom Jugendwart zu Saisonbeginn erstellt wird.
-
-c) <html:i>Windstärkenbegrenzung:</html:i>
-Eine pauschale Windstärkenbegrenzung wird nicht vorgenommen. Diese Entscheidung trifft der Aufsichtsführende im Einzelfall. Dabei sind die Rettungs- und Hilfsmöglichkeiten, die Wassertemperatur, die Leistungsfähigkeit der Segler, deren psychische Verfassung und Wünsche zu berücksichtigen.
-
-d) <html:i>Sicherheitsvorkehrungen:</html:i>
-Es muß eine geeignete Aufsichtsperson gemäß Nr. 2 Satz 4 dieser Vorschrift anwesend sein, der ein geeignetes Boot zur Hilfeleistung zur Verfügung steht. Am Steg befindet sich ein Verbandkasten. Auf ausreichende, intakte Auftriebskörper in den Optimisten und auf den richtigen Sitz der Rettungs- bzw. Schwimmwesten ist zu achten.
-
-
-2. <html:u>Aufsicht</html:u>
-
-Die Aufsicht über das Jüngstensegeln ist grundsätzlich den gewählten Jugendwarten und den im Vereinsauftrag tätigen Trainern und Übungsleitern übertragen. Mit Zustimmung des Vereinsvorstandes können weitere Personen dauerhaft mit der Aufsicht beauftragt werden. Im Einzelfall kann auch der Jugendwart allein hierüber entscheiden. Die Aufsichtspersonen müssen körperlich, geistig und fachlich für ihre Aufgabe geeignet sein.
-
-
-3. <html:u>Rettungswestenpflicht</html:u>
-
-Jüngstensegler müssen grundsätzlich ohnmachtssichere Rettungswesten in Signalfarbe tragen. Wenn ausreichende Rettungsmöglichkeiten bestehen und die weiteren Umstände es erlauben, kann der Aufsichtsführende das Tragen von Schwimmwesten oder weitere Erleichterungen zulassen.
-
-
-(Beschlossen am <stand>19. April 1997</stand> vom Vereinsjugendausschuss, bestätigt in 1997 vom Vorstand)
-</dump>
+		<praeambel>
+			<s>Die Jüngstensegelschein-Vorschrift des Deutschen Segler-Verbandes vom 24. März 1973 in der Fassung vom 23. März 1996 sieht in Paragraph 8 ergänzende Vorschriften der Verbandsvereine vor.</s>
+			<s>Die Durchführungsvorschrift zu Paragraph 1 regelt, was diese ergnzenden <!--sic!--> Vorschriften enthalten müssen.</s>
+			<s>Mit der folgenden Jügstensegel-Vorschrift<!--sic!--> kommt die Segel- und Kanugemeinschaft Bruchertalsperre<!--sic!--> diesen Anforderungen nach.</s>
+			<s>Die Jüngstensegel-Vorschrift tritt sofort in Kraft.</s>
+		</praeambel>
+		<nr>
+			<titel>Das Jüngstensegelrevier</titel>
+			<lit>
+				<titel>Das Gebiet</titel>
+				<s>Das Revier der Jüngstensegler ist grundsätzlich die südliche Hälfte der Bruchertalsperre, und zwar bis zur Linie zwischen dem Anlegesteg der Bootsvermietung und dem Wassereinlauf in der Bucht.</s>
+				<s>Dieses Gebiet kann im Einzelfall vom Aufsichtsführenden unter Beachtung der gegebenen Sicherheitsaspekte erweitert oder eingeschränkt werden.</s>
+			</lit>
+			<lit>
+				<titel>Die Jüngstensegelzeiten</titel>
+				<s>Die Jüngstensegelzeiten regelt das Jugendprogramm, das vom Jugendwart zu Saisonbeginn erstellt wird.</s>
+			</lit>
+			<lit>
+				<titel>Windstärkenbegrenzung</titel>
+				<s>Eine pauschale Windstärkenbegrenzung wird nicht vorgenommen.</s>
+				<s>Diese Entscheidung trifft der Aufsichtsführende im Einzelfall.</s>
+				<s>Dabei sind die Rettungs- und Hilfsmöglichkeiten, die Wassertemperatur, die Leistungsfähigkeit der Segler, deren psychische Verfassung und Wünsche zu berücksichtigen.</s>
+			</lit>
+			<lit>
+				<titel>Sicherheitsvorkehrungen</titel>
+				<s>Es muß eine geeignete Aufsichtsperson gemäß Nr. 2 Satz 4 dieser Vorschrift anwesend sein, der ein geeignetes Boot zur Hilfeleistung zur Verfügung steht.</s>
+				<s>Am Steg befindet sich ein Verbandkasten.</s>
+				<s>Auf ausreichende, intakte Auftriebskörper in den Optimisten und auf den richtigen Sitz der Rettungs- bzw. Schwimmwesten ist zu achten.</s>
+			</lit>
+		</nr>
+		<nr>
+			<titel>Aufsicht</titel>
+			<s>Die Aufsicht über das Jüngstensegeln ist grundsätzlich den gewählten Jugendwarten und den im Vereinsauftrag tätigen Trainern und Übungsleitern übertragen.</s>
+			<s>Mit Zustimmung des Vereinsvorstandes können weitere Personen dauerhaft mit der Aufsicht beauftragt werden.</s>
+			<s>Im Einzelfall kann auch der Jugendwart allein hierüber entscheiden.</s>
+			<s>Die Aufsichtspersonen müssen körperlich, geistig und fachlich für ihre Aufgabe geeignet sein.</s>
+		</nr>
+		<nr>
+			<titel>Rettungswestenpflicht</titel>
+			<s>Jüngstensegler müssen grundsätzlich ohnmachtssichere Rettungswesten in Signalfarbe tragen.</s>
+			<s>Wenn ausreichende Rettungsmöglichkeiten bestehen und die weiteren Umstände es erlauben, kann der Aufsichtsführende das Tragen von Schwimmwesten oder weitere Erleichterungen zulassen.</s>
+		</nr>
+		<postambel>(Beschlossen am <stand>19. April 1997</stand> vom Vereinsjugendausschuss, bestätigt in 1997 vom Vorstand)</postambel>
+		<aktuell den="5. Dezember 2010"/>
 	</vorschrift>
 </regeln>

@@ -1,67 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.70" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.71" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name>Steg- und Liegeplatzordnung</name>
-<dump>
-§ 1 <html:u><html:i>Allgemeine Pflicht aller Mitglieder</html:i></html:u>
-
-<html:b>Alle Vereinsmitglieder (auch Passive und Jugend) haben die Verpflichtung, vereinsfremde Personen, die sich <html:u>unberechtigt</html:u> auf der Steganlage oder dem übrigen Vereinsgelände aufhalten, freundlich und bestimmt vom Vereinsgelände zu verweisen.</html:b> Nur auf den Landliegeplätzen (Jollenwiese) werden Fremde, die sich von den dort befindlichen Booten fernhalten, zur Erhaltung des allgemeinen Friedens in der Regel geduldet.
-
-
-§ 2 <html:u><html:i>Liegeplatzvergabe, Liegeplatzgebühr</html:i></html:u>
-
-1.) Die Stegliegeplätze (auch „Stegbox“ genannt) und Landliegeplätze werden den interessierten Bootseignern vom Steg- und Zeugwart zu den nachfolgend genannten Bedingungen zugeteilt. Bootseigner, denen ein Liegeplatz zugeteilt wurde, werden im folgenden als „Liegeplatzinhaber“ bezeichnet. Ein Anspruch auf einen bestimmten Liegeplatz besteht nicht. Der Steg- und Zeugwart kann bereits zugewiesene Liegeplätze austauschen.
-
-<bereich gestrichenam="2010-04-17">2.) Für die Zuteilung eines Stegliegeplatzes wird je Liegeplatz eine jährliche Gebühr erhoben, die in der Finanzordnung geregelt ist. Landliegeplätze auf dem Vereinsgelände (Jollenwiese) sind bereits im Beitrag enthalten.
-</bereich><bereich eingefuegtam="2010-04-17">2.) Für die Zuteilung von Liegeplätzen wird grundsätzlich je Boot eine jährliche Gebühr erhoben. Der Vorstand kann im Einzelfall begründete Ausnahmen zulassen. Näheres regelt die Finanzordnung.</bereich>
-
-<bereich eingefuegtam="2010-04-17">3.) Bei der Zuteilung von Liegeplätzen haben Segelboote Vorrang vor Kanus und anderen Bootsarten.</bereich>
-
-
-§ 3 <html:u><html:i>Erfordernisse für Liegeplatzinhaber, „gekaufte Box“</html:i></html:u>
-
-1.) Liegeplatzinhabers kann nur sein, wer aktives Vereinsmitglied, Ehrenmitglied oder Mitglied der Jugendabteilung ist. Es können auch mehrere Personen, die gemeinsam ein Boot besitzen, gemeinschaftlich Inhaber eines Liegeplatzes sein; alle Miteigner müssen dann die Voraussetzungen der Mitgliedschaft erfüllen.
-
-2.) In früheren Vereinsjahren konnten Mitglieder auch zu einem festgelegten Preis lebenslange Rechte an einem Stegliegeplatz erwerben („gekaufte Box“). Dies ist nicht mehr möglich. Für die Inhaber solcher Stegliegeplätze bleiben die Nutzungsrechte an  der erworbenen Stegbox erhalten; sie kann nur mit Zustimmung des Inhabers ausgetauscht werden (Bestandschutz). Solange der Inhaber seinen Liegeplatz nicht belegt, kann dieser vom Verein vermietet werden; der Inhaber hat dabei keinen Anspruch auf eine Mietzahlung. Die Rechte an der „gekauften Box“ enden mit Beendigung der Mitgliedschaft.
-
-3.) Auf Antrag des Inhabers einer solchen „gekauften Box“ und eines Interessenten, der eine solche „gekaufte Box“ übernehmen möchte, kann die Mitgliederversammlung das Nutzungsrecht mit allen weiteren Rechten und Pflichten bezüglich dieses Stegliegeplatzes auf den Ehegatten oder Verwandte ersten Grades übertragen. Anstelle des Ehegatten ist auch ein in eheähnlicher Gemeinschaft lebender Partner zulässig, wenn die Lebensgemeinschaft dem Verein glaubhaft versichert wird.
-
-
-§ 4 <html:u><html:i>Sicherheitsbestimmungen</html:i></html:u>
-
-Das Lagern explosionsgefährlicher oder wassergefährdender Stoffe an Bord ist verboten.
-
-
-§ 5 <html:u><html:i>Stegdienst</html:i></html:u>
-
-1.) Alle aktiven Vereinsmitglieder haben neben der satzungsmäßigen Verpflichtung zur Teilnahme an den angesetzten Arbeitsstunden auch die Verpflichtung, am Stegdienst teilzunehmen. Hierzu wird zu Saisonbeginn ein Stegdienstplan vom Steg- und Zeugwart erstellt, der am Steg ausgehängt wird und für alle aktiven Mitglieder verbindlich ist. Verhinderte Mitglieder müssen selbst für Ersatz sorgen! Auch Jugendmitglieder können ab einem Alter von 16 Jahren zu bestimmten Tätigkeiten herangezogen werden. Kommt der planmäßig eingeteilte Stegdienst seiner Verpflichtung nicht nach, ist jedes Mitglied verpflichtet, einzuspringen und dringende Arbeiten auzuführen. Hierzu werden mit dem Stegdienstplan die Telefonnummern aller betreffenden Mitglieder ausgehängt.
-
-2.) Im Rahmen des <html:b>Stegdienstes</html:b> bestehen folgende Verpflichtungen:
-<html:b>- Kontrolle des Steges, falls erforderlich an den Wasserstand anpassen;
-- Reinigung des Steges (Entenkot!);
-- Sichtkontrolle der Schwimmertanks, der Stegwinde, der Jollen an Land;
-- Sichtkontrolle der Festmacher der am Steg liegenden Boote;
-- Vereinsfremde, die sich unbefugt auf dem Steg oder auf Booten an Land aufhalten, freundlich und bestimmt vom Vereinsgelände verweisen.
-- Sichtkontrolle des Bootshausgeländes (Beschädigung an Gebäude oder Zäunen); prüfen, ob Türen und Tore verschlossen sind.</html:b>
-
-3.) <s eingefuegtam="2002-03-09"><!-- keine wörtliche Übernahme aus Protokoll möglich, daher sinngemäße Umschrift erfolgt (arne 2009-10-11, 2010-02-14) -->Aktive Vereinsmitglieder, die ihrer Verpflichtung zum Stegdienst nicht nachkommen, werden zu einer Ausgleichszahlung verpflichtet, deren Höhe die Finanzordnung regelt. Ein Versäumnis liegt insbesondere vor, wenn für einen Dienstzeitraum im Stegbuch weder ein Eintrag des Mitgliedes noch ein Eintrag einer abgesprochenen Vertretung vorliegt oder wenn eine offensichtlich notwendige Anpassung des Steges an den Wasserstand nicht veranlaßt wurde.</s>
-
-
-§ 6 <html:u><html:i>Verhalten auf dem Steg</html:i></html:u>
-
-1.) Das Rennen auf dem Steg ist aus Sicherheitsgünden<!-- [sic!] --> verboten. Grundsätzlich darf vom Steg nicht ins Wasser gesprungen werden. Das Schimmen<!-- [sic!] --> im Bereich der Steganlage und des Slipweges geschieht auf eigene Gefahr. Dabei ist sorgfältig auf an- oder ablegende Boote zu achten, für die Schwimmer nur schwer zu erkennen sind! <s gestrichenam="2003-11-08">Die Steganlage soll nicht zum Sonnenbaden zweckentfremdet werden.</s> <s eingefuegtam="2003-11-08">Die Steganlage darf nicht zum Sonnenbaden zweckentfremdet werden.</s>
-
-2.) Die Seemannschaft gestattet es nicht, unter voller Besegelung anzulegen, wenn an der Anlegestelle nicht aufgeschossen werden kann. Dies kann zu Beschädigungen am Steg führen und ist deshalb verboten.
-
-3.) An den Regattawochenenden, beim Ansegeln und zu anderen Veranstaltungen wird die Flaggenführung gepflegt. Die Bootseigner sind angehalten, sich daran zu beteiligen.
-
-
-§ 7 <html:u><html:i>Inkrafttreten</html:i></html:u>
-
-Diese Steg- und Liegeplatzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen. Sie <steil gestrichenam="2010-04-17">tritt sofort in Kraft und</steil> löst die Stegordnung von November 1994 ab. <s nachgefuehrtam="2002-03-09 2003-11-08">Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002, 8. November 2003 und <stand>17. April 2010</stand>.</s> <s eingefuegtam="2010-04-17">Sie tritt sofort in Kraft.</s>
-</dump>
-		<aktuell den="14. September 2010"/>
+		<p>
+			<titel>Allgemeine Pflicht aller Mitglieder</titel>
+			<abs>
+				<s><html:b>Alle Vereinsmitglieder (auch Passive und Jugend) haben die Verpflichtung, vereinsfremde Personen, die sich <html:u>unberechtigt</html:u> auf der Steganlage oder dem übrigen Vereinsgelände aufhalten, freundlich und bestimmt vom Vereinsgelände zu verweisen.</html:b></s>
+				<s>Nur auf den Landliegeplätzen (Jollenwiese) werden Fremde, die sich von den dort befindlichen Booten fernhalten, zur Erhaltung des allgemeinen Friedens in der Regel geduldet.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Liegeplatzvergabe, Liegeplatzgebühr</titel>
+			<abs>
+				<s>Die Stegliegeplätze (auch „Stegbox“ genannt) und Landliegeplätze werden den interessierten Bootseignern vom Steg- und Zeugwart zu den nachfolgend genannten Bedingungen zugeteilt.</s>
+				<s>Bootseigner, denen ein Liegeplatz zugeteilt wurde, werden im folgenden als „Liegeplatzinhaber“ bezeichnet.</s>
+				<s>Ein Anspruch auf einen bestimmten Liegeplatz besteht nicht. Der Steg- und Zeugwart kann bereits zugewiesene Liegeplätze austauschen.</s>
+			</abs>
+			<abs gestrichenam="2010-04-17">
+				<s>Für die Zuteilung eines Stegliegeplatzes wird je Liegeplatz eine jährliche Gebühr erhoben, die in der Finanzordnung geregelt ist.</s>
+				<s>Landliegeplätze auf dem Vereinsgelände (Jollenwiese) sind bereits im Beitrag enthalten.</s>
+			</abs>
+			<abs eingefuegtam="2010-04-17">
+				<s>Für die Zuteilung von Liegeplätzen wird grundsätzlich je Boot eine jährliche Gebühr erhoben.</s>
+				<s>Der Vorstand kann im Einzelfall begründete Ausnahmen zulassen.</s>
+				<s>Näheres regelt die Finanzordnung.</s>
+			</abs>
+			<abs eingefuegtam="2010-04-17">
+				<s>Bei der Zuteilung von Liegeplätzen haben Segelboote Vorrang vor Kanus und anderen Bootsarten.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Erfordernisse für Liegeplatzinhaber, „gekaufte Box“</titel>
+			<abs>
+				<s>Liegeplatzinhabers <!--[sic!]--> kann nur sein, wer aktives Vereinsmitglied, Ehrenmitglied oder Mitglied der Jugendabteilung ist.</s>
+				<s>Es können auch mehrere Personen, die gemeinsam ein Boot besitzen, gemeinschaftlich Inhaber eines Liegeplatzes sein; alle Miteigner müssen dann die Voraussetzungen der Mitgliedschaft erfüllen.</s>
+			</abs>
+			<abs>
+				<s>In früheren Vereinsjahren konnten Mitglieder auch zu einem festgelegten Preis lebenslange Rechte an einem Stegliegeplatz erwerben („gekaufte Box“).</s>
+				<s>Dies ist nicht mehr möglich.</s>
+				<s>Für die Inhaber solcher Stegliegeplätze bleiben die Nutzungsrechte an  der erworbenen Stegbox erhalten; sie kann nur mit Zustimmung des Inhabers ausgetauscht werden (Bestandschutz).</s>
+				<s>Solange der Inhaber seinen Liegeplatz nicht belegt, kann dieser vom Verein vermietet werden; der Inhaber hat dabei keinen Anspruch auf eine Mietzahlung.</s>
+				<s>Die Rechte an der „gekauften Box“ enden mit Beendigung der Mitgliedschaft.</s>
+			</abs>
+			<abs>
+				<s>Auf Antrag des Inhabers einer solchen „gekauften Box“ und eines Interessenten, der eine solche „gekaufte Box“ übernehmen möchte, kann die Mitgliederversammlung das Nutzungsrecht mit allen weiteren Rechten und Pflichten bezüglich dieses Stegliegeplatzes auf den Ehegatten oder Verwandte ersten Grades übertragen.</s>
+				<s>Anstelle des Ehegatten ist auch ein in eheähnlicher Gemeinschaft lebender Partner zulässig, wenn die Lebensgemeinschaft dem Verein glaubhaft versichert wird.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Sicherheitsbestimmungen</titel>
+			<abs>
+				<s>Das Lagern explosionsgefährlicher oder wassergefährdender Stoffe an Bord ist verboten.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Stegdienst</titel>
+			<abs>
+				<s>Alle aktiven Vereinsmitglieder haben neben der satzungsmäßigen Verpflichtung zur Teilnahme an den angesetzten Arbeitsstunden auch die Verpflichtung, am Stegdienst teilzunehmen.</s>
+				<s>Hierzu wird zu Saisonbeginn ein Stegdienstplan vom Steg- und Zeugwart erstellt, der am Steg ausgehängt wird und für alle aktiven Mitglieder verbindlich ist.</s>
+				<s>Verhinderte Mitglieder müssen selbst für Ersatz sorgen!</s>
+				<s>Auch Jugendmitglieder können ab einem Alter von 16 Jahren zu bestimmten Tätigkeiten herangezogen werden.</s>
+				<s>Kommt der planmäßig eingeteilte Stegdienst seiner Verpflichtung nicht nach, ist jedes Mitglied verpflichtet, einzuspringen und dringende Arbeiten auzuführen.</s>
+				<s>Hierzu werden mit dem Stegdienstplan die Telefonnummern aller betreffenden Mitglieder ausgehängt.</s>
+			</abs>
+			<abs>
+				<s>Im Rahmen des <html:b>Stegdienstes</html:b> bestehen folgende Verpflichtungen:</s>
+				<lit>
+					<s><html:b>Kontrolle des Steges, falls erforderlich an den Wasserstand anpassen;</html:b></s>
+				</lit>
+				<lit>
+					<s><html:b>Reinigung des Steges (Entenkot!);</html:b></s>
+				</lit>
+				<lit>
+					<s><html:b>Sichtkontrolle der Schwimmertanks, der Stegwinde, der Jollen an Land;</html:b></s>
+				</lit>
+				<lit>
+					<s><html:b>Sichtkontrolle der Festmacher der am Steg liegenden Boote;</html:b></s>
+				</lit>
+				<lit>
+					<s><html:b>Vereinsfremde, die sich unbefugt auf dem Steg oder auf Booten an Land aufhalten, freundlich und bestimmt vom Vereinsgelände verweisen.</html:b></s>
+				</lit>
+				<lit>
+					<s><html:b>Sichtkontrolle des Bootshausgeländes (Beschädigung an Gebäude oder Zäunen); prüfen, ob Türen und Tore verschlossen sind.</html:b></s>
+				</lit>
+			</abs>
+			<abs eingefuegtam="2002-03-09"><!-- keine wörtliche Übernahme aus Protokoll möglich, daher sinngemäße Umschrift erfolgt (arne 2009-10-11, 2010-02-14) -->
+				<s>Aktive Vereinsmitglieder, die ihrer Verpflichtung zum Stegdienst nicht nachkommen, werden zu einer Ausgleichszahlung verpflichtet, deren Höhe die Finanzordnung regelt.</s>
+				<s>Ein Versäumnis liegt insbesondere vor, wenn für einen Dienstzeitraum im Stegbuch weder ein Eintrag des Mitgliedes noch ein Eintrag einer abgesprochenen Vertretung vorliegt oder wenn eine offensichtlich notwendige Anpassung des Steges an den Wasserstand nicht veranlaßt wurde.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Verhalten auf dem Steg</titel>
+			<abs>
+				<s>Das Rennen auf dem Steg ist aus Sicherheitsgünden<!-- [sic!] --> verboten.</s>
+				<s>Grundsätzlich darf vom Steg nicht ins Wasser gesprungen werden.</s>
+				<s>Das Schimmen<!-- [sic!] --> im Bereich der Steganlage und des Slipweges geschieht auf eigene Gefahr.</s>
+				<s>Dabei ist sorgfältig auf an- oder ablegende Boote zu achten, für die Schwimmer nur schwer zu erkennen sind!</s>
+				<s gestrichenam="2003-11-08">Die Steganlage soll nicht zum Sonnenbaden zweckentfremdet werden.</s>
+				<s eingefuegtam="2003-11-08">Die Steganlage darf nicht zum Sonnenbaden zweckentfremdet werden.</s>
+			</abs>
+			<abs>
+				<s>Die Seemannschaft gestattet es nicht, unter voller Besegelung anzulegen, wenn an der Anlegestelle nicht aufgeschossen werden kann.</s>
+				<s>Dies kann zu Beschädigungen am Steg führen und ist deshalb verboten.</s>
+			</abs>
+			<abs>
+				<s>An den Regattawochenenden, beim Ansegeln und zu anderen Veranstaltungen wird die Flaggenführung gepflegt.</s>
+				<s>Die Bootseigner sind angehalten, sich daran zu beteiligen.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Inkrafttreten</titel>
+			<abs>
+				<s>Diese Steg- und Liegeplatzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen.</s>
+				<s>Sie <steil gestrichenam="2010-04-17">tritt sofort in Kraft und</steil> löst die Stegordnung von November 1994 ab.</s>
+				<s nachgefuehrtam="2002-03-09 2003-11-08">Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002, 8. November 2003 und <stand>17. April 2010</stand>.</s>
+				<s eingefuegtam="2010-04-17">Sie tritt sofort in Kraft.</s>
+			</abs>
+		</p>
+		<aktuell den="5. Dezember 2010"/>
 	</ordnung>
 </regeln>
