@@ -69,13 +69,18 @@ Stegdienstversäumnis-Ausgleichszahlung: <steil eingefuegtam="2002-03-09">25,–
 Stegliegeplatz: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingefuegtam="2001-10-27">65,– €</steil>
 <s eingefuegtam="2010-04-17">Stegliegeplatz für Kanus: 20,– €</s>
 Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">150,– DM</steil><steil eingefuegtam="2002-03-09">75,– €</steil>
-<steil gestrichenam="2010-04-17">Nutzungsbeitrag für die SAILHORSE-Jolle</steil><steil eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Aktiv</steil>: <steil gestrichenam="2001-10-27">150,– DM</steil><steil eingefuegtam="2001-10-27">90,– €</steil>
-<steil gestrichenam="2010-04-17">Nutzungsbeitrag für die Jugendboote</steil><steil eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Jugend und Aktiv in Schul- / Berufsausbildung o.ä.</steil>: <steil gestrichenam="2001-10-27">55,– DM</steil><steil eingefuegtam="2001-10-27">55,– €</steil>
+<s eingefuegtam="2011-05-28">Boots-Nutzungsbeitrag Aktiv (pro Tag): 10,– €</s>
+<steil gestrichenam="2010-04-17">Nutzungsbeitrag für die SAILHORSE-Jolle</steil><steil eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Aktiv</steil><steil eingefuegtam="2011-05-28"> (Höchstbetrag pro Jahr)</steil>: <steil gestrichenam="2001-10-27">150,– DM</steil><steil eingefuegtam="2001-10-27">90,– €</steil>
+<s eingefuegtam="2011-05-28">Boots-Nutzungsbeitrag Aktiv in Schul- / Berufsausbildung o.ä. (Höchstbetrag pro Jahr): 55,– €</s>
+<steil gestrichenam="2010-04-17">Nutzungsbeitrag für die Jugendboote</steil><steil eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Jugend</steil><steil eingefuegtam="2010-04-17" gestrichenam="2011-05-28"> und Aktiv in Schul- / Berufsausbildung o.ä.</steil>: <steil gestrichenam="2001-10-27">55,– DM</steil><steil eingefuegtam="2001-10-27">55,– €</steil>
 <!--
  durch den Vorstand festgelegte Verwaltungsgebühren: 
  --><!--s nachgefuehrtam="2007-07-23 [per E-Mail] 2010-02-14">Mahngebühr: 5,– € (nachrichtlich)</s--><!-- keine Grundlage: neu beschließen in 2011 -->
 <s nachgefuehrtam="2010-02-14 2010-09-04">Schlüsselpfand: 50,– €</s>
 </dump>
+			</abs>
+			<abs eingefuegtam="2011-05-28">
+				<s>Vorstandsmitglieder und Übungsleiter sind von der Zahlung von Boots-Nutzungsgebühren befreit.</s>
 			</abs>
 			<abs>
 				<s>Der <steil gestrichenam="2010-04-17">Mitgliedsbeitrag</steil> <steil eingefuegtam="2010-04-17">Beitrag</steil> Aktiv in Schul- / Berufsausbildung o.ä. wird auf Antrag gewährt.</s>
@@ -130,10 +135,10 @@ Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">150,�
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s nachgefuehrtam="2001-10-27 2002-03-09 2006-03-18 2010-04-17">Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und geändert von den Mitgliederversammlungen am 27. Oktober 2001, 9. März 2002, 18. März 2006 und 17. April 2010.</s>
+			<s nachgefuehrtam="2001-10-27 2002-03-09 2006-03-18 2010-04-17 2011-05-28">Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und geändert von den Mitgliederversammlungen am 27. Oktober 2001, 9. März 2002, 18. März 2006, 17. April 2010 und 28. Mai 2011.</s>
 			<s eingefuegtam="2010-09-04">Sie gibt auch Beschlüsse des Vorstands aus seiner Sitzung am <stand>4. September 2010</stand> wieder.</s>
 			<s>Sie tritt sofort in Kraft.</s>
 		</p>
-		<aktuell den="5. Dezember 2010"/>
+		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>

@@ -47,10 +47,14 @@
 					<s>Er führt eine Liste, auf der sich jeder, der das Vereinsboot segeln möchte, einzutragen hat.</s>
 				</bereich>
 				<s>Mit der Unterschrift auf dieser Liste wird diese Nutzungsordnung anerkannt.</s>
-				<s>Der jeweilige Segler verpflichtet sich zur Zahlung des Jahresnutzungsbeitrages, der in der Finanzordnung geregelt ist und vom Schatzmeister zusammen mit dem Mitgliedsbeitrag abgebucht wird, und verpflichtet sich zur Teilnahme an den allgemeinen Arbeiten, die im Zusammenhang mit dem Boot anfallen.</s>
+				<s>
+					<steil gestrichenam="2011-05-28">Der jeweilige Segler verpflichtet sich zur Zahlung des Jahresnutzungsbeitrages, der in der Finanzordnung geregelt ist und vom Schatzmeister zusammen mit dem Mitgliedsbeitrag abgebucht wird,</steil>
+					<steil eingefuegtam="2011-05-28">Der jeweilige Segler verpflichtet sich zur Zahlung der Nutzungsbeiträge, die in der Finanzordnung geregelt sind und vom Schatzmeister nach Ende der Saison abgebucht werden,</steil>
+					<steil>und verpflichtet sich zur Teilnahme an den allgemeinen Arbeiten, die im Zusammenhang mit dem Boot anfallen.</steil>
+				</s>
 				<s>Diese Arbeiten sind insbesondere saisonbegleitende Wartungen bzw. Instandsetzungen nach Notwendigkeit, Reinigungen nach Bedarf und einmal jährlich vor dem Winterlager, sowie das jährliche Auf- und Abslippen.</s>
 			</abs>
-			<abs>
+			<abs gestrichenam="2011-05-28">
 				<html:em>Gelegentliche Nutzung:</html:em><html:br/>
 				<s>Wenn ein Mitglied nicht regelmäßig sondern nur gelegentlich das Boot benutzen möchte, ist dies möglich, sofern das Boot frei ist.</s>
 				<s>Ein Beitrag ist für die gelegentliche Nutzung, die sich auf wenige Termine in der Saison beschränkt, nicht zu entrichten.</s>
@@ -103,7 +107,8 @@
 					<s>Der Sportbootführerschein Binnen unter Segeln muss vorhanden sein.</s>
 				</nr>
 				<nr>
-					<s>Ein besonderer Beitrag ist nicht zu entrichten.</s>
+					<s gestrichenam="2011-05-28">Ein besonderer Beitrag ist nicht zu entrichten.</s>
+					<s eingefuegtam="2011-05-28">Es ist nur der Bootsnutzungs-Beitrag für Jugendliche zu entrichten.</s>
 				</nr>
 			</abs>
 		</p>
@@ -142,18 +147,18 @@
 			<abs>
 				<s>Diese Nutzungsordnung wurde am 23. Oktober 1999 vom Vorstand beschlossen und am 11. März 2000 von der Mitgliederversammlung bestätigt.</s>
 				<s>Sie tritt sofort in Kraft.</s>
-				<s nachgefuehrtam="2002-03-09 2004-03-20">Sie wurde geändert durch die Mitgliederversammlungen am 9. März 2002 und am <stand>20. März 2004</stand>.</s>
+				<s nachgefuehrtam="2002-03-09 2004-03-20 2011-05-28">Sie wurde geändert durch die Mitgliederversammlungen am 9. März 2002, 20. März 2004 und <stand>28. Mai 2011</stand>.</s>
 			</abs>
 		</p>
-		<postambel>
+		<postambel><bereich gestrichenam="2012-02-11">
 			<steil>Schlußbemerkung:</steil>
 			<s>Dieses Vereinsboot ist ein neues Projekt der SKGB.</s>
 			<s>Es lebt besonders von der Kooperation aller beteiligten Mitglieder.</s>
 			<s>Ein entscheidender Punkt ist dabei die Pflege und Instandhaltung des Schiffes durch die nutzenden Segler.</s>
 			<s>Selbstständiges Handeln der Segler ohne Inanspruchnahme des Beauftragten ist ein Ziel.</s>
 			<s>Absprachen mit und Informationen an den Beauftragten sind dagegen erwünscht; dies geschieht zum Teil auch über das Fahrtenbuch.</s>
-			<s>Alle beteiligten Mitglieder der SKGB sind angehalten, ihren Beitrag zuleisten<!-- [sic!] -->, damit das Projekt nicht fehlschlägt sondern ein voller Erfolg wird.</s>
-		</postambel>
-		<aktuell den="5. März 2010"/>
+			<s>Alle beteiligten Mitglieder der SKGB sind angehalten, ihren Beitrag zuleisten<!-- [sic!] -->, damit das Projekt nicht fehlschlägt <!-- [sic!] -->sondern ein voller Erfolg wird.</s>
+		</bereich></postambel>
+		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>
