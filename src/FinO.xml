@@ -26,7 +26,7 @@
 				<s>Die zu leistenden Arbeitsstunden werden vom Vorstand festgelegt.</s>
 			</abs>
 			<abs>
-				<s>Für Liegeplätze an der Steganlage und für die Einlagerung von Jollen ins Bootshaus werden Gebühren erhoben.</s> <!-- Auch die BHausO unterscheidet beim Winterlager klar zwischen Einlagerung (innen) und Abstellen (außen). Eine Außenüberwinterung ist also tatsächlich kostenlos. -->
+				<s>Für Liegeplätze an der Steganlage<steil gestrichenam="2012-03-17"> und für die Einlagerung von Jollen ins Bootshaus</steil> werden Gebühren erhoben.</s> <!-- Auch die BHausO unterscheidet beim Winterlager klar zwischen Einlagerung (innen) und Abstellen (außen). Eine Außenüberwinterung ist also tatsächlich kostenlos. -->
 				<s>Diese werden von der Mitgliederversammlung festgelegt.</s>
 				<s>Landliegeplätze auf dem Vereinsgelände <steil eingefuegtam="2010-04-17">(Jollenwiese)</steil> <!-- Übernahme aus StegO --> sind bereits im Beitrag enthalten.</s>
 			</abs>
@@ -68,7 +68,7 @@ Stegdienstversäumnis-Ausgleichszahlung: <steil eingefuegtam="2002-03-09">25,–
  Gebühren für Leistungen: -->
 Stegliegeplatz: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingefuegtam="2001-10-27">65,– €</steil>
 <s eingefuegtam="2010-04-17">Stegliegeplatz für Kanus: 20,– €</s>
-Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">150,– DM</steil><steil eingefuegtam="2002-03-09">75,– €</steil>
+<s gestrichenam="2012-03-17">Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">150,– DM</steil><steil eingefuegtam="2002-03-09">75,– €</steil></s>
 <s eingefuegtam="2011-05-28">Boots-Nutzungsbeitrag Aktiv (pro Tag): 10,– €</s>
 <steil gestrichenam="2010-04-17">Nutzungsbeitrag für die SAILHORSE-Jolle</steil><steil eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Aktiv</steil><steil eingefuegtam="2011-05-28"> (Höchstbetrag pro Jahr)</steil>: <steil gestrichenam="2001-10-27">150,– DM</steil><steil eingefuegtam="2001-10-27">90,– €</steil>
 <s eingefuegtam="2011-05-28">Boots-Nutzungsbeitrag Aktiv in Schul- / Berufsausbildung o.ä. (Höchstbetrag pro Jahr): 55,– €</s>
@@ -135,10 +135,10 @@ Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">150,�
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s nachgefuehrtam="2001-10-27 2002-03-09 2006-03-18 2010-04-17 2011-05-28">Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und geändert von den Mitgliederversammlungen am 27. Oktober 2001, 9. März 2002, 18. März 2006, 17. April 2010 und 28. Mai 2011.</s>
-			<s eingefuegtam="2010-09-04">Sie gibt auch Beschlüsse des Vorstands aus seiner Sitzung am <stand>4. September 2010</stand> wieder.</s>
+			<s nachgefuehrtam="2001-10-27 2002-03-09 2006-03-18 2010-04-17 2011-05-28 2012-03-17">Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und geändert von den Mitgliederversammlungen am 27. Oktober 2001, 9. März 2002, 18. März 2006, 17. April 2010, 28. Mai 2011 und <stand>17. März 2012</stand>.</s>
+			<s eingefuegtam="2010-09-04">Sie gibt auch Beschlüsse des Vorstands aus seiner Sitzung am 4. September 2010 wieder.</s>
 			<s>Sie tritt sofort in Kraft.</s>
 		</p>
-		<aktuell den="14. Februar 2012"/>
+		<aktuell den="17. März 2012"/>
 	</ordnung>
 </regeln>
