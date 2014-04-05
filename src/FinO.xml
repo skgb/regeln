@@ -41,6 +41,10 @@
 				<s>Die Höhe legt der Vorstand anhand der entstandenen Schlüsselkosten fest.</s>
 				<s>Der Pfandbetrag wird bei Rückgabe des Schlüssels unverzinzt <!-- [sic!] --> erstattet.</s>
 			</abs>
+			<abs eingefuegtam="2014-04-05">
+				<s>Für Mahnungen von Zahlungsverpflichtungen, die seit mindestens 90 Tagen fällig sind, wird eine Gebühr erhoben.</s>
+				<s>Deren Höhe legt der Vorstand fest.</s>
+			</abs>
 		</p>
 		<p>
 			<titel>Beitrags- und Gebührenhöhen</titel>
@@ -75,7 +79,8 @@ Stegliegeplatz: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingef
 <steil gestrichenam="2010-04-17">Nutzungsbeitrag für die Jugendboote</steil><steil eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Jugend</steil><steil eingefuegtam="2010-04-17" gestrichenam="2011-05-28"> und Aktiv in Schul- / Berufsausbildung o.ä.</steil>: <steil gestrichenam="2001-10-27">55,– DM</steil><steil eingefuegtam="2001-10-27">55,– €</steil>
 <!--
  durch den Vorstand festgelegte Verwaltungsgebühren: 
- --><!--s nachgefuehrtam="2007-07-23 [per E-Mail] 2010-02-14">Mahngebühr: 5,– € (nachrichtlich)</s--><!-- keine Grundlage: neu beschließen in 2011 -->
+ -->
+<s eingefuegtam="2014-04-05">Mahngebühr: 5,– €</s>
 <s nachgefuehrtam="2010-02-14 2010-09-04">Schlüsselpfand: 50,– €</s>
 </dump>
 			</abs>
@@ -89,9 +94,24 @@ Stegliegeplatz: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingef
 			<abs>
 				<s>Der Vorstand kann in besonders begründeten Einzelfällen abweichende Beiträge oder Gebühren festsetzen, um Härten zu vermeiden.</s>
 			</abs>
-			<abs>
+			<abs gestrichenam="2014-04-05">
 				<s>Um den Verwaltungsaufwand gering zu halten, sind alle Vereinsmitglieder angehalten und neu aufzunehmende Mitglieder verpflichtet, sich am Lastschriftverfahren zu beteiligen.</s>
 				<s>Ausnahmen kann der Vorstand nur in besonders begründeten Einzelfällen zulassen.</s>
+			</abs>
+		</p>
+		<p eingefuegtam="2014-04-05" eingefuegttop="7">
+			<titel>Zahlungsweise</titel>
+			<abs>
+				<s>Jedes Vereinsmitglied ist dazu verpflichtet, seinen Zahlungsverpflichtungen durch schriftliche Erteilung des SEPA-Lastschriftmandats nachzukommen.</s>
+			</abs>
+			<abs>
+				<s>Vereinsmitglieder, die das SEPA-Mandat widerrufen, haben bis zur Erteilung eines neuen SEPA-Mandats ihre Zahlungsverpflichtungen unaufgefordert durch pünktliche Zahlung auf das zutreffende Vereinskonto zu erfüllen.</s>
+			</abs>
+			<abs>
+				<s>Der Vorstand kündigt jeden Lastschrifteinzug mindestens 12 Tage vorher dem Kontoinhaber oder dem Zahlungspflichtigen an (Vorabinformation). Es liegt in der Verantwortung der Mitglieder, rechtzeitig für ausreichende Kontodeckung zu sorgen.</s>
+			</abs>
+			<abs>
+				<s>Bei mangelnder Kontodeckung oder Rückgaben von Lastschriften hat das Vereinsmitglied binnen 8 Tagen die Klärung mit dem geschäftsführenden Vorstand zu suchen. Bankgebühren für Nichteinlösung oder Rückgabe sind vom betreffenden Mitglied zu tragen, sofern die Vorabinformation und die vom Verein eingereichte Lastschrift korrekt waren. Alle Mitglieder sind daher angehalten, sich mit Widersprüchen, Fragen oder Problemen im Zusammenhang mit dem Lastschriftverfahren unmittelbar an den SKGB-Schatzmeister zu wenden.</s>
 			</abs>
 		</p>
 		<p>
@@ -108,9 +128,15 @@ Stegliegeplatz: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingef
 				<s>Über Ausnahmen entscheidet der Vorstand.</s>
 				<s>Die Aufnahmegebühr ist nicht fällig, wenn der Aufnahmeantrag abgelehnt wurde.</s>
 			</abs>
-			<abs>
+			<abs gestrichenam="2014-04-05">
 				<s>Alle <steil gestrichenam="2010-04-17">anderen</steil> Zahlungen sind im ersten Quartal eines Jahres fällig.</s>
 				<s>Bei späterem Entstehen einer Zahlungsverpflichtung ist diese sofort fällig.</s>
+			</abs>
+			<abs eingefuegtam="2014-04-05">
+				<s>Zahlungsverpflichtungen sind fällig am 12. Tag nach ihrem Entstehen oder ihrer Bekanntgabe. Abweichend davon sind Mitgliedsbeiträge grundsätzlich am 1. Januar, Liegeplatzgebühren am 1. April eines Jahres fällig.</s>
+			</abs>
+			<abs eingefuegtam="2014-04-05">
+				<s>Zahlungsverpflichtungen von Mitgliedern, welche dem Verein die Nutzung des SEPA-Lastschriftverfahrens ermöglichen, sind erst zu dem in der Vorabinformation genannten Termin fällig.</s>
 			</abs>
 		</p>
 		<p gestrichenam="2010-04-17">
@@ -135,10 +161,15 @@ Stegliegeplatz: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingef
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s nachgefuehrtam="2001-10-27 2002-03-09 2006-03-18 2010-04-17 2011-05-28 2012-03-17">Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und geändert von den Mitgliederversammlungen am 27. Oktober 2001, 9. März 2002, 18. März 2006, 17. April 2010, 28. Mai 2011 und <stand>17. März 2012</stand>.</s>
-			<s eingefuegtam="2010-09-04">Sie gibt auch Beschlüsse des Vorstands aus seiner Sitzung am 4. September 2010 wieder.</s>
-			<s>Sie tritt sofort in Kraft.</s>
+			<abs>
+				<s nachgefuehrtam="2001-10-27 2002-03-09 2006-03-18 2010-04-17 2011-05-28 2012-03-17 2014-04-05">Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und geändert von den Mitgliederversammlungen am 27. Oktober 2001, 9. März 2002, 18. März 2006, 17. April 2010, 28. Mai 2011, 17. März 2012 und <stand>5. April 2014</stand>.</s>
+				<s nachgefuehrtam="2010-09-04 2014-04-05">Sie gibt auch Beschlüsse des Vorstands aus seinen Sitzungen am 27. Mai 2007 und 4. September 2010 wieder.</s>
+				<s>Sie tritt sofort in Kraft.</s>
+			</abs>
+			<abs eingefuegtam="2014-04-05" eingefuegttop="7">
+				<s>Vor dem 1. Januar 2014 erteilte Einzugsermächtigungen gelten als Mandate im SEPA-Lastschriftverfahren für alle Zahlungsverpflichtungen eines Mitglieds gegenüber dem Verein. Teileinzüge werden nicht mehr vorgenommen.</s>
+			</abs>
 		</p>
-		<aktuell den="17. März 2012"/>
+		<aktuell den="5. April 2014"/>
 	</ordnung>
 </regeln>
