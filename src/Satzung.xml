@@ -173,7 +173,7 @@
 					<s>wenn der Vorstand es beschließt.</s>
 				</lit>
 				<lit>
-					<s>wenn mindestens ein Viertel der in der Mitgliederversammlung stimmberechtigten Mitglieder dies schriftlich mit Begründung verlangt.</s>
+					<s>wenn mindestens <t gestrichenam="2016-04-09">ein Viertel der in der Mitgliederversammlung stimmberechtigten Mitglieder</t> <t eingefuegtam="2016-04-09">ein Fünftel aller Mitglieder</t> dies schriftlich mit Begründung verlangt.</s>
 					<s>Der Vorstand lädt innerhalb von vier Wochen nach Eingang des Verlangens ein.</s>
 				</lit>
 			</abs>
@@ -325,10 +325,9 @@
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s>Diese Satzung wurde von der Mitgliederversammlung am 17. März 2001 beschlossen<t eingefuegtam="2006-03-18"> und geändert von <t gestrichenam="2015-05-30">der Mitgliederversammlung</t> <t eingefuegtam="2015-05-30">den Mitgliederversammlungen</t> am 18. März 2006</t><t eingefuegtam="2015-05-30"> und am <stand>30. Mai 2015</stand></t>.</s>
+			<s>Diese Satzung wurde von der Mitgliederversammlung am 17. März 2001 beschlossen<t eingefuegtam="2006-03-18"> und geändert von</t><t eingefuegtam="2006-03-18" gestrichenam="2015-05-30"> der Mitgliederversammlung</t><t eingefuegtam="2015-05-30"> den Mitgliederversammlungen</t><t eingefuegtam="2006-03-18"> am 18. März 2006</t><t eingefuegtam="2015-05-30" gestrichenam="2016-04-09"> und am</t><t eingefuegtam="2016-04-09">,</t><t eingefuegtam="2006-03-18"> 30. Mai 2015</t><t eingefuegtam="2016-04-09"> und <stand>9. April 2016</stand></t>.</s>
 			<s>Sie tritt sofort nach Eintragung beim Amtsgericht in Kraft.</s>
 		</p>
-		<!--aktuell den="24. Oktober 2015"/-->
+		<aktuell den="16. August 2016"/>
 	</satzung>
 </regeln>
-<!-- noch nicht im Register -->
