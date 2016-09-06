@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.71" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.80" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
-		<name>Nutzungsordnung für die vereinseigenen Segeljollen der Typen 470er, 420er und Optimist (Jugendboote)</name>
+		<name umgangssprachlich="Jugendboot-Nutzungsordnung">Nutzungsordnung für die vereinseigenen Segeljollen der Typen 470er, 420er und Optimist (Jugendboote)</name>
 		<p>
 			<titel>Verwendungszwecke</titel>
 			<abs>
-				<s>Die vereinseigenen Segeljollen 470er, 420er und Optimisten, im Folgenden mit „Jugendboote“ bezeichnet, stehen jugendlichen, aktiven und Ehrenmitgliedern <steil gestrichenam="2010-04-17">bis zum Alter von 21 Jahren</steil> und den im Vereinsauftrag tätigen Trainern und Übungsleitern zu den nachfolgenden Bedingungen zur Verfügung.</s>
+				<s>Die vereinseigenen Segeljollen 470er, 420er und Optimisten, im Folgenden mit „Jugendboote“ bezeichnet, stehen jugendlichen<t gestrichenam="2001-03-17"> Seglern und jungen Erwachsenen<!-- gestrichenen Text rekonstruiert anhand Entwurf vom 23. Jan. 2000, Authentizität nicht gesichert! --></t><t eingefuegtam="2001-03-17">, aktiven und Ehrenmitgliedern</t> <t gestrichenam="2010-04-17">bis zum Alter von 21 Jahren</t> und den im Vereinsauftrag tätigen Trainern und Übungsleitern zu den nachfolgenden Bedingungen zur Verfügung.</s>
 				<s>Die Nutzung beinhaltet insbesondere auch die Teilnahme an Regatten und kann auch auf anderen geeigneten Revieren als der Bruchertalsperre erfolgen.</s>
 				<s gestrichenam="2010-04-17">Ausnahmeregelungen zu den Nutzungsberechtigten können kurzfristig von den Jugendwarten und längerfristig vom Vereinsvorstand bei entsprechenden Gründen genehmigt werden.</s>
 			</abs>
 		</p>
 		<p>
-			<titel>Versicherungsschutz<steil gestrichenam="2010-04-17">, Haftung</steil></titel>
+			<titel>Versicherungsschutz<t gestrichenam="2010-04-17">, Haftung</t></titel>
 			<abs>
 				<s>Für die Jugendboote besteht Haftpflichtversicherungsschutz über die Sporthilfe e.V. beim LandesSportBund, sofern sie für satzungsgemäße Vereinszwecke eingesetzt werden.</s>
 				<s>Weiterer Versicherungsschutz besteht nicht.</s>
@@ -23,7 +23,7 @@
 		<p>
 			<titel>Verwaltung, Nutzungsbedingungen und Pflege</titel>
 			<abs>
-				<titel>Verwaltung</titel> <!-- signifikantes Leerzeichen! :BUG: WebKit wirft manchmal Wellformedness-Errors, deren Auftreten mit den Teilern der Zahl der Zeichen im Ergebnisdokument abzuhängen scheint... (Stichwort gerade/ungerade) -->
+				<titel>Verwaltung</titel>
 				<s>Die Jugendboote werden von den Jugendwarten verwaltet.</s>
 				<s>Interessierte Segler, die ein Jugendboot segeln wollen, haben dies mit den Jugendwarten abzusprechen.</s>
 				<s>Die Entscheidung, welcher Segler welches Boot segeln soll, wird von den Jugendwarten getroffen.</s>
@@ -32,14 +32,14 @@
 				<s>Kommt keine vertretbare Einigung zustande, kann kein Boot zugeteilt werden.</s>
 				<s>Die Jugendboote werden in der Regel für eine Saison zugeteilt.</s>
 				<s>Im Ausnahmefall sind auch kurzfristige Änderungen oder Abweichungen möglich.</s>
-				<s>Die Zuteilung eines Jugendbootes <steil eingefuegtam="2010-04-17">an Jugendmitglieder</steil> setzt die regelmäßige Nutzung unter anderem durch Teilnahme am Training und an den angebotenen Regatten voraus.</s>
+				<s>Die Zuteilung eines Jugendbootes <t eingefuegtam="2010-04-17">an Jugendmitglieder</t> setzt die regelmäßige Nutzung unter anderem durch Teilnahme am Training und an den angebotenen Regatten voraus.</s>
 				<s>Wenn ein nicht genutztes Boot für einen oder mehrere interessierte Segler blockiert ist, können die Jugendwarte angemessene Umverteilungen  vornehmen.</s>
-				<s>Wenn Boote <steil gestrichenam="2010-04-17">an Trainer / Übungsleiter</steil> <steil eingefuegtam="2010-04-17">Trainern, Übungsleitern oder aktiven Mitgliedern</steil> zugeteilt werden, ist darauf zu achten, daß der Trainingsbetrieb der Jugendsegler nicht unverhältnismäßig gestört wird; dies wägen die Jugendwarte im Einzelfall ab.</s>
+				<s>Wenn Boote <t gestrichenam="2010-04-17">an Trainer / Übungsleiter</t> <t eingefuegtam="2010-04-17">Trainern, Übungsleitern oder aktiven Mitgliedern</t> zugeteilt werden, ist darauf zu achten, daß der Trainingsbetrieb der Jugendsegler nicht unverhältnismäßig gestört wird; dies wägen die Jugendwarte im Einzelfall ab.</s>
 				<s>Die Zuteilung erfolgt erforderlichenfalls vorübergehend.</s>
 			</abs>
 			<abs>
 				<titel>Nutzungsbedingungen</titel>
-				<s>Auch nach erfolgter Zuteilung eines Bootes ist jede Nutzung der Jugendboote <steil eingefuegtam="2010-04-17">durch Jugendmitglieder</steil> außerhalb der Jugendsegelzeiten gemäß Jugendprogramm mit den Jugendwarten abzusprechen.</s>
+				<s>Auch nach erfolgter Zuteilung eines Bootes ist jede Nutzung der Jugendboote <t eingefuegtam="2010-04-17">durch Jugendmitglieder</t> außerhalb der Jugendsegelzeiten gemäß Jugendprogramm mit den Jugendwarten abzusprechen.</s>
 				<s>Für die Benutzung der Jugendboote wird zusammen mit dem Mitgliedsbeitrag ein Nutzungsbeitrag erhoben, der in der Finanzordnung geregelt wird.</s>
 			</abs>
 			<abs>
@@ -74,7 +74,7 @@
 			<titel>Winterlager</titel>
 			<abs>
 				<s>Die Jugendboote werden grundsätzlich zum Winter ins Bootshaus eingelagert, die Termine legt der Vorstand fest.</s>
-				<s>Für die Einlagerung ist die Anwesenheit der Nutzer bei den Terminen der Ein- und Auslagerung verpflichtend (Die <!-- [sic!] --> Jugendwarte regeln Abweichendes für Optisegler).</s>
+				<s>Für die Einlagerung ist die Anwesenheit der Nutzer bei den Terminen der Ein- und Auslagerung verpflichtend (Die<!-- [sic!] --> Jugendwarte regeln Abweichendes für Optisegler).</s>
 				<s>Die Boote sind vor der Einlagerung zu reinigen.</s>
 			</abs>
 		</p>
@@ -90,7 +90,7 @@
 			</abs>
 		</p>
 		<p>
-			<titel>Verstöße<steil gestrichenam="2010-04-17">, Inkrafttreten</steil></titel>
+			<titel>Verstöße<t gestrichenam="2010-04-17">, Inkrafttreten</t></titel>
 			<abs>
 				<s>Bei wiederholten oder groben Verstößen gegen diese Nutzungsordnung kann einem Segler die Nutzungsberechtigung vorübergehend oder dauerhaft entzogen werden; ein Anspruch auf Erstattung des anteiligen Nutzungsbeitrages besteht nicht.</s>
 			</abs>
@@ -98,10 +98,11 @@
 		<p>
 			<titel eingefuegtam="2010-04-17">Inkrafttreten</titel>
 			<abs>
-				<s nachgefuehrtam="2001-03-17 2010-04-17">Diese Nutzungsordnung wurde unter Zustimmung der Jugendwarte und des Vereins-Jugendausschusses am 11. März 2000 von der Mitgliederversammung beschlossen und geändert von den Mitgliederversammlungen am 17. März 2001 und <stand>17. April 2010</stand>.</s>
+				<s>Diese Nutzungsordnung wurde unter Zustimmung der Jugendwarte und des Vereins-Jugendausschusses am 11. März 2000 von der Mitgliederversammung beschlossen<t eingefuegtam="2001-03-17"> und<t gestrichenam="2010-04-17"> zuletzt</t><t eingefuegtam="2010-04-17"> geändert</t> von<t gestrichenam="2010-04-17"> der Mitgliederversammlung</t><t eingefuegtam="2010-04-17"> den Mitgliederversammlungen</t> am 17. März 2001<t gestrichenam="2010-04-17"> geändert</t><t eingefuegtam="2010-04-17"> und <stand>17. April 2010</stand></t></t>.</s>
 				<s>Sie tritt sofort in Kraft.</s>
 			</abs>
 		</p>
-		<aktuell den="21. November 2010"/>
+		<aktuell den="27. November 2015"/>
 	</ordnung>
 </regeln>
+<!-- alte Rechtschreibung -->

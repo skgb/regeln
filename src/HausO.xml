@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.80" xmlns="http://www.skgb.de/2005/regeln">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
-		<name>Bootshausordnung</name>
+		<name abkuerzung="HausO">Bootshausordnung</name>
 		<p>
 			<titel>Grundsätzliche Verwendungszwecke</titel>
 			<s>Das Bootshaus dient in den Wintermonaten als Lager für Jollen und wird in der übrigen Zeit zur Durchführung geselliger Veranstaltungen und für Arbeiten an Booten oder anderem Material genutzt.</s>
@@ -131,8 +131,9 @@
 		<p>
 			<titel>Inkrafttreten</titel>
 			<s>Diese Boothausordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und tritt sofort in Kraft.</s>
-			<s nachgefuehrtam="2001-10-27 2008-03-08">§ 2 Abs. 5 eingefügt am 27. Oktober 2001, § 3 eingefügt am <stand>8. März 2008</stand>.</s>
+			<s eingefuegtam="2001-10-27">§ 2 Abs. 5 eingefügt am 27. Oktober 2001<t eingefuegtam="2008-03-08">, § 3 eingefügt am <stand>8. März 2008</stand></t>.</s>
 		</p>
-		<aktuell den="13. März 2008"/>
+		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>
+<!-- alte Rechtschreibung -->

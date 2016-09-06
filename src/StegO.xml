@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.71" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.80" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
-		<name>Steg- und Liegeplatzordnung</name>
+		<name abkuerzung="StegO">Steg- und Liegeplatzordnung</name>
 		<p>
 			<titel>Allgemeine Pflicht aller Mitglieder</titel>
 			<abs>
@@ -67,24 +67,12 @@
 			</abs>
 			<abs>
 				<s>Im Rahmen des <html:b>Stegdienstes</html:b> bestehen folgende Verpflichtungen:</s>
-				<lit>
-					<s><html:b>Kontrolle des Steges, falls erforderlich an den Wasserstand anpassen;</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Reinigung des Steges (Entenkot!);</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Sichtkontrolle der Schwimmertanks, der Stegwinde, der Jollen an Land;</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Sichtkontrolle der Festmacher der am Steg liegenden Boote;</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Vereinsfremde, die sich unbefugt auf dem Steg oder auf Booten an Land aufhalten, freundlich und bestimmt vom Vereinsgelände verweisen.</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Sichtkontrolle des Bootshausgeländes (Beschädigung an Gebäude oder Zäunen); prüfen, ob Türen und Tore verschlossen sind.</html:b></s>
-				</lit>
+				<lit><html:b>Kontrolle des Steges, falls erforderlich an den Wasserstand anpassen;</html:b></lit>
+				<lit><html:b>Reinigung des Steges (Entenkot!);</html:b></lit>
+				<lit><html:b>Sichtkontrolle der Schwimmertanks, der Stegwinde, der Jollen an Land;</html:b></lit>
+				<lit><html:b>Sichtkontrolle der Festmacher der am Steg liegenden Boote;</html:b></lit>
+				<lit><html:b>Vereinsfremde, die sich unbefugt auf dem Steg oder auf Booten an Land aufhalten, freundlich und bestimmt vom Vereinsgelände verweisen.</html:b></lit>
+				<lit><html:b>Sichtkontrolle des Bootshausgeländes (Beschädigung an Gebäude oder Zäunen); prüfen, ob Türen und Tore verschlossen sind.</html:b></lit>
 			</abs>
 			<abs eingefuegtam="2002-03-09"><!-- keine wörtliche Übernahme aus Protokoll möglich, daher sinngemäße Umschrift erfolgt (arne 2009-10-11, 2010-02-14) -->
 				<s>Aktive Vereinsmitglieder, die ihrer Verpflichtung zum Stegdienst nicht nachkommen, werden zu einer Ausgleichszahlung verpflichtet, deren Höhe die Finanzordnung regelt.</s>
@@ -114,11 +102,14 @@
 			<titel>Inkrafttreten</titel>
 			<abs>
 				<s>Diese Steg- und Liegeplatzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen.</s>
-				<s>Sie <steil gestrichenam="2010-04-17">tritt sofort in Kraft und</steil> löst die Stegordnung von November 1994 ab.</s>
-				<s nachgefuehrtam="2002-03-09 2003-11-08">Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002, 8. November 2003 und <stand>17. April 2010</stand>.</s>
-				<s eingefuegtam="2010-04-17">Sie tritt sofort in Kraft.</s>
+				<s>Sie <t gestrichenam="2010-04-17">tritt sofort in Kraft und</t> löst die Stegordnung von November 1994 ab.</s>
+				<bereich eingefuegtam="2010-04-17">
+					<s>Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002, 8. November 2003 und <stand>17. April 2010</stand>.</s>
+					<s>Sie tritt sofort in Kraft.</s>
+				</bereich>
 			</abs>
 		</p>
-		<aktuell den="5. Dezember 2010"/>
+		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>
+<!-- alte Rechtschreibung -->
