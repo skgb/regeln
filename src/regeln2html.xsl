@@ -11,14 +11,14 @@ XSLT conversion specification for 'SKGB-Regeln' to HTML
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="regeln html">
 	
 	<xsl:template name='check-version'>
-		<xsl:variable name="version" select="number(0.80)"/><!-- SKGB-Regeln format version -->
+		<xsl:variable name="version" select="number(0.81)"/><!-- SKGB-Regeln format version -->
 		
 		<xsl:if test="number(/.//regeln:regeln//@version) &lt; $version">
 			<xsl:message>
 				<xsl:text>Warning: Document Format Version Mismatch! The processed document conforms to version </xsl:text>
-				<xsl:value-of select="number(/.//regeln:regeln//@version)"/>
+				<xsl:value-of select="format-number(number(/.//regeln:regeln//@version), '0.00')"/>
 				<xsl:text> of 'SKGB-Regeln', but this XSLT is made for version </xsl:text>
-				<xsl:value-of select="$version"/>
+				<xsl:value-of select="format-number($version, '0.00')"/>
 				<xsl:text>. The results may not be what you expect.</xsl:text>
 			</xsl:message>
 		</xsl:if>

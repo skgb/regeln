@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
-<regeln version="0.80" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name umgangssprachlich="Sailhorse-Nutzungsordnung">Nutzungsordnung für die vereinseigene Segeljolle vom Typ Sailhorse</name>

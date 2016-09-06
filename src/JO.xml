@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
-<regeln version="0.80" xmlns="http://www.skgb.de/2005/regeln">
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name abkuerzung="JO">Jugendordnung</name>

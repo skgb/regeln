@@ -3,7 +3,7 @@ package SKGB::Regeln;
 use 5.014;
 use utf8;
 
-our $VERSION = 0.80;
+our $VERSION = 0.81;
 
 use Cwd 'abs_path';
 use File::Basename 'dirname';
@@ -22,7 +22,7 @@ sub load {
 	my $instance = {
 		path => $location,
 		doc => XML::LibXML->load_xml(location => $location),
-		xslt => XML::LibXSLT->new(),
+		xslt => undef,
 		versions => undef,
 		html_stylesheet => (dirname abs_path $location) . '/regeln2html.xsl',
 		odf_stylesheet => (dirname abs_path $0) . '/regeln2odf.xsl',
@@ -31,9 +31,43 @@ sub load {
 }
 
 
+sub path {
+	my ($self) = @_;
+	return $self->{path};
+}
+
+
+sub regeln_info {
+	my ($self) = @_;
+	my $context = XML::LibXML::XPathContext->new($self->{doc});
+	$context->registerNs('regeln', 'http://www.skgb.de/2005/regeln');
+	my $version = $context->findnodes('/regeln:regeln/@version');
+	$version or return undef;
+	my $info = { regeln_version => $version->string_value() };
+	my $fullname = $context->findnodes('/regeln:regeln/*/regeln:name');
+	$fullname and $info->{fullname} = $fullname->string_value();
+	my $shortname = $context->findnodes('/regeln:regeln/*/regeln:name/@abkuerzung');
+	$shortname and $info->{shortname} = $shortname->string_value();
+	my $colloquial = $context->findnodes('/regeln:regeln/*/regeln:name/@umgangssprachlich');
+	$colloquial and $info->{colloquial} = $colloquial->string_value();
+	my $stand = $context->findnodes('//regeln:stand');
+	$stand and $info->{stand} = $stand->string_value();
+	my $aktuell = $context->findnodes('//regeln:aktuell/@den');
+	$aktuell and $info->{aktuell} = $aktuell->string_value();
+	return $info;
+}
+
+
+sub xslt {
+	my ($self) = @_;
+	$self->{xslt} ||= XML::LibXSLT->new();
+	return $self->{xslt};
+}
+
+
 sub _transform {
 	my ($self, $style_doc) = @_;
-	my $stylesheet = $self->{xslt}->parse_stylesheet($style_doc);
+	my $stylesheet = $self->xslt->parse_stylesheet($style_doc);
 	my $results = $stylesheet->transform($self->{doc});
 	my $new_source = XML::LibXML->load_xml( string => $stylesheet->output_as_chars($results), load_ext_dtd => 0 );
 	return $new_source;
@@ -154,6 +188,7 @@ sub as_html {
 	my ($self) = @_;
 #	print transform_stylesheet($xml, 'regeln2html.xsl');
 	$_ = join '', $self->_transform_stylesheet($self->{html_stylesheet});
+	utf8::decode $_ or warn 'Unicode error';
 	# leere Beitragslistenelemente entfernen (Folge der dortigen Probleme mit ins-del)
 	s{<dt>:</dt><dd>[^<]*</dd>}{}g;
 	return $_;
@@ -163,6 +198,9 @@ sub as_html {
 sub as_odf {
 	my ($self) = @_;
 	$_ = join '', $self->_transform_stylesheet($self->{odf_stylesheet});
+	utf8::decode $_ or warn 'Unicode error';
+	s{<meta:generator>}{<meta:generator>SKGB::Regeln/$VERSION }g;
+	s{<meta:generator>}{<meta:generator>SKGB::Intern/$self->{skgb_intern_version} }g if $self->{skgb_intern_version};
 	# BUG: in 9 (1) satzung kapselt <s> eine lit-Liste - böse, aber prinzipiell ja nicht falsch. was es bedeutet: <s> muss, falls wir es weiterverwenden wollen, den "satz" als einzige semantik beinhalten und die listen/textabsatz-logik muss anders entstehen (was wohl so war, wie's mal gedacht war).
 	s{<text:p([^>]*)>\s*([^<>]+)\s*<text:list>}{<text:p$1>$2</text:p><text:list>}g;
 	s{</text:list>\s*</text:p>}{</text:list>}g;
@@ -192,12 +230,13 @@ sub as_odf {
 
 sub as_txt {
 	my ($self) = @_;
-	$_ = $self->{xslt}->parse_stylesheet(XML::LibXML->load_xml( string => <<'EOT', no_cdata => 1 ))->transform($self->{doc});
+	$_ = $self->xslt->parse_stylesheet(XML::LibXML->load_xml( string => <<'EOT', no_cdata => 1 ))->transform($self->{doc});
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <transform version="1.0" xmlns="http://www.w3.org/1999/XSL/Transform">
 <output method="text" media-type="text/plain" encoding="utf-8" omit-xml-declaration="yes"/>
 </transform>
 EOT
+	utf8::decode $_ or warn 'Unicode error';
 	s{<\?[^\?]*\?>}{}g;  # remove XML declaration
 	s{^\s*}{}mg;  # chomp
 	s{\n(\d+)\n}{ $1\n}g;  # Beitragslistenelemente auf einzelne Zeilen zusammenführen
@@ -214,7 +253,9 @@ sub as_report {
 
 sub as_xml {
 	my ($self) = @_;
-	return $self->{doc};
+	$_ = $self->{doc};
+	utf8::decode $_ or warn 'Unicode error';
+	return $_;
 }
 
 

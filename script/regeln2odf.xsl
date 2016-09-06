@@ -10,16 +10,16 @@ XSLT conversion specification for 'SKGB-Regeln' to OpenDocument
 
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" exclude-result-prefixes="regeln html">
 	
-	<xsl:variable name="version" select="number(0.80)"/><!-- SKGB-Regeln format version -->
+	<xsl:variable name="version" select="number(0.81)"/><!-- SKGB-Regeln format version -->
 	
 	<xsl:template name='check-version'>
 		
 		<xsl:if test="number(/.//regeln:regeln//@version) &lt; $version">
 			<xsl:message>
 				<xsl:text>Warning: Document Format Version Mismatch! The processed document conforms to version </xsl:text>
-				<xsl:value-of select="number(/.//regeln:regeln//@version)"/>
+				<xsl:value-of select="format-number(number(/.//regeln:regeln//@version), '0.00')"/>
 				<xsl:text> of 'SKGB-Regeln', but this XSLT is made for version </xsl:text>
-				<xsl:value-of select="$version"/>
+				<xsl:value-of select="format-number($version, '0.00')"/>
 				<xsl:text>. The results may not be what you expect.</xsl:text>
 			</xsl:message>
 		</xsl:if>
@@ -82,7 +82,7 @@ XSLT conversion specification for 'SKGB-Regeln' to OpenDocument
 		<xsl:call-template name="check-structure"/>
 		<!--xsl:processing-instruction name="xml-stylesheet">href="#style" type="text/css"</xsl:processing-instruction-->
 		<office:document xml:lang="de" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
-			<office:meta><meta:generator>regeln2odf/<xsl:value-of select="$version"/></meta:generator></office:meta>
+			<office:meta><meta:generator>regeln2odf/<xsl:value-of select="format-number($version, '0.00')"/></meta:generator></office:meta>
 			<!--head>
 				<title>
 					<xsl:value-of select="//regeln:name"/>

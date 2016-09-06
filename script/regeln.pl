@@ -81,21 +81,24 @@ elsif ($showChanges ne 'all') {
 }
 
 
+my $out;
 if ($outputFormat eq 'html') {
-	print $regeln->as_html;
+	$out = $regeln->as_html;
 }
 elsif ($outputFormat eq 'odf') {
-	print $regeln->as_odf;
+	$out = $regeln->as_odf;
 }
 elsif ($outputFormat eq 'txt') {
-	print $regeln->as_txt;
+	$out = $regeln->as_txt;
 }
 elsif ($outputFormat eq 'rep') {
-	print $regeln->as_report;
+	$out = $regeln->as_report;
 }
 else {
-	print $regeln->as_xml;
+	$out = $regeln->as_xml;
 }
+utf8::encode $out;
+print $out;
 
 
 
@@ -135,7 +138,7 @@ the value of the --show-changes option as follows:
 
 -c none (or omitted): The base version default is <head> (the latest version).
 
--c all: The base version default is also <head> (the latest version).
+-c all: The base version default is <head> as well (the latest version).
 
 -c <specific version>: The base version default is same version, such that
 exactly one revision step is shown in the output.
