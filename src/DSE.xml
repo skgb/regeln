@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln">
+	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
+	<ordnung>
+		<name abkuerzung="DSE">Datenschutzerklärung</name>
+		<p>
+			<titel>Allgemeine Bestimmungen</titel>
+			<abs>
+				<s>Der Verein erhebt, verarbeitet und nutzt personenbezogene Daten.</s>
+				<s>Die Verarbeitung erfolgt automatisiert.</s>
+				<s>Sofern notwendig, können Mitgliedern Nummern zugeordnet werden.</s>
+				<s>Verarbeitung und Nutzung sind nur zulässig, wenn diese Datenschutzerklärung es ausdrücklich gestattet oder der Betroffene ausdrücklich seine Einwilligung erklärt.</s>
+			</abs>
+			<abs>
+				<s>Die personenbezogenen Daten sind vom Vorstand durch angemessene technische und organisatorische Maßnahmen vor der Kenntnisnahme Dritter zu schützen.</s>
+			</abs>
+			<abs>
+				<s>Der Vorstand macht allen Mitgliedern ein Verfahrensverzeichnis zugänglich, das jede mögliche Verarbeitung und Nutzung sowie deren Zweck einzeln beschreibt.</s>
+			</abs>
+			<abs>
+				<s>Die pseudonyme Mitgliedschaft ist uneingeschränkt möglich.</s>
+				<s>Eine anonyme Mitgliedschaft ist nur dann möglich, wenn die berechtigten Interessen des Vereins gewahrt bleiben.</s>
+				<s>Hierüber entscheidet der Vorstand auf Antrag.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Datenerhebung und deren Zwecke</titel>
+			<abs>
+				<s>
+					Mit dem Beitritt eines Mitglieds erhebt der Verein zur Ermöglichung der Mitgliederverwaltung
+					<lit>den Namen,</lit>
+					<lit>das Jahr der Geburt und das Geschlecht,</lit>
+					<lit>notwendige Kontaktdaten, und</lit>
+					<lit>zur Erfüllung der Zahlungsverpflichtungen notwendige Daten.</lit>
+				</s>
+			</abs>
+			<abs>
+				<s>Der Verein darf weitere personenbezogene Daten der Mitglieder erheben, sofern ein berechtigtes Interesse dazu besteht, dies zur Verfolgung der Vereinszwecke nützlich ist und keine Anhaltspunkte bestehen, dass die betroffene Person ein schutzwürdiges Interesse hat, das der Erhebung entgegensteht.</s>
+				<s>
+					Insbesondere darf er Daten zur Erleichterung der Verwaltung und Mitgliederbetreuung erheben; dies sind
+					<lit>zusätzliche Kontaktdaten,</lit>
+					<lit>Geburtsdatum und Familienbeziehungen,</lit>
+					<lit>Angaben zu Beruf, Branche, Hobbies und privaten Interessen,</lit>
+					<lit>Angaben zu Befähigungszeugnissen und Segelerfahrung,</lit>
+					<lit>Angaben zur Personensorge, und</lit>
+					<lit>sonstige nützliche Angaben.</lit>
+				</s>
+				<s>Das Angeben aller solcher weiteren Daten ist freiwillig.</s>
+				<s>Es sollen nur jene Daten erhoben werden, die tatsächlich benötigt werden (Datensparsamkeit).</s>
+			</abs>
+			<abs>
+				<s>Der Verein darf personenbezogene Daten von Teilnehmern an Wettfahrten für Fragen der Teilnahmeberechtigung, Haftung und zur Ergebnisauswertung erheben.</s>
+				<s>Er darf weiterhin zur Kontaktpflege personenbezogene Daten von Interessenten, Gästen und Besuchern erheben.</s>
+				<s>Alle diese Angaben sind freiwillig.</s>
+			</abs>
+			<abs>
+				<s>Die freiwillige Angabe von Daten kann Voraussetzung zur Inanspruchnahme einzelner Vereinsangebote sein.</s>
+				<s>
+					Ein berechtigtes Interesse hierzu besteht insbesondere für
+					<lit>Befähigungszeugnisse zur Nutzung von Vereinsbooten oder Liegeplätzen,</lit>
+					<lit>Angaben zur Personensorge zur Teilnahme am Jugendtraining, und</lit>
+					<lit>die Vereinszugehörigkeit zur Teilnahme an Wettfahrten.</lit>
+				</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Verwendung von Daten</titel>
+			<abs>
+				<s>Alle erhobenen Daten dürfen intern verarbeitet und genutzt werden.</s>
+				<s>
+					Personenbezogene Daten werden regelmäßig insbesondere verarbeitet
+					<lit>vom geschäftsführenden Vorstand und dem 1. Jugendwart,</lit>
+					<lit>vom 1. Steg- und Zeugwart zur Betreuung von Stegdienst und Arbeiten, und</lit>
+					<lit>vom 1. Sportwart zur Durchführung von Regatten.</lit>
+				</s>
+			</abs>
+			<abs>
+				<s>Die mit der Datenverarbeitung befassten Personen sind auf die Wahrung des Datengeheimnisses zu verpflichten.</s>
+				<s>Die Verpflichtung besteht auch nach Beendigung der Tätigkeit fort.</s>
+			</abs>
+			<abs>
+				<s>Personenbezogene Daten werden gespeichert
+					<lit>bei den Geschäftsführungsunterlagen,</lit>
+					<lit>elektronisch auf Servern des Vereins,</lit>
+					<lit>elektronisch auf den privaten Rechnern der Mitglieder des geschäftsführenden Vorstands und des 1. Jugendwarts,</lit>
+					<lit>elektronisch auf den privaten Rechnern weiterer Vorstands- und Ausschussmitglieder, soweit ein Bedarf besteht, und</lit>
+					<lit>elektronisch als Sicherheitskopien.</lit>
+				</s>
+				<s>Speicherstellen, Zugriffsberechtigungen und Schutzmaßnahmen sind im Verfahrensverzeichnis einzeln zu benennen.</s>
+			</abs>
+			<abs>
+				<s>Werden personenbezogene Daten auf privaten Rechnern gespeichert, haben die Besitzer die Pflicht, durch kryptographische Verschlüsselung sicherzustellen, dass der Zugriff durch unbefugte Personen technisch ausgeschlossen ist.</s>
+				<s>Sie haben außerdem die Pflicht, durch Schutzsoftware oder andere geeignete Maßnahmen das Risiko eines Befalls mit Schadsoftware zu minimieren.</s>
+			</abs>
+			<abs>
+				<s>Nicht mehr benötigte Kopien von Daten sind zu vernichten.</s>
+				<s>Keinesfalls dürfen nicht sicher gelöschte Datenträger oder nicht geschredderte Ausdrucke entsorgt oder Dritten übergeben werden.</s>
+				<s>Angemessene Kosten für das Vernichten trägt der Verein.</s>
+			</abs>
+			<abs>
+				<s>Es dürfen keine Daten außerhalb des Geltungsbereichs des Grundgesetzes der Bundesrepublik Deutschland verarbeitet werden, außer auf privaten Rechnern, die unter Kontrolle ihrer Besitzer stehen.</s>
+				<s>Daten zur Personensorge und Kontodaten von Mitgliedern dürfen nicht per E-Mail verschickt werden.</s>
+			</abs>
+			<abs>
+				<s>Jeder von der Speicherung personenbezogener Daten Betroffene hat ein Recht auf Selbstauskunft über sämtliche zu seiner Person gespeicherten Daten und deren Zweck.</s>
+				<s>Die Selbstauskunft kann beim Vorstand beantragt werden.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Übermittlung an Dritte</titel>
+			<abs>
+				<s>Der Vorstand macht allen Mitgliedern personenbezogene Daten zugänglich, die zur Erledigung der Pflichten oder Wahrnehmung der Rechte der Mitgliedschaft notwendig sind.</s>
+				<s>
+					Insbesondere sind dies
+					<lit>für Zwecke des Stegdienstes eine Liste der aktiven Mitglieder mit Kontaktdaten,</lit>
+					<lit>ein Stegbelegungsplan,</lit>
+					<lit>auf Anfrage zur Anwendung des § 37 BGB ausreichende Kontaktdaten,</lit>
+					<lit>eine Liste der Vorstands- und Ausschussmitglieder und anderer Funktionsträger, und</lit>
+					<lit>Veränderungen im Verein.</lit>
+				</s>
+			</abs>
+			<abs>
+				<s>Der Vorstand darf allen Mitgliedern Listen von Arbeits- und Fehlstunden, Erledigung von Stegdiensten und der Nutzung vereinseigener Boote zugänglich machen, sofern die Listen vollständig sind.</s>
+			</abs>
+			<abs>
+				<s>Darüber hinaus darf der Vorstand Mitgliedern in Einzelfällen weitere personenbezogene Daten zugänglich machen, wenn ein berechtigtes Interesse besteht, dies zur Verfolgung der Vereinszwecke nützlich ist und keine Anhaltspunkte vorliegen, dass die betroffenen Personen ein schutzwürdiges Interesse haben, das der Übermittlung entgegensteht.</s>
+			</abs>
+			<abs>
+				<s>An Verbände, in denen der Verein Mitglied ist, dürfen keine personenbezogenen Daten übermittelt werden.</s>
+				<s>
+					Davon ausgenommen sind
+					<lit>die anonymisierte Übermittlung von Geburtsjahr, Geschlecht und Mitgliedsstatus an den Landessportbund im Rahmen der Bestandserhebung, und</lit>
+					<lit>Kontaktdaten und Ämter der Vorstandsmitglieder.</lit>
+				</s>
+			</abs>
+			<abs>
+				<s>SEPA-Lastschriftmandate werden auf Verlangen von Finanzdienstleistern des Vereins an diese übermittelt, sofern dies vertraglich vereinbart ist.</s>
+			</abs>
+			<abs>
+				<s>In anderen als den genannten Fällen dürfen personenbezogene Daten nicht übermittelt werden.</s>
+			</abs>
+			<abs>
+				<s>Besteht Grund zu der Annahme, dass Unbefugte Zugriff auf Daten zur Personensorge oder auf Kontodaten von Mitgliedern genommen haben könnten, müssen die Betroffenen unverzüglich darüber informiert werden.</s>
+				<s>Maßnahmen nach § 42a BDSG sind zu treffen.</s>
+				<s>Solche und andere Vorfälle sind der Mitgliederversammlung zu berichten.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Ende der Mitgliedschaft und Löschung von Daten</titel>
+			<abs>
+				<s>Freiwillig angegebene oder nicht mehr benötigte Daten müssen auf Verlangen der betroffenen Person unverzüglich gesperrt oder gelöscht werden.</s>
+			</abs>
+			<abs>
+				<s>Personenbezogene Daten der Mitglieder müssen nach Ablauf des Geschäftsjahres, in dem die Mitgliedschaft endet, binnen 3 Monaten gesperrt werden.</s>
+				<s>Sie müssen grundsätzlich spätestens 3 Jahre, jedoch frühestens 1 Jahr danach gelöscht werden.</s>
+				<s>Daten von Nichtmitgliedern müssen grundsätzlich bereits sofort nach dem Wegfall des Zwecks der Speicherung gelöscht werden.</s>
+			</abs>
+			<abs>
+				<s>Daten dürfen nicht gelöscht werden, wenn Grund zu der Annahme besteht, dass durch eine Löschung schutzwürdige Interessen des Betroffenen beeinträchtigt würden.</s>
+				<s>Solche Daten werden stattdessen gesperrt.</s>
+				<s>
+					Dies betrifft insbesondere
+					<lit>Mitglieder, die in der SKGB den A-Schein des Deutschen Segler-Verbands erworben haben.</lit>
+				</s>
+			</abs>
+			<abs>
+				<s>Soweit aufgrund gesetzlicher Vorschriften oder vertraglicher Bedingungen eine Aufbewahrung einzelner Daten über das Ende der Mitgliedschaft hinaus erforderlich ist, beginnt die Frist zur Löschung dieser Daten erst mit dem Ende der Aufbewahrungspflicht.</s>
+			</abs>
+			<abs>
+				<s>Im Falle von ehemaligen Mitgliedern, deren Geschäftsbeziehung mit dem Verein mehr als 3 Monate nach Ende der Mitgliedschaft fortbesteht, beginnen die Sperr- und Löschfristen für sämtliche Daten der betreffenden Person jeweils erst mit Ablauf des Geschäftsjahres, in dem die Geschäftsbeziehung endet.</s>
+				<s>
+					Dies betrifft insbesondere ausgetretene Mitglieder, die
+					<lit>trotz Ende der Mitgliedschaft noch über Vereinsschlüssel verfügen, oder</lit>
+					<lit>seit Ende der Mitgliedschaft im Zahlungsrückstand sind, unabhängig von einer eventuellen Verjährung.</lit>
+				</s>
+			</abs>
+			<abs>
+				<s>Der Vorstand führt eine Sperrliste mit Mitgliedern, die aus dem Verein ausgeschlossen wurden.</s>
+				<s>Die Sperrliste enthält eine Begründung sowie notwendige Daten, um beurteilen zu können, ob die Grundlage für eine eventuelle Neuaufnahme besteht. Diese Daten bedürfen nicht der Löschung.</s>
+			</abs>
+			<abs>
+				<s>Wird für historische Zwecke ein Vereinsarchiv geführt, können einzelne personenbezogene Daten von der Löschung ausgenommen werden.</s>
+				<s>Näheres regelt das Verfahrensverzeichnis.</s>
+			</abs>
+			<abs>
+				<s>Ausscheidende Funktionsträger dürfen keine personenbezogenen Daten des Vereins in ihrer Verfügungsgewalt behalten.</s>
+				<s>Die Daten sind an den geschäftsführenden Vorstand bzw. den 1. Jugendwart zurückzugeben; alle lokalen Kopien sind zu vernichten.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Datenschutzbeauftragter</titel>
+			<abs>
+				<s>Die Mitgliederversammlung darf einen Datenschutzbeauftragten bestellen für eine Dauer von 2 Jahren.</s>
+				<s>Ist ein Datenschutzbeauftragter aufgrund gesetzlicher Bestimmungen notwendig, muss er vom Vorstand bestellt werden.</s>
+			</abs>
+			<abs>
+				<s>Der Datenschutzbeauftragte muss fachlich geeignet und persönlich zuverlässig sein.</s>
+				<s>Ist er kein Vereinsmitglied, muss er den Anforderungen des „Ulmer Urteils“ genügen.</s>
+				<s>
+					Von der Bestellung als Datenschutzbeauftragter ausgeschlossen sind
+					<lit>Mitglieder des geschäftsführenden Vorstands,</lit>
+					<lit>der 1. Jugendwart, und</lit>
+					<lit>der Obmann des Ausschusses für Informationstechnik.</lit>
+				</s>
+			</abs>
+			<abs>
+				<s>In der Ausübung seiner Funktion ist der Datenschutzbeauftragte unabhängig, frei von Weisungen und ausschließlich dem Datenschutz und der Datensicherheit verpflichtet.</s>
+				<s>Er darf nicht wegen der Erfüllung seiner Aufgaben benachteiligt oder dabei behindert werden.</s>
+				<s>Er darf nicht aus dem Verein ausgeschlossen werden.</s>
+				<s>Diese Immunität gilt bis zu 1 Jahr nach dem Ende seiner Bestellung, außer bei besonders schwerem Pflichtverstoß.</s>
+			</abs>
+			<abs>
+				<s>Der Datenschutzbeauftragte ist beratendes Mitglied aller Organe und Gremien des Vereins und seiner Abteilungen.</s>
+				<s>Diese müssen mit ihm kooperieren.</s>
+				<s>Er hält der Mitgliederversammlung Bericht über seine Tätigkeit.</s>
+			</abs>
+			<abs>
+				<s>Über interne Informationen aus den Organen und Gremien und über personenbezogene Daten, von denen er bei seiner Arbeit Kenntnis nimmt, hat der Datenschutzbeauftragte Stillschweigen zu bewahren.</s>
+				<s>Jedes Zugänglich- oder Bekanntmachen solcher Informationen oder Daten ohne Absprache mit dem Vorstand kann dem Verein Schaden zufügen und ist daher ein Pflichtverstoß besonderer Schwere.</s>
+			</abs>
+			<abs>
+				<s>
+					Zu den Aufgaben des Datenschutzbeauftragten zählt insbesondere,
+					<lit>auf Anwendung der Grundsätze von Datenschutz und Datensicherheit hinzuwirken, und</lit>
+					<lit>dafür Sorge zu tragen, dass Verfahrensverzeichnis und tatsächliche Geschäftsabläufe übereinstimmen.</lit>
+				</s>
+				<s>Ist kein Datenschutzbeauftragter bestellt, übernehmen der Ausschuss für Informationstechnik, die Kassenprüfer und der 1. Vorsitzende diese Aufgaben.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Inkrafttreten</titel>
+			<abs>
+				<s>Diese Datenschutzerklärung ist eine Ordnung des Vereins im Sinne von § 10 der Satzung in der Fassung vom 18. März 2006.</s>
+			</abs>
+			<abs>
+				<s>Das Verfahrensverzeichnis ist bis spätestens 3 Jahren nach Inkrafttreten aufzustellen und zugänglich zu machen.</s>
+			</abs>
+			<abs>
+				<s>Diese Datenschutzerklärung wird beschlossen von der Mitgliederversammlung am <stand>30. Mai 2015</stand>.</s>
+				<s>Sie tritt sofort in Kraft.</s>
+			</abs>
+		</p>
+		<aktuell den="31. Mai 2015"/>
+	</ordnung>
+</regeln>
