@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.70" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.80" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
-		<name>Finanzordnung</name>
+		<name abkuerzung="FinO">Finanzordnung</name>
 		<p>
 			<titel>Beitrags- und Gebührenarten, Zuständigkeiten für die Festlegung</titel>
 			<abs>
@@ -21,14 +21,14 @@
 				</bereich>
 			</abs>
 			<abs>
-				<s>Aktive Mitglieder, die ihre Arbeitsstunden gemäß § 5, Abs. 3 der Satzung nicht vollständig geleistet haben, müssen für die nicht geleisteten Arbeitsstunden einen Fehlstundenbeitrag zahlen.</s>
+				<s>Aktive Mitglieder, die ihre<t gestrichenam="2001-03-17"> Pflichtarbeitsstunden</t><t eingefuegtam="2001-03-17"> Arbeitsstunden</t> gemäß<t gestrichenam="2001-03-17"> § 7</t><t eingefuegtam="2001-03-17"> § 5, Abs. 3</t> der Satzung nicht<t gestrichenam="2001-03-17"> erfüllt</t><t eingefuegtam="2001-03-17"> vollständig geleistet</t> haben, müssen für die nicht geleisteten Arbeitsstunden einen Fehlstundenbeitrag zahlen.</s>
 				<s>Dieser wird von der Mitgliederversammlung festgelegt.</s>
-				<s>Die zu leistenden Arbeitsstunden werden vom Vorstand festgelegt.</s>
+				<s eingefuegtam="2001-03-17">Die zu leistenden Arbeitsstunden werden vom Vorstand festgelegt.</s>
 			</abs>
 			<abs>
-				<s>Für Liegeplätze an der Steganlage und für die Einlagerung von Jollen ins Bootshaus werden Gebühren erhoben.</s> <!-- Auch die BHausO unterscheidet beim Winterlager klar zwischen Einlagerung (innen) und Abstellen (außen). Eine Außenüberwinterung ist also tatsächlich kostenlos. -->
+				<s>Für Liegeplätze an der Steganlage<t gestrichenam="2012-03-17"> und für die Einlagerung von Jollen ins Bootshaus</t> werden Gebühren erhoben.</s> <!-- Auch die BHausO unterscheidet beim Winterlager klar zwischen Einlagerung (innen) und Abstellen (außen). Eine Außenüberwinterung war also tatsächlich kostenlos. -->
 				<s>Diese werden von der Mitgliederversammlung festgelegt.</s>
-				<s>Landliegeplätze auf dem Vereinsgelände <steil eingefuegtam="2010-04-17">(Jollenwiese)</steil> <!-- Übernahme aus StegO --> sind bereits im Beitrag enthalten.</s>
+				<s>Landliegeplätze auf dem Vereinsgelände<t eingefuegtam="2010-04-17"> (Jollenwiese)</t> <!-- Übernahme aus StegO --> sind bereits im Beitrag enthalten.</s>
 			</abs>
 			<abs>
 				<s>Es werden Nutzungsbeiträge für die Benutzung der vereinseigenen Boote gemäß der jeweiligen Nutzungsordnung erhoben.</s>
@@ -41,6 +41,10 @@
 				<s>Die Höhe legt der Vorstand anhand der entstandenen Schlüsselkosten fest.</s>
 				<s>Der Pfandbetrag wird bei Rückgabe des Schlüssels unverzinzt <!-- [sic!] --> erstattet.</s>
 			</abs>
+			<abs eingefuegtam="2014-04-05">
+				<s>Für Mahnungen von Zahlungsverpflichtungen, die seit mindestens 90 Tagen fällig sind, wird eine Gebühr erhoben.</s>
+				<s>Deren Höhe legt der Vorstand fest.</s>
+			</abs>
 		</p>
 		<p>
 			<titel>Beitrags- und Gebührenhöhen</titel>
@@ -49,44 +53,64 @@
 				<s gestrichenam="2010-04-17">Die Aufnahmegebühren sind einmalige Beträge.</s>
 <dump><!-- 
  Mitgliedsbeiträge:
--->Mitgliedsbeitrag Aktiv: <steil gestrichenam="2001-10-27">200,– DM</steil><steil eingefuegtam="2001-10-27">120,– €</steil>
-Mitgliedsbeitrag Aktiv in Schul- / Berufsausbildung o.ä.: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingefuegtam="2001-10-27">60,– €</steil>
-Mitgliedsbeitrag Passiv: <steil gestrichenam="2001-10-27">70,– DM</steil><steil eingefuegtam="2001-10-27">36,– €</steil>
-Mitgliedsbeitrag Jugend: <steil gestrichenam="2001-10-27">60,– DM</steil><steil eingefuegtam="2001-10-27">35,– €</steil>
+-->Mitgliedsbeitrag Aktiv: <t gestrichenam="2001-10-27">200,– DM</t><t eingefuegtam="2001-10-27">120,– €</t>
+Mitgliedsbeitrag Aktiv in Schul- / Berufsausbildung o.ä.: <t gestrichenam="2001-10-27">100,– DM</t><t eingefuegtam="2001-10-27">60,– €</t>
+Mitgliedsbeitrag Passiv: <t gestrichenam="2001-10-27">70,– DM</t><t eingefuegtam="2001-10-27">36,– €</t>
+Mitgliedsbeitrag Jugend: <t gestrichenam="2001-10-27">60,– DM</t><t eingefuegtam="2001-10-27">35,– €</t>
 Ehrenmitgliedschaft: beitragsfrei
 <bereich gestrichenam="2010-04-17"><!--
  Aufnahmegebühren: -->
-Aufnahmegebühr Aktiv: <steil gestrichenam="2001-10-27">200,– DM</steil><steil eingefuegtam="2001-10-27">120,– €</steil>
-Aufnahmegebühr Aktiv in Schul- / Berufsausbildung o.ä.: <steil gestrichenam="2001-10-27">100,– DM</steil> <!-- need this space here to prevent well-formedness error in iCab; but Sabltotron produces well-formed result ?! --><steil eingefuegtam="2001-10-27">60,– €</steil>
-Aufnahmegebühr Passiv: <steil gestrichenam="2001-10-27">10,– DM</steil><steil eingefuegtam="2001-10-27"><steil gestrichenam="2006-03-18">5,– €</steil><steil eingefuegtam="2006-03-18">keine</steil></steil>
-Aufnahmegebühr Jugend: <steil gestrichenam="2001-10-27">20,– DM</steil><steil eingefuegtam="2001-10-27">10,– €</steil>
+Aufnahmegebühr Aktiv: <t gestrichenam="2001-10-27">200,– DM</t><t eingefuegtam="2001-10-27">120,– €</t>
+Aufnahmegebühr Aktiv in Schul- / Berufsausbildung o.ä.: <t gestrichenam="2001-10-27">100,– DM</t><t eingefuegtam="2001-10-27">60,– €</t>
+Aufnahmegebühr Passiv: <t gestrichenam="2001-10-27">10,– DM</t><t eingefuegtam="2001-10-27"><t gestrichenam="2006-03-18">5,– €</t></t><t eingefuegtam="2006-03-18">keine</t>
+Aufnahmegebühr Jugend: <t gestrichenam="2001-10-27">20,– DM</t><t eingefuegtam="2001-10-27">10,– €</t>
 </bereich><!--
  Arbeitsausgleich: -->
-Fehlstundenbeitrag (je Stunde): <steil gestrichenam="2001-10-27">15,– DM</steil><steil eingefuegtam="2001-10-27">10,– €</steil>
-Stegdienstversäumnis-Ausgleichszahlung: <steil eingefuegtam="2002-03-09">25,– €</steil>
+Fehlstundenbeitrag (je Stunde): <t gestrichenam="2001-10-27">15,– DM</t><t eingefuegtam="2001-10-27">10,– €</t>
+<s eingefuegtam="2002-03-09">Stegdienstversäumnis-Ausgleichszahlung: 25,– €</s>
 <!--
  Gebühren für Leistungen: -->
-Stegliegeplatz: <steil gestrichenam="2001-10-27">100,– DM</steil><steil eingefuegtam="2001-10-27">65,– €</steil>
+Stegliegeplatz: <t gestrichenam="2001-10-27">100,– DM</t><t eingefuegtam="2001-10-27">65,– €</t>
 <s eingefuegtam="2010-04-17">Stegliegeplatz für Kanus: 20,– €</s>
-Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">150,– DM</steil><steil eingefuegtam="2002-03-09">75,– €</steil>
-<steil gestrichenam="2010-04-17">Nutzungsbeitrag für die SAILHORSE-Jolle</steil><steil eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Aktiv</steil>: <steil gestrichenam="2001-10-27">150,– DM</steil><steil eingefuegtam="2001-10-27">90,– €</steil>
-<steil gestrichenam="2010-04-17">Nutzungsbeitrag für die Jugendboote</steil><steil eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Jugend und Aktiv in Schul- / Berufsausbildung o.ä.</steil>: <steil gestrichenam="2001-10-27">55,– DM</steil><steil eingefuegtam="2001-10-27">55,– €</steil>
+Einlagerungsgebühr<t gestrichenam="2012-03-17"> (einmaliger Beitrag)</t>: <t gestrichenam="2002-03-09">150,– DM</t><t eingefuegtam="2002-03-09"><t gestrichenam="2012-03-17">75,– €</t></t><t eingefuegtam="2012-03-17">keine</t>
+<s eingefuegtam="2011-05-28">Boots-Nutzungsbeitrag Aktiv (pro Tag): 10,– €</s>
+<t gestrichenam="2010-04-17">Nutzungsbeitrag für die SAILHORSE-Jolle</t><t eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Aktiv</t><t eingefuegtam="2011-05-28"> (Höchstbetrag pro Jahr)</t>: <t gestrichenam="2001-11-24">150,– DM</t><t eingefuegtam="2001-11-24">90,– €</t>
+<s eingefuegtam="2011-05-28">Boots-Nutzungsbeitrag Aktiv in Schul- / Berufsausbildung o.ä. (Höchstbetrag pro Jahr): 55,– €</s>
+<t gestrichenam="2010-04-17">Nutzungsbeitrag für die Jugendboote</t><t eingefuegtam="2010-04-17">Boots-Nutzungsbeitrag Jugend<t gestrichenam="2011-05-28"> und Aktiv in Schul- / Berufsausbildung o.ä.</t></t>: <t gestrichenam="2001-11-24">55,– DM</t><t eingefuegtam="2001-11-24">55,– €</t>
 <!--
- durch den Vorstand festgelegte Verwaltungsgebühren: 
- --><!--s nachgefuehrtam="2007-07-23 [per E-Mail] 2010-02-14">Mahngebühr: 5,– € (nachrichtlich)</s--><!-- keine Grundlage: neu beschließen in 2011 -->
-<s nachgefuehrtam="2010-02-14 2010-09-04">Schlüsselpfand: 50,– €</s>
+ durch den Vorstand festgelegte Verwaltungsgebühren: -->
+<s eingefuegtam="2014-04-05">Mahngebühr (je Mahnung): 5,– €</s>
+<s eingefuegtam="2010-04-17">Schlüsselpfand: <t gestrichenam="2010-09-04">25,– €</t><t eingefuegtam="2010-09-04">50,– €</t></s><!-- frühere Pfandbeträge: 5,– DM bis in die 80er, danach 15,– DM bis etwa 1997, danach 50,– DM bis zur Euro-Anpassung auf 25,– € in 2002 -->
 </dump>
 			</abs>
+			<abs eingefuegtam="2011-05-28">
+				<s>Vorstandsmitglieder und Übungsleiter sind von der Zahlung von Boots-Nutzungsgebühren befreit.</s>
+			</abs>
 			<abs>
-				<s>Der <steil gestrichenam="2010-04-17">Mitgliedsbeitrag</steil> <steil eingefuegtam="2010-04-17">Beitrag</steil> Aktiv in Schul- / Berufsausbildung o.ä. wird auf Antrag gewährt.</s>
+				<s>Der<t gestrichenam="2010-04-17"> Mitgliedsbeitrag</t><t eingefuegtam="2010-04-17"> Beitrag</t> Aktiv in Schul- / Berufsausbildung o.ä. wird auf Antrag gewährt.</s>
 				<s>Die Voraussetzungen werden durch den Vorstand geprüft.</s>
 			</abs>
 			<abs>
 				<s>Der Vorstand kann in besonders begründeten Einzelfällen abweichende Beiträge oder Gebühren festsetzen, um Härten zu vermeiden.</s>
 			</abs>
-			<abs>
+			<abs gestrichenam="2014-04-05">
 				<s>Um den Verwaltungsaufwand gering zu halten, sind alle Vereinsmitglieder angehalten und neu aufzunehmende Mitglieder verpflichtet, sich am Lastschriftverfahren zu beteiligen.</s>
 				<s>Ausnahmen kann der Vorstand nur in besonders begründeten Einzelfällen zulassen.</s>
+			</abs>
+		</p>
+		<p eingefuegtam="2014-04-05">
+			<titel>Zahlungsweise</titel>
+			<abs>
+				<s>Jedes Vereinsmitglied ist dazu verpflichtet, seinen Zahlungsverpflichtungen durch schriftliche Erteilung des SEPA-Lastschriftmandats nachzukommen.</s>
+			</abs>
+			<abs>
+				<s>Vereinsmitglieder, die das SEPA-Mandat widerrufen, haben bis zur Erteilung eines neuen SEPA-Mandats ihre Zahlungsverpflichtungen unaufgefordert durch pünktliche Zahlung auf das zutreffende Vereinskonto zu erfüllen.</s>
+			</abs>
+			<abs>
+				<s>Der Vorstand kündigt jeden Lastschrifteinzug mindestens 12 Tage vorher dem Kontoinhaber oder dem Zahlungspflichtigen an (Vorabinformation). Es liegt in der Verantwortung der Mitglieder, rechtzeitig für ausreichende Kontodeckung zu sorgen.</s>
+			</abs>
+			<abs>
+				<s>Bei mangelnder Kontodeckung oder Rückgaben von Lastschriften hat das Vereinsmitglied binnen 8 Tagen die Klärung mit dem geschäftsführenden Vorstand zu suchen. Bankgebühren für Nichteinlösung oder Rückgabe sind vom betreffenden Mitglied zu tragen, sofern die Vorabinformation und die vom Verein eingereichte Lastschrift korrekt waren. Alle Mitglieder sind daher angehalten, sich mit Widersprüchen, Fragen oder Problemen im Zusammenhang mit dem Lastschriftverfahren unmittelbar an den SKGB-Schatzmeister zu wenden.</s>
 			</abs>
 		</p>
 		<p>
@@ -103,37 +127,54 @@ Einlagerungsgebühr (einmaliger Beitrag): <steil gestrichenam="2002-03-09">150,�
 				<s>Über Ausnahmen entscheidet der Vorstand.</s>
 				<s>Die Aufnahmegebühr ist nicht fällig, wenn der Aufnahmeantrag abgelehnt wurde.</s>
 			</abs>
-			<abs>
-				<s>Alle <steil gestrichenam="2010-04-17">anderen</steil> Zahlungen sind im ersten Quartal eines Jahres fällig.</s>
+			<abs gestrichenam="2014-04-05">
+				<s>Alle <t gestrichenam="2010-04-17">anderen</t> Zahlungen sind im ersten Quartal eines Jahres fällig.</s>
 				<s>Bei späterem Entstehen einer Zahlungsverpflichtung ist diese sofort fällig.</s>
+			</abs>
+			<abs eingefuegtam="2014-04-05">
+				<s>Zahlungsverpflichtungen sind fällig am 12. Tag nach ihrem Entstehen oder ihrer Bekanntgabe. Abweichend davon sind Mitgliedsbeiträge grundsätzlich am 1. Januar, Liegeplatzgebühren am 1. April eines Jahres fällig.</s>
+			</abs>
+			<abs eingefuegtam="2014-04-05">
+				<s>Zahlungsverpflichtungen von Mitgliedern, welche dem Verein die Nutzung des SEPA-Lastschriftverfahrens ermöglichen, sind erst zu dem in der Vorabinformation genannten Termin fällig.</s>
 			</abs>
 		</p>
 		<p gestrichenam="2010-04-17">
 			<titel>Wechsel zwischen verschiedenen Mitgliedschaftsarten</titel>
-			<s>Der Wechsel zwischen den Mitgliedschaftsarten (Mitgliedsstatuswechsel) ist außer in den nachfolgend genannten Fällen gebührenfrei.</s>
-			<nr>
-				<html:em>Passiv auf Aktiv:</html:em><html:br/>
-				<s>Passiven Mitgliedern wird bei ihrem Wechsel in die aktive Mitgliedschaft für jedes Jahr ihrer beitragspflichtigen, passiven Mitgliedschaft die Aufnahmegebühr für aktive Mitglieder um ein Viertel reduziert.</s>
-				<s gestrichenam="2006-03-18">Der Restbetrag wird abzüglich der für die passive Mitgliedschaft gezahlten Aufnahmegebühr erhoben.</s>
-				<s>Nach vier Jahren passiver Mitgliedschaft ist der Wechsel damit gebührenfrei.</s>
-				<bereich gestrichenam="2006-03-18">
-					<s>Diese Regelung gilt nur für Mitglieder, die vor dem Wechsel noch nicht aktive Mitglieder waren.</s>
-					<s>Bei passiven Mitgliedern, die zuvor mindestens ein Jahr Mitglieder der Jugendabteilung waren, wird keine weitere Aufnahmegebühr erhoben.</s>
-					<s>Anderenfalls wird der Jahresbeitrag in der Jugendabteilung wie ein passiver Mitgliedsbeitrag anerkannt.</s>
-				</bereich>
-				<s eingefuegtam="2006-03-18">Diese Regelung gilt nur für Mitglieder, die bis vor dem Wechsel weder aktive Mitglieder noch Mitglieder der Jugendabteilung waren.</s>
-			</nr>
-			<bereich gestrichenam="2002-03-09"><nr>
-				<html:em>Jugend auf Aktiv:</html:em><html:br/>
-				<s>Von Mitgliedern der Jugendabteilung, die vor ihrem Wechsel weniger als ein Jahr beitragspflichtig der Jugendabteilung angehört haben, wird die Aufnahmegebühr für die aktive Mitgliedschaft abzüglich der für die Jugendmitgliedschaft gezahlten Aufnahmegebühr erhoben.</s>
-			</nr></bereich>
+			<abs>
+				<s>Der Wechsel zwischen den Mitgliedschaftsarten (Mitgliedsstatuswechsel) ist außer in den nachfolgend genannten Fällen gebührenfrei.</s>
+				<nr>
+					<html:em>Passiv auf Aktiv:</html:em><html:br/>
+					<s>Passiven Mitgliedern wird bei ihrem Wechsel in die aktive Mitgliedschaft für jedes Jahr ihrer beitragspflichtigen, passiven Mitgliedschaft die Aufnahmegebühr für aktive Mitglieder um ein Viertel reduziert.</s>
+					<s gestrichenam="2006-03-18">Der Restbetrag wird abzüglich der für die passive Mitgliedschaft gezahlten Aufnahmegebühr erhoben.</s>
+					<s>Nach vier Jahren passiver Mitgliedschaft ist der Wechsel damit gebührenfrei.</s>
+					<bereich gestrichenam="2006-03-18">
+						<s>Diese Regelung gilt nur für Mitglieder, die vor dem Wechsel noch nicht aktive Mitglieder waren.</s>
+						<s>Bei passiven Mitgliedern, die zuvor mindestens ein Jahr Mitglieder der Jugendabteilung waren, wird keine weitere Aufnahmegebühr erhoben.</s>
+						<s>Anderenfalls wird der Jahresbeitrag in der Jugendabteilung wie ein passiver Mitgliedsbeitrag anerkannt.</s>
+					</bereich>
+					<s eingefuegtam="2006-03-18">Diese Regelung gilt nur für Mitglieder, die bis vor dem Wechsel weder aktive Mitglieder noch Mitglieder der Jugendabteilung waren.</s>
+				</nr>
+				<nr gestrichenam="2002-03-09">
+					<html:em>Jugend auf Aktiv:</html:em><html:br/>
+					<s>Von Mitgliedern der Jugendabteilung, die vor ihrem Wechsel weniger als ein Jahr beitragspflichtig der Jugendabteilung angehört haben, wird die Aufnahmegebühr für die aktive Mitgliedschaft abzüglich der für die Jugendmitgliedschaft gezahlten Aufnahmegebühr erhoben.</s>
+				</nr>
+			</abs>
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s nachgefuehrtam="2001-10-27 2002-03-09 2006-03-18 2010-04-17">Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und geändert von den Mitgliederversammlungen am 27. Oktober 2001, 9. März 2002, 18. März 2006 und 17. April 2010.</s>
-			<s eingefuegtam="2010-09-04">Sie gibt auch Beschlüsse des Vorstands aus seiner Sitzung am <stand>4. September 2010</stand> wieder.</s>
-			<s>Sie tritt sofort in Kraft.</s>
+			<abs>
+				<s>Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen<t eingefuegtam="2001-03-17" gestrichenam="2010-04-17"> und zuletzt geändert von der Mitgliederversammlung am <t gestrichenam="2001-10-27">17. März 2001</t><t eingefuegtam="2001-10-27" gestrichenam="2002-03-09">27. Oktober 2001</t><t eingefuegtam="2002-03-09" gestrichenam="2006-03-18">9. März 2002</t><t eingefuegtam="2006-03-18">18. März 2006</t></t><t eingefuegtam="2010-04-17"> und geändert von den Mitgliederversammlungen am <!--t eingefuegtam="">17. März 2001, </t-->27. Oktober 2001, 9. März 2002, 18. März 2006<t gestrichenam="2011-05-28"> und</t><t eingefuegtam="2011-05-28">,</t> 17. April 2010<t eingefuegtam="2011-05-28"><t gestrichenam="2012-03-17"> und</t><t eingefuegtam="2012-03-17">,</t> 28. Mai 2011<t eingefuegtam="2012-03-17"><t gestrichenam="2014-04-05"> und</t><t eingefuegtam="2014-04-05">,</t> 17. März 2012<t eingefuegtam="2014-04-05"> und <stand>5. April 2014</stand></t></t></t></t>.</s>
+				<s eingefuegtam="2010-09-04">Sie gibt auch Beschlüsse des Vorstands aus seine<t gestrichenam="2014-04-05">r</t><t eingefuegtam="2014-04-05">n</t> Sitzung<t eingefuegtam="2014-04-05">en</t> am <!--t eingefuegtam="">24. November 2001, </t--><t eingefuegtam="2014-04-05">27. Mai 2007 und </t>4. September 2010 wieder.</s>
+				<s>Sie tritt sofort in Kraft.</s>
+			</abs>
+			<abs eingefuegtam="2014-04-05">
+				<s>Vor dem 1. Januar 2014 erteilte Einzugsermächtigungen gelten als Mandate im SEPA-Lastschriftverfahren für alle Zahlungsverpflichtungen eines Mitglieds gegenüber dem Verein. Teileinzüge werden nicht mehr vorgenommen.</s>
+			</abs>
 		</p>
-		<aktuell den="5. Dezember 2010"/>
+		<aktuell den="30. November 2015"/>
 	</ordnung>
 </regeln>
+<!-- alte Rechtschreibung -->
+<!-- Änderungen 2001-03-17 und 2001-11-24 nicht unter Inkraftreten nachgeführt -->
+<!-- § 2 war ursprünglich nur 1 Absatz, wurde aufgeteilt ca. 2010 -->
+<!-- Klarstellung der Beiträge der Jugendabteilung 2010 versehentlich gestrichen? -->
