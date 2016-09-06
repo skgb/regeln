@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.80" xmlns="http://www.skgb.de/2005/regeln">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<satzung>
 		<name>Satzung</name>
@@ -8,13 +8,13 @@
 		<p>
 			<titel>Name und Sitz</titel>
 			<abs>
-				<s>Der am 01.09.1967 gegründete Verein führt den Namen „Segel- und Kanugemeinschaft Bruchertalsperre“</s>
+				<s>Der am <t gestrichenam="2015-05-30">01.09.</t> <t eingefuegtam="2015-05-30">1. September</t> 1967 gegründete Verein führt den Namen „Segel- und Kanugemeinschaft <t gestrichenam="2015-05-30">Bruchertalsperre</t> <t eingefuegtam="2015-05-30">Brucher Talsperre</t>“<t eingefuegtam="2015-05-30">.</t></s>
 			</abs>
 			<abs>
 				<s>Der Sitz des Vereins ist Marienheide.</s>
 			</abs>
 			<abs>
-				<s>Er ist in das Vereinsregister beim Amtsgericht Gummersbach unter VR 507 eingetragen und führt den Zusatz „e.V.“.</s>
+				<s>Er ist in das Vereinsregister beim Amtsgericht <t gestrichenam="2015-05-30">Gummersbach</t> <t eingefuegtam="2015-05-30">Köln</t> unter VR <t eingefuegtam="2015-05-30">600</t>507 eingetragen und führt den Zusatz „e.<t eingefuegtam="2015-05-30"> </t>V.“<t gestrichenam="2015-05-30">.</t></s>
 			</abs>
 			<abs>
 				<s>Die Vereinsfarben sind rot/weiß.</s>
@@ -55,64 +55,62 @@
 				<s>Ein Mitglied ist Jugendlicher bis zum Ablauf des Jahres, in dem er das 19. Lebensjahr vollendet.</s>
 			</abs>
 			<abs>
-				<s>Mitglied des Vereins kann jede natürliche Person werden.</s>
+				<s>Mitglied des Vereins kann jede natürliche <t eingefuegtam="2015-05-30">oder juristische</t> Person werden.</s>
 				<s>Das Mindestalter beträgt acht Jahre.</s>
-				<s>Juristische Personen können nur als passive Mitglieder aufgenommen werden.</s>
+				<s gestrichenam="2015-05-30">Juristische Personen können nur als passive Mitglieder aufgenommen werden.</s>
 			</abs>
 			<abs>
-				<s>Der Aufnahmeantrag muß schriftlich an den Vorstand gerichtet werden.</s>
+				<s>Der Aufnahmeantrag mu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t> schriftlich an den Vorstand gerichtet werden.</s>
 				<s>Bei Minderjährigen ist die Zustimmung des gesetzlichen Vertreters erforderlich.</s>
 			</abs>
 			<abs>
 				<s>Die Aufnahme erfolgt zunächst als Gast.</s>
 				<s>Sie wird durch den Vorstand erklärt und ist in der nächsten Mitgliederversammlung bekanntzugeben.</s>
 				<s>Über die endgültige Aufnahme entscheidet die Mitgliederversammlung nach mindestens sechs Monaten Gastmitgliedschaft.</s>
-				<s>Die Ablehnung muß dem Antragsteller mitgeteilt werden.</s>
-				<s>Während der Gastmitgliedschaft hat der Antragsteller alle Rechte und Pflichten, die sich aus seiner beantragten Mitgliedschaft ergeben mit Ausnahme des Stimmrechtes.</s>
-				<s>Dieser Absatz gilt nicht für die Aufnahme jugendlicher Mitglieder; diese wird durch die Jugendordnung geregelt.</s>
+				<s>Die Ablehnung mu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t> dem Antragsteller mitgeteilt werden.</s>
+				<s>Während der Gastmitgliedschaft hat der Antragsteller alle Rechte und Pflichten, die sich aus seiner beantragten Mitgliedschaft ergeben<t eingefuegtam="2015-05-30">,</t> mit Ausnahme des Stimmrecht<t gestrichenam="2015-05-30">e</t>s.</s>
+				<s gestrichenam="2015-05-30">Dieser Absatz gilt nicht für die Aufnahme jugendlicher Mitglieder; diese wird durch die Jugendordnung geregelt.</s>
 			</abs>
 			<abs>
-				<s>Mitglieder, die sich um den Verein verdient gemacht haben, können von der Mitgliederversammlung mit Zweidrittel-Mehrheit zu Ehrenmitgliedern ernannt werden.</s>
+				<s>Mitglieder, die sich um den Verein verdient gemacht haben, können von der Mitgliederversammlung mit Zweidrittel<t gestrichenam="2015-05-30">-M</t><t eingefuegtam="2015-05-30">m</t>ehrheit zu Ehrenmitgliedern ernannt werden.</s>
 			</abs>
 			<abs>
-				<s>Die Mitgliedschaft endet</s>
-				<lit>
-					<s>mit dem Tod des Mitgliedes.</s>
-				</lit>
-				<lit>
-					<s>durch Austritt des Mitgliedes.</s>
-				</lit>
-				<lit>
-					<s>durch Ausschluß aus dem Verein.</s>
-				</lit>
+				<s>
+					Die Mitgliedschaft endet
+					<lit>mit dem Tod des Mitglied<t gestrichenam="2015-05-30">e</t>s<t gestrichenam="2015-05-30">.</t><t eingefuegtam="2015-05-30">,</t></lit>
+					<lit>durch Austritt des Mitglied<t gestrichenam="2015-05-30">e</t>s<t gestrichenam="2015-05-30">.</t><t eingefuegtam="2015-05-30">,</t></lit>
+					<lit>durch Ausschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t> aus dem Verein.</lit>
+				</s>
+				<s gestrichenam="2015-05-30">Der Verlust der Mitgliedschaft begründet keinen Anspruch auf das Vereinsvermögen.</s>
+			</abs>
+			<abs eingefuegtam="2015-05-30"><!-- redaktioneller Fehler, aber es wurde genau so beschlossen -->
 				<s>Der Verlust der Mitgliedschaft begründet keinen Anspruch auf das Vereinsvermögen.</s>
 			</abs>
 			<abs>
-				<s>Der Austritt erfolgt durch schriftliche Erklärung gegenüber dem Vorstand. Der Austritt ist mit einer Frist vom einem Monat zum Ende eines Geschäftsjahres möglich.</s>
+				<s>Der Austritt erfolgt durch <t gestrichenam="2015-05-30">schriftliche</t> Erklärung <t eingefuegtam="2015-05-30">in Textform</t> gegenüber dem Vorstand. Der Austritt ist mit einer Frist <t gestrichenam="2015-05-30">vom einem Monat</t> <t eingefuegtam="2015-05-30">von einer Woche</t> zum Ende eines Geschäftsjahres möglich.</s>
 			</abs>
 			<abs>
-				<s>Der Ausschluß aus dem Verein kann erfolgen,</s>
+				<s>Der Ausschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t> aus dem Verein kann erfolgen,</s>
 				<lit>
 					<s>wenn ein Mitglied sich vereinsschädigend verhält oder seinen Verpflichtungen dem Verein gegenüber nicht nachkommt.</s>
 					<s>Das Mitglied ist vorher zur Sache anzuhören.</s>
-					<s>Der Ausschluß wird von der Mitgliederversammlung mit Zweidrittel-Mehrheit beschlossen.</s>
+					<s>Der Ausschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t> wird von der Mitgliederversammlung mit Zweidrittel<t gestrichenam="2015-05-30">-M</t><t eingefuegtam="2015-05-30">m</t>ehrheit beschlossen.</s>
 					<s>Niemand darf aus Gründen der Religion, Rasse oder Politik ausgeschlossen werden.</s>
 					<s>Die Entscheidung ist dem Ausgeschlossenen schriftlich mit Begründung mitzuteilen.</s>
 				</lit>
 				<lit>
-					<s gestrichenam="2006-03-18">wenn ein Mitglied seinen Zahlungsverpflichtungen gegenüber dem Verein nicht nachkommt und mit diesen trotz Mahnung mindestens zwei Jahre im Rückstand ist.</s>
-					<s eingefuegtam="2006-03-18">wenn ein Mitglied seinen Zahlungsverpflichtungen gegenüber dem Verein nicht nachkommt und mit diesen trotz Mahnung mindestens ein Jahr im Rückstand ist.</s>
-					<s>In diesem Fall kann der Ausschluß vom Vorstand mit Zweidrittel-Mehrheit beschlossen werden.</s>
+					<s>wenn ein Mitglied seinen Zahlungsverpflichtungen gegenüber dem Verein nicht nachkommt und mit diesen trotz Mahnung mindestens <t gestrichenam="2006-03-18">zwei Jahre</t> <t eingefuegtam="2006-03-18">ein Jahr</t> im Rückstand ist.</s>
+					<s>In diesem Fall kann der Ausschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t> vom Vorstand mit Zweidrittel<t gestrichenam="2015-05-30">-M</t><t eingefuegtam="2015-05-30">m</t>ehrheit beschlossen werden.</s>
 					<s>Die Entscheidung ist dem ausgeschlossenen Mitglied mitzuteilen und der Mitgliederversammlung bekanntzugeben.</s>
 					<s>Das Mitglied kann innerhalb von vier Wochen schriftlich seinen Widerspruch an den Vorstand richten.</s>
-					<s>Dann entscheidet die nächste Mitgliederversammlung mit Zweidrittel-Mehrheit.</s>
+					<s>Dann entscheidet die nächste Mitgliederversammlung mit Zweidrittel<t gestrichenam="2015-05-30">-M</t><t eingefuegtam="2015-05-30">m</t>ehrheit.</s>
 				</lit>
 			</abs>
 		</p>
 		<p>
 			<titel>Rechte und Pflichten der Mitglieder</titel>
 			<abs>
-				<s>Jedes Mitglied hat das Recht, an Veranstaltungen der Vereins teilzunehmen und die Vereinseinrichtungen zu benutzen.</s>
+				<s>Jedes Mitglied hat das Recht, an Veranstaltungen <t gestrichenam="2015-05-30">der</t> <t eingefuegtam="2015-05-30">des</t> Vereins teilzunehmen und die Vereinseinrichtungen zu benutzen.</s>
 				<s>Das Nähere regeln die Ordnungen des Vereins.</s>
 				<s>Die Satzung und die Ordnungen sind für alle Mitglieder bindend.</s>
 			</abs>
@@ -135,38 +133,38 @@
 		<p>
 			<titel>Beiträge</titel>
 			<abs>
-				<s>Der Verein erhebt Mitgliedsbeiträge und Aufnahmegebühren.</s>
+				<s>Der Verein erhebt Mitgliedsbeiträge<t gestrichenam="2015-05-30"> und Aufnahmegebühren</t>.</s>
 				<s>Diese werden von der Mitgliederversammlung festgesetzt.</s>
 			</abs>
 			<abs>
 				<s>Weitere Gebühren oder Umlagen können erhoben werden.</s>
-				<s>Alles weitere regelt die Finanzordnung.</s>
+				<s>Alles <t gestrichenam="2015-05-30">w</t><t eingefuegtam="2015-05-30">W</t>eitere regelt die Finanzordnung.</s>
 			</abs>
 		</p>
 		<p>
 			<titel>Organe und Gremien des Vereins</titel>
 			<abs>
-				<s>Organe des Vereins sind:</s>
-				<lit>
-					<s>die Mitgliederversammlung</s>
-				</lit>
-				<lit>
-					<s>der Vorstand</s>
-				</lit>
+				<s>
+					Organe des Vereins sind<t gestrichenam="2015-05-30">:</t>
+					<lit>die Mitgliederversammlung<t eingefuegtam="2015-05-30">,</t></lit>
+					<lit>der Vorstand<t eingefuegtam="2015-05-30">.</t></lit>
+				</s>
 				<s>Die Mitgliederversammlung ist das oberste Organ des Vereins.</s>
 			</abs>
 			<abs>
-				<s>Gremien des Vereins sind:</s>
-				<lit>
-					<s>Ausschüsse des Vereins</s>
-				</lit>
+				<s>
+					Gremien des Vereins sind<t gestrichenam="2015-05-30">:</t>
+					<lit><t eingefuegtam="2015-05-30">die</t> Ausschüsse des Vereins<t eingefuegtam="2015-05-30">.</t></lit>
+				</s>
 			</abs>
 		</p>
 		<p>
 			<titel>Mitgliederversammlung</titel>
 			<abs>
-				<s gestrichenam="2006-03-18">Ordentliche Mitgliederversammlungen finden zweimal im Jahr statt, je eine im Frühjahr und eine im Herbst.</s>
-				<s gestrichenam="2006-03-18">Eine Mitgliederversammlung, in der ordentliche Wahlen zum Vorstand stattfinden, heißt auch Generalversammlung.</s>
+				<bereich gestrichenam="2006-03-18">
+					<s>Ordentliche Mitgliederversammlungen finden zweimal im Jahr statt, je eine im Frühjahr und eine im Herbst.</s>
+					<s>Eine Mitgliederversammlung, in der ordentliche Wahlen zum Vorstand stattfinden, heißt auch Generalversammlung.</s>
+				</bereich>
 				<s eingefuegtam="2006-03-18">Einmal im Jahr findet eine ordentliche Mitgliederversammlung statt, und zwar üblicherweise im ersten Quartal.</s>
 			</abs>
 			<abs>
@@ -180,27 +178,27 @@
 				</lit>
 			</abs>
 			<abs>
-				<s>Der Vorstand lädt unter Angabe der Tagesordnung mindestens vier Wochen vor der Mitgliederversammlung schriftlich ein.</s>
+				<s>Der Vorstand lädt unter Angabe der Tagesordnung mindestens vier Wochen vor der Mitgliederversammlung <t gestrichenam="2015-05-30">schriftlich</t> <t eingefuegtam="2015-05-30">in Textform</t> ein.</s>
 			</abs>
 			<abs>
 				<s>Anträge zur Mitgliederversammlung kann außer den Mitgliedern auch jedes Organ oder Gremium stellen.</s>
-				<s>Anträge müssen bis drei Wochen vor der Mitgliederversammlung schriftlich und mit Begründung beim geschäftsführenden Vorstand eingereicht werden.</s>
+				<s>Anträge müssen bis drei Wochen vor der Mitgliederversammlung <t gestrichenam="2015-05-30">schriftlich und</t> mit Begründung <t eingefuegtam="2015-05-30">in Textform</t> beim geschäftsführenden Vorstand eingereicht werden.</s>
 				<s>Dies gilt auch für Anträge zur Aufnahme weiterer Tagesordnungspunkte.</s>
 			</abs>
 			<abs>
-				<s>Anträge werden den Mitgliedern mindestens 14 Tage vor der Mitgliederversammlung durch Aushang an der Tafel für Bekanntmachungen auf dem Vereinsgelände bekanntgegeben.</s>
+				<s>Anträge werden den Mitgliedern mindestens <t gestrichenam="2015-05-30">14 Tage</t> <t eingefuegtam="2015-05-30">zwei Wochen</t> vor der Mitgliederversammlung durch Aushang an der Tafel für Bekanntmachungen auf dem Vereinsgelände bekanntgegeben.</s>
 			</abs>
 			<abs>
-				<s>Die Mitgliederversammlung ist ohne Rücksicht auf die Anzahl der erschienenen Mitglieder beschlußfähig.</s>
-				<s>Sie wird beschlußunfähig, wenn nur noch weniger als die Hälfte der erschienenen Mitglieder anwesend sind.</s>
-				<s>Muß eine beschlußunfähig gewordene Mitgliederversammlung aufgelöst werden, so ist die nächste Mitgliederversammlung mit gleicher Tagesordnung in jedem Fall beschlußfähig.</s>
+				<s>Die Mitgliederversammlung ist ohne Rücksicht auf die Anzahl der erschienenen Mitglieder beschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t>fähig.</s>
+				<s>Sie wird beschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t>unfähig, wenn nur noch weniger als die Hälfte der erschienenen Mitglieder anwesend sind.</s>
+				<s>Mu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t> eine beschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t>unfähig gewordene Mitgliederversammlung aufgelöst werden, so ist die nächste Mitgliederversammlung mit gleicher Tagesordnung in jedem Fall beschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t>fähig.</s>
 			</abs>
 			<abs>
-				<s>Die Mitgliederversammlung wird vom 1. Vorsitzenden, im Verhinderungsfall von einem anderen Vorstandsmitglied, geleitet.</s>
+				<s>Die Mitgliederversammlung wird vom 1. Vorsitzenden <t eingefuegtam="2015-05-30">geleitet</t>, im Verhinderungsfall von einem anderen Vorstandsmitglied<t gestrichenam="2015-05-30">, geleitet</t>.</s>
 			</abs>
 			<abs>
 				<s>Die Entscheidungen der Mitgliederversammlung werden mit einfacher Mehrheit der abgegebenen Stimmen beschlossen, wenn nicht durch diese Satzung etwas anderes bestimmt ist.</s>
-				<s>Die Entscheidung über Änderungen der Satzung sind mit Zweidrittel-Mehrheit zu treffen.</s>
+				<s>Die <t gestrichenam="2015-05-30">Entscheidung</t> <t eingefuegtam="2015-05-30">Entscheidungen</t> über Änderungen der Satzung sind mit Zweidrittel<t gestrichenam="2015-05-30">-M</t><t eingefuegtam="2015-05-30">m</t>ehrheit zu treffen.</s>
 				<s>Stimmenthaltungen und ungültige Stimmen gelten als nicht abgegeben und werden nicht mitgezählt.</s>
 			</abs>
 			<abs>
@@ -209,79 +207,50 @@
 			</abs>
 			<abs>
 				<s>Die Mitgliederversammlung ist insbesondere für die folgenden Angelegenheiten zuständig:</s>
-				<lit>
-					<s>Entgegennahme der Berichte des Vorstandes und der Kassenprüfer</s>
-				</lit>
-				<lit>
-					<s>Genehmigung der Jahresrechnung und des Haushaltsplanes</s>
-				</lit>
-				<lit>
-					<s>Festsetzung der Beiträge</s>
-				</lit>
-				<lit>
-					<s>Entlastung des Vorstandes</s>
-				</lit>
-				<lit>
-					<s>Wahl des Vorstandes mit Ausnahme der Jugendwarte für die Dauer von zwei Jahren</s>
-				</lit>
-				<lit>
-					<s>Bestätigung der Jugendwarte</s>
-				</lit>
-				<lit>
-					<s>Wahl der Kassenprüfer</s>
-				</lit>
-				<lit>
-					<s>Beschlußfassung über Satzungsänderungen und Auflösung des Vereins</s>
-				</lit>
-				<lit>
-					<s>Beschlußfassung über Ordnungen und deren Änderungen mit Ausnahme der Jugendordnung.</s>
-				</lit>
-				<lit>
-					<s>Bestätigung der Jugendordnung</s>
-				</lit>
+				<lit>Entgegennahme der Berichte des Vorstand<t gestrichenam="2015-05-30">e</t>s und der Kassenprüfer</lit>
+				<lit>Genehmigung der Jahresrechnung und des Haushaltsplan<t gestrichenam="2015-05-30">e</t>s</lit>
+				<lit>Festsetzung der Beiträge</lit>
+				<lit>Entlastung des Vorstand<t gestrichenam="2015-05-30">e</t>s</lit>
+				<lit>Wahl des Vorstand<t gestrichenam="2015-05-30">e</t>s mit Ausnahme der Jugendwarte für die Dauer von zwei Jahren</lit>
+				<lit>Bestätigung der Jugendwarte</lit>
+				<lit>Wahl der Kassenprüfer</lit>
+				<lit>Beschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t>fassung über Satzungsänderungen und Auflösung des Vereins</lit>
+				<lit>Beschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t>fassung über Ordnungen und deren Änderungen mit Ausnahme der Jugendordnung<t gestrichenam="2015-05-30">.</t></lit>
+				<lit>Bestätigung der Jugendordnung</lit>
 			</abs>
 		</p>
 		<p>
 			<titel>Vorstand</titel>
 			<abs>
 				<s>
-					<steil>Der Vorstand besteht aus</steil>
-					<lit>
-						<steil>dem 1. Vorsitzenden,</steil>
-					</lit>
-					<lit>
-						<steil>dem 2. Vorsitzenden, der zugleich Geschäftsführer ist,</steil>
-					</lit>
-					<lit>
-						<steil>dem 3. Vorsitzenden, der zugleich Schatzmeister ist.</steil>
-					</lit>
-					<lit>
-						<steil>dem Pressewart,</steil>
-					</lit>
-					<lit>
-						<steil>dem 2. Schatzmeister,</steil>
-					</lit>
-					<lit>
-						<steil>dem 1. Steg- und Zeugwart und seinem Vertreter,</steil>
-					</lit>
-					<lit>
-						<steil>dem 1. Sportwart und seinem Vertreter,</steil>
-					</lit>
-					<lit>
-						<steil>dem 1. Jugendwart und seinem Vertreter.</steil>
-					</lit>
+					Der Vorstand besteht aus
+					<lit>dem 1. Vorsitzenden,</lit>
+					<lit>dem 2. Vorsitzenden, der zugleich Geschäftsführer ist,</lit>
+					<lit>dem 3. Vorsitzenden, der zugleich Schatzmeister ist<t gestrichenam="2015-05-30">.</t><t eingefuegtam="2015-05-30">,</t></lit>
+					<lit>dem Pressewart,</lit>
+					<lit>dem 2. Schatzmeister,</lit>
+					<lit>dem 1. Steg- und Zeugwart und seinem Vertreter,</lit>
+					<lit>dem 1. Sportwart und seinem Vertreter,</lit>
+					<lit>dem 1. Jugendwart und seinem Vertreter.</lit>
 				</s>
+				<bereich gestrichenam="2015-05-30">
+					<s>In den Vorstand kann gewählt werden, wer mindestens 18 Jahre alt ist.</s>
+					<s>Der 1. Jugendsprecher und sein Vertreter gemäß Jugendordnung können beratend an den Vorstandsitzungen teilnehmen.</s>
+					<s>Sie haben Stimmrecht in Angelegenheiten, die die Jugend betreffen.</s>
+				</bereich>
+			</abs>
+			<abs eingefuegtam="2015-05-30"><!-- redaktioneller Fehler, aber es wurde genau so beschlossen -->
 				<s>In den Vorstand kann gewählt werden, wer mindestens 18 Jahre alt ist.</s>
-				<s>Der 1. Jugendsprecher und sein Vertreter gemäß Jugendordnung können beratend an den Vorstandsitzungen teilnehmen.</s>
-				<s>Sie haben Stimmrecht in Angelegenheiten, die die Jugend betreffen.</s>
+				<s>Der 1. Jugendsprecher und sein Vertreter gemäß Jugendordnung können beratend an den Vorstandssitzungen teilnehmen.</s>
+				<s>Sie haben Stimmrecht in Angelegenheiten, welche die Jugend betreffen.</s>
 			</abs>
 			<abs>
 				<s>Der 1., 2. und 3. Vorsitzende bilden den geschäftsführenden Vorstand; dieser ist Vorstand im Sinne des § 26 BGB.</s>
-				<s>Jedes Mitglied des geschäftsführenden Vorstandes vertritt den Verein einzeln.</s>
+				<s>Jedes Mitglied des geschäftsführenden Vorstand<t gestrichenam="2015-05-30">e</t>s vertritt den Verein einzeln.</s>
 				<s>In den geschäftsführenden Vorstand kann nur gewählt werden, wer mindestens 21 Jahre alt ist.</s>
 			</abs>
 			<abs>
-				<s>Ein Mitglied, daß sich durch langjährige Vorstandstätigkeit um den Verein verdient gemacht hat, kann von der Mitgliederversammlung mit Zweidrittel-Mehrheit zum Ehrenvorsitzenden ernannt werden.</s>
+				<s>Ein Mitglied, <t gestrichenam="2015-05-30">daß</t> <t eingefuegtam="2015-05-30">das</t> sich durch langjährige Vorstandstätigkeit um den Verein verdient gemacht hat, kann von der Mitgliederversammlung mit Zweidrittel<t gestrichenam="2015-05-30">-M</t><t eingefuegtam="2015-05-30">m</t>ehrheit zum Ehrenvorsitzenden ernannt werden.</s>
 				<s>Es kann zur gleichen Zeit nur ein Mitglied Ehrenvorsitzender sein.</s>
 				<s>Der Ehrenvorsitzende ist beratendes Mitglied des Vorstandes.</s>
 			</abs>
@@ -291,44 +260,35 @@
 				<s>Die Mitgliederversammlung kann diese durch eigene Beschlüsse ändern.</s>
 			</abs>
 			<abs>
-				<s>Der Vorstand ist beschlußfähig, wenn mindestens die Hälfte seiner stimmberechtigten Mitglieder, darunter mindestens ein Mitglied des geschäftsführenden Vorstandes, anwesend ist.</s>
-				<s>Für die Beschlußfassung gelten die gleichen Bestimmungen wie für die Mitgliederversammlung.</s>
+				<s>Der Vorstand ist beschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t>fähig, wenn mindestens die Hälfte seiner stimmberechtigten Mitglieder <t eingefuegtam="2015-05-30">anwesend ist</t>, darunter mindestens ein Mitglied des geschäftsführenden Vorstand<t gestrichenam="2015-05-30">e</t>s<t gestrichenam="2015-05-30">, anwesend ist</t>.</s>
+				<s>Für die Beschlu<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t>fassung gelten die gleichen Bestimmungen wie für die Mitgliederversammlung.</s>
 			</abs>
 			<abs>
 				<s>Der Vorstand kann zur Wahrnehmung bestimmter Aufgaben Ausschüsse einrichten, die ihn bei der Erfüllung seiner Aufgaben unterstützen und beraten.</s>
-				<s>Das nähere regelt die Geschäftsordnung.</s>
+				<s>Das <t gestrichenam="2015-05-30">n</t><t eingefuegtam="2015-05-30">N</t>ähere regelt die Geschäftsordnung.</s>
 			</abs>
 			<abs>
 				<s>Der 1. Vorsitzende ist Mitglied aller Gremien des Vereins.</s>
 			</abs>
 			<abs>
 				<s>Für Ausgaben, die einen von der Mitgliederversammlung festgelegten Höchstbetrag überschreiten, ist die Zustimmung der Mitgliederversammlung erforderlich.</s>
-				<s>Der Betrag ist in die Geschäftsordnung für die Tätigkeit des Vorstandes aufzunehmen.</s>
+				<s>Der Betrag ist in die Geschäftsordnung für die Tätigkeit des Vorstand<t gestrichenam="2015-05-30">e</t>s aufzunehmen.</s>
 			</abs>
 		</p>
 		<p>
 			<titel>Ordnungen</titel>
 			<abs>
-				<s>Der Verein erläßt für Fragen, die einer einheitlichen Regelung bedürfen, Ordnungen.</s>
-				<s>Es handelt sich dabei insbesondere um</s>
-				<lit>
-					<s>die Jugendordnung</s>
-				</lit>
-				<lit>
-					<s>die Finanzordnung</s>
-				</lit>
-				<lit>
-					<s>die Steg- und Liegeplatzordnung</s>
-				</lit>
-				<lit>
-					<s>die Bootshausordnung</s>
-				</lit>
-				<lit>
-					<s>Nutzungsordnungen für vereinseigene Boote</s>
-				</lit>
-				<lit>
-					<s>die Geschäftsordnung für die Tätigkeit des Vorstandes.</s>
-				</lit>
+				<s>Der Verein erlä<t gestrichenam="2015-05-30">ß</t><t eingefuegtam="2015-05-30">ss</t>t für Fragen, die einer einheitlichen Regelung bedürfen, Ordnungen.</s>
+				<s>
+					Es handelt sich dabei insbesondere um
+					<lit>die Jugendordnung<t eingefuegtam="2015-05-30">,</t></lit>
+					<lit>die Finanzordnung<t eingefuegtam="2015-05-30">,</t></lit>
+					<lit>die Steg- und Liegeplatzordnung<t eingefuegtam="2015-05-30">,</t></lit>
+					<lit>die Bootshausordnung<t eingefuegtam="2015-05-30">,</t></lit>
+					<lit>Nutzungsordnungen für vereinseigene Boote<t eingefuegtam="2015-05-30">,</t></lit>
+					<lit>die Geschäftsordnung für die Tätigkeit des Vorstand<t gestrichenam="2015-05-30">e</t>s<t gestrichenam="2015-05-30">.</t><t eingefuegtam="2015-05-30">,</t></lit>
+					<lit eingefuegtam="2015-05-30">die Datenschutzerklärung.</lit>
+				</s>
 			</abs>
 			<abs>
 				<s>Weitere Ordnungen können ergänzt, bestehende Ordnungen können gestrichen werden.</s>
@@ -360,14 +320,15 @@
 				<s>Bei Auflösung des Vereins oder bei Wegfall steuerbegünstigter Zwecke fällt das Vermögen des Vereins an die Gemeinde Marienheide, die es unmittelbar und ausschließlich für gemeinnützige Zwecke (Jugendpflege) zu verwenden hat.</s>
 			</abs>
 			<abs>
-				<s>Als Liquidatoren werden die Mitglieder des geschäftsführenden Vorstandes bestimmt.</s>
+				<s>Als Liquidatoren werden die Mitglieder des geschäftsführenden Vorstand<t gestrichenam="2015-05-30">e</t>s bestimmt.</s>
 			</abs>
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s nachgefuehrtam="2006-03-18">Diese Satzung wurde von der Mitgliederversammlung am 17. März 2001 beschlossen und geändert von der Mitgliederversammlung am <stand>18. März 2006</stand>.</s>
+			<s>Diese Satzung wurde von der Mitgliederversammlung am 17. März 2001 beschlossen<t eingefuegtam="2006-03-18"> und geändert von <t gestrichenam="2015-05-30">der Mitgliederversammlung</t> <t eingefuegtam="2015-05-30">den Mitgliederversammlungen</t> am 18. März 2006</t><t eingefuegtam="2015-05-30"> und am <stand>30. Mai 2015</stand></t>.</s>
 			<s>Sie tritt sofort nach Eintragung beim Amtsgericht in Kraft.</s>
 		</p>
-		<aktuell den="14. Februar 2010"/>
+		<!--aktuell den="24. Oktober 2015"/-->
 	</satzung>
 </regeln>
+<!-- noch nicht im Register -->
