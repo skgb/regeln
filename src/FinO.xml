@@ -33,13 +33,13 @@
 			<abs>
 				<s>Es werden Nutzungsbeiträge für die Benutzung der vereinseigenen Boote gemäß der jeweiligen Nutzungsordnung erhoben.</s>
 				<s>Diese gelten je Person und werden vom Gesamtvorstand festgelegt.</s>
-				<s>Für die Nutzungsbeiträge der Jugendboote haben die Jugendwarte und der Vereins-Jugendausschuß Vorschlagsrecht.</s>
+				<s>Für die Nutzungsbeiträge der Jugendboote haben die Jugendwarte und der Vereins-Jugendausschuss Vorschlagsrecht.</s>
 				<s>Diese Vorschläge sind zu berücksichtigen.</s>
 			</abs>
 			<abs>
 				<s>Für die Überlassung eines Vereinsschlüssels wird ein Pfandbetrag erhoben.</s>
 				<s>Die Höhe legt der Vorstand anhand der entstandenen Schlüsselkosten fest.</s>
-				<s>Der Pfandbetrag wird bei Rückgabe des Schlüssels unverzinzt <!-- [sic!] --> erstattet.</s>
+				<s>Der Pfandbetrag wird bei Rückgabe des Schlüssels unverzinst erstattet.</s>
 			</abs>
 			<abs eingefuegtam="2014-04-05" eingefuegttop="7">
 				<s>Für Mahnungen von Zahlungsverpflichtungen, die seit mindestens 90 Tagen fällig sind, wird eine Gebühr erhoben.</s>
@@ -59,7 +59,7 @@
 						<euro eingefuegtam="2001-10-27" eingefuegttop="8, Antrag 1">120</euro>
 					</beitrag>
 					<beitrag>
-						<t>Mitgliedsbeitrag Aktiv in Schul- / Berufsausbildung o.ä.</t>
+						<t>Mitgliedsbeitrag Aktiv in Schul- / Berufsausbildung o. ä.</t>
 						<dm gestrichenam="2001-10-27" gestrichentop="8, Antrag 1">100</dm>
 						<euro eingefuegtam="2001-10-27" eingefuegttop="8, Antrag 1">60</euro>
 					</beitrag>
@@ -169,7 +169,7 @@
 				<s>Vorstandsmitglieder und Übungsleiter sind von der Zahlung von Boots-Nutzungsgebühren befreit.</s>
 			</abs>
 			<abs>
-				<s>Der<t gestrichenam="2010-04-17" gestrichentop="6, Antrag 3"> Mitgliedsbeitrag</t><t eingefuegtam="2010-04-17" eingefuegttop="6, Antrag 3"> Beitrag</t> Aktiv in Schul- / Berufsausbildung o.ä. wird auf Antrag gewährt.</s>
+				<s>Der<t gestrichenam="2010-04-17" gestrichentop="6, Antrag 3"> Mitgliedsbeitrag</t><t eingefuegtam="2010-04-17" eingefuegttop="6, Antrag 3"> Beitrag</t> Aktiv in Schul- / Berufsausbildung o. ä. wird auf Antrag gewährt.</s>
 				<s>Die Voraussetzungen werden durch den Vorstand geprüft.</s>
 			</abs>
 			<abs>
@@ -245,8 +245,8 @@
 		<p>
 			<titel>Inkrafttreten</titel>
 			<abs>
-				<s>Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen<t eingefuegtam="2001-03-17" eingefuegttop="6" gestrichenam="2010-04-17" gestrichentop="6"> und zuletzt geändert von der Mitgliederversammlung am </t><t eingefuegtam="2001-03-17" eingefuegttop="6" gestrichenam="2001-10-27" gestrichentop="8, Antrag 1">17. März 2001</t><t eingefuegtam="2001-10-27" eingefuegttop="8, Antrag 1" gestrichenam="2002-03-09">27. Oktober 2001</t><t eingefuegtam="2002-03-09" gestrichenam="2006-03-18" gestrichentop="5">9. März 2002</t><t eingefuegtam="2010-04-17" eingefuegttop="6"> und geändert von den Mitgliederversammlungen am <!--t eingefuegtam="" eingefuegttop="">17. März 2001, </t-->27. Oktober 2001, 9. März 2002, </t><t eingefuegtam="2006-03-18" eingefuegttop="5">18. März 2006</t><t eingefuegtam="2010-04-17" eingefuegttop="6" gestrichenam="2011-05-28" gestrichentop="8"> und</t><t eingefuegtam="2011-05-28" eingefuegttop="8">,</t><t eingefuegtam="2010-04-17" eingefuegttop="6"> 17. April 2010</t><t eingefuegtam="2011-05-28" eingefuegttop="8" gestrichenam="2012-03-17" gestrichentop="8"> und</t><t eingefuegtam="2012-03-17" eingefuegttop="8">,</t><t eingefuegtam="2011-05-28" eingefuegttop="8"> 28. Mai 2011</t><t eingefuegtam="2012-03-17" eingefuegttop="8" gestrichenam="2014-04-05" gestrichentop="7"> und</t><t eingefuegtam="2014-04-05" eingefuegttop="7">,</t><t eingefuegtam="2012-03-17" eingefuegttop="8"> 17. März 2012</t><t eingefuegtam="2014-04-05" eingefuegttop="7" gestrichenam="2016-04-09" gestrichentop="7"> und</t><t eingefuegtam="2016-04-09" eingefuegttop="7">,</t><t eingefuegtam="2014-04-05" eingefuegttop="7"> 5. April 2014</t><t eingefuegtam="2016-04-09" eingefuegttop="7"> und <stand>9. April 2016</stand></t>.</s>
-				<s eingefuegtam="2010-09-04" eingefuegttop="4c">Sie gibt auch Beschlüsse des Vorstands aus seine<t gestrichenam="2014-04-05" gestrichentop="7">r</t><t eingefuegtam="2014-04-05" eingefuegttop="7">n</t> Sitzung<t eingefuegtam="2014-04-05" eingefuegttop="7">en</t> am <!--t eingefuegtam="" eingefuegttop="">24. November 2001, </t--><t eingefuegtam="2014-04-05" eingefuegttop="7">27. Mai 2007<!-- Mahngebühr (TOP 3) --> und </t>4. September 2010 wieder.</s>
+				<s>Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen<t eingefuegtam="2001-03-17" eingefuegttop="6" gestrichenam="2010-04-17" gestrichentop="6"> und zuletzt geändert von der Mitgliederversammlung am </t><t eingefuegtam="2001-03-17" eingefuegttop="6" gestrichenam="2001-10-27" gestrichentop="8, Antrag 1">17. März 2001</t><t eingefuegtam="2001-10-27" eingefuegttop="8, Antrag 1" gestrichenam="2002-03-09">27. Oktober 2001</t><t eingefuegtam="2002-03-09" gestrichenam="2006-03-18" gestrichentop="5">9. März 2002</t><t eingefuegtam="2010-04-17" eingefuegttop="6"> und geändert von den Mitgliederversammlungen am <!--t eingefuegtam="" eingefuegttop="">17. März 2001, </t-->27. Oktober 2001, 9. März 2002, </t><t eingefuegtam="2006-03-18" eingefuegttop="5">18. März 2006</t><t eingefuegtam="2010-04-17" eingefuegttop="6" gestrichenam="2011-05-28" gestrichentop="8"> und</t><t eingefuegtam="2011-05-28" eingefuegttop="8">,</t><t eingefuegtam="2010-04-17" eingefuegttop="6"> 17. April 2010</t><t eingefuegtam="2011-05-28" eingefuegttop="8" gestrichenam="2012-03-17" gestrichentop="8"> und</t><t eingefuegtam="2012-03-17" eingefuegttop="8">,</t><t eingefuegtam="2011-05-28" eingefuegttop="8"> 28. Mai 2011</t><t eingefuegtam="2012-03-17" eingefuegttop="8" gestrichenam="2014-04-05" gestrichentop="7"> und</t><t eingefuegtam="2014-04-05" eingefuegttop="7">,</t><t eingefuegtam="2012-03-17" eingefuegttop="8"> 17. März 2012</t><t eingefuegtam="2014-04-05" eingefuegttop="7" gestrichenam="2016-04-09" gestrichentop="7"> und</t><t eingefuegtam="2016-04-09" eingefuegttop="7">,</t><t eingefuegtam="2014-04-05" eingefuegttop="7"> 5. April 2014</t><t eingefuegtam="2016-04-09" eingefuegttop="7"> und <stand>9. April 2016</stand></t>.</s>
+				<s eingefuegtam="2010-09-04" eingefuegttop="4c">Sie gibt auch Beschlüsse des Vorstands aus seine<t gestrichenam="2014-04-05" gestrichentop="7">r</t><t eingefuegtam="2014-04-05" eingefuegttop="7">n</t> Sitzung<t eingefuegtam="2014-04-05" eingefuegttop="7">en</t> am <!--t eingefuegtam="" eingefuegttop="">24. November 2001, </t--><t eingefuegtam="2014-04-05" eingefuegttop="7">27. Mai 2007<!-- Mahngebühr (TOP 3) --> und </t>4. September 2010 wieder.</s>
 				<s>Sie tritt sofort in Kraft.</s>
 			</abs>
 			<abs eingefuegtam="2014-04-05" eingefuegttop="7">
@@ -259,7 +259,7 @@
 		<aktuell den="11. Mai 2016"/>
 	</ordnung>
 </regeln>
-<!-- alte Rechtschreibung -->
+<!-- Rechtschreibung korrigiert: 2016-09 -->
 <!-- Änderungen 2001-03-17 und 2001-11-24 nicht unter Inkraftreten nachgeführt -->
 <!-- Klarstellung der Beiträge der Jugendabteilung 2010 versehentlich gestrichen? -->
 <!-- <nr> in alter Fassung erscheint in ODF als Buchstabe -->

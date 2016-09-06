@@ -34,13 +34,13 @@
 		<p>
 			<titel>Erfordernisse für Liegeplatzinhaber, „gekaufte Box“</titel>
 			<abs>
-				<s>Liegeplatzinhabers <!--[sic!]--> kann nur sein, wer aktives Vereinsmitglied, Ehrenmitglied oder Mitglied der Jugendabteilung ist.</s>
+				<s>Liegeplatzinhaber kann nur sein, wer aktives Vereinsmitglied, Ehrenmitglied oder Mitglied der Jugendabteilung ist.</s>
 				<s>Es können auch mehrere Personen, die gemeinsam ein Boot besitzen, gemeinschaftlich Inhaber eines Liegeplatzes sein; alle Miteigner müssen dann die Voraussetzungen der Mitgliedschaft erfüllen.</s>
 			</abs>
 			<abs>
 				<s>In früheren Vereinsjahren konnten Mitglieder auch zu einem festgelegten Preis lebenslange Rechte an einem Stegliegeplatz erwerben („gekaufte Box“).</s>
 				<s>Dies ist nicht mehr möglich.</s>
-				<s>Für die Inhaber solcher Stegliegeplätze bleiben die Nutzungsrechte an  der erworbenen Stegbox erhalten; sie kann nur mit Zustimmung des Inhabers ausgetauscht werden (Bestandschutz).</s>
+				<s>Für die Inhaber solcher Stegliegeplätze bleiben die Nutzungsrechte an  der erworbenen Stegbox erhalten; sie kann nur mit Zustimmung des Inhabers ausgetauscht werden (Bestandsschutz).</s>
 				<s>Solange der Inhaber seinen Liegeplatz nicht belegt, kann dieser vom Verein vermietet werden; der Inhaber hat dabei keinen Anspruch auf eine Mietzahlung.</s>
 				<s>Die Rechte an der „gekauften Box“ enden mit Beendigung der Mitgliedschaft.</s>
 			</abs>
@@ -62,7 +62,7 @@
 				<s>Hierzu wird zu Saisonbeginn ein Stegdienstplan vom Steg- und Zeugwart erstellt, der am Steg ausgehängt wird und für alle aktiven Mitglieder verbindlich ist.</s>
 				<s>Verhinderte Mitglieder müssen selbst für Ersatz sorgen!</s>
 				<s>Auch Jugendmitglieder können ab einem Alter von 16 Jahren zu bestimmten Tätigkeiten herangezogen werden.</s>
-				<s>Kommt der planmäßig eingeteilte Stegdienst seiner Verpflichtung nicht nach, ist jedes Mitglied verpflichtet, einzuspringen und dringende Arbeiten auzuführen.</s>
+				<s>Kommt der planmäßig eingeteilte Stegdienst seiner Verpflichtung nicht nach, ist jedes Mitglied verpflichtet, einzuspringen und dringende Arbeiten auszuführen.</s>
 				<s>Hierzu werden mit dem Stegdienstplan die Telefonnummern aller betreffenden Mitglieder ausgehängt.</s>
 			</abs>
 			<abs>
@@ -76,15 +76,15 @@
 			</abs>
 			<abs eingefuegtam="2002-03-09"><!-- keine wörtliche Übernahme aus Protokoll möglich, daher sinngemäße Umschrift erfolgt (arne 2009-10-11, 2010-02-14) -->
 				<s>Aktive Vereinsmitglieder, die ihrer Verpflichtung zum Stegdienst nicht nachkommen, werden zu einer Ausgleichszahlung verpflichtet, deren Höhe die Finanzordnung regelt.</s>
-				<s>Ein Versäumnis liegt insbesondere vor, wenn für einen Dienstzeitraum im Stegbuch weder ein Eintrag des Mitgliedes noch ein Eintrag einer abgesprochenen Vertretung vorliegt oder wenn eine offensichtlich notwendige Anpassung des Steges an den Wasserstand nicht veranlaßt wurde.</s>
+				<s>Ein Versäumnis liegt insbesondere vor, wenn für einen Dienstzeitraum im Stegbuch weder ein Eintrag des Mitgliedes noch ein Eintrag einer abgesprochenen Vertretung vorliegt oder wenn eine offensichtlich notwendige Anpassung des Steges an den Wasserstand nicht veranlasst wurde.</s>
 			</abs>
 		</p>
 		<p>
 			<titel>Verhalten auf dem Steg</titel>
 			<abs>
-				<s>Das Rennen auf dem Steg ist aus Sicherheitsgünden<!-- [sic!] --> verboten.</s>
+				<s>Das Rennen auf dem Steg ist aus Sicherheitsgründen verboten.</s>
 				<s>Grundsätzlich darf vom Steg nicht ins Wasser gesprungen werden.</s>
-				<s>Das Schimmen<!-- [sic!] --> im Bereich der Steganlage und des Slipweges geschieht auf eigene Gefahr.</s>
+				<s>Das Schwimmen im Bereich der Steganlage und des Slipweges geschieht auf eigene Gefahr.</s>
 				<s>Dabei ist sorgfältig auf an- oder ablegende Boote zu achten, für die Schwimmer nur schwer zu erkennen sind!</s>
 				<s gestrichenam="2003-11-08">Die Steganlage soll nicht zum Sonnenbaden zweckentfremdet werden.</s>
 				<s eingefuegtam="2003-11-08">Die Steganlage darf nicht zum Sonnenbaden zweckentfremdet werden.</s>
@@ -112,4 +112,4 @@
 		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>
-<!-- alte Rechtschreibung -->
+<!-- Rechtschreibung korrigiert: 2016-09 -->

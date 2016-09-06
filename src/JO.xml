@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
-<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln">
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name abkuerzung="JO">Jugendordnung</name>
@@ -8,7 +8,7 @@
 		<p>
 			<titel>Name und Mitgliedschaft</titel>
 			<abs>
-				<s>Mitglieder der Jugendabteilung der Segel- und Kanugemeinschaft Bruchertalsperre sind alle jugendlichen Vereinsmitglieder sowie die gewählten und berufenen Mitarbeiter der Jugendabteilung.</s>
+				<s>Mitglieder der Jugendabteilung der Segel- und Kanugemeinschaft Brucher Talsperre sind alle jugendlichen Vereinsmitglieder sowie die gewählten und berufenen Mitarbeiter der Jugendabteilung.</s>
 				<s>Ein Mitglied ist Jugendlicher bis zum Ablauf des Jahres, in dem er das 19. Lebensjahr vollendet.</s>
 			</abs>
 			<abs>
@@ -17,19 +17,19 @@
 		</p>
 		<p>
 			<titel>Aufgaben</titel>
-			<s>Die Jugendabteilung führt und verwaltet sich selbständig und entscheidet über die Verwendung der ihr zufließenden Mittel.</s>
+			<s>Die Jugendabteilung führt und verwaltet sich selbstständig und entscheidet über die Verwendung der ihr zufließenden Mittel.</s>
 			<s>Aufgabe der Jugendabteilung ist es insbesondere, eine segelsportliche Jugendarbeit anzubieten.</s>
 		</p>
 		<p>
-			<titel>Aufnahme, Austritt und Ausschluß</titel>
+			<titel>Aufnahme, Austritt und Ausschluss</titel>
 			<abs>
 				<s gestrichenam="2010-04-17">
 					Für die Aufnahme von Jugendmitgliedern gelten die Regelungen der Satzung (§4 Abs. 4) sinngemäß, jedoch tritt
 					<lit>anstelle des Vorstandes der Vereinsjugendausschuss und</lit>
 					<lit>anstelle der Mitgliederversammlung die Jugendversammlung.</lit>
 				</s>
-				<s eingefuegtam="2010-04-17">Die Aufnahme von Jugendmitgliedern erfolgt nach den Regelungen der Satzung (§ 4 Abs. 4 Sätze 1 bis 5 der Fassung vom 18. März 2006.).</s>
-			</abs>
+				<s eingefuegtam="2010-04-17">Die Aufnahme von Jugendmitgliedern erfolgt nach den Regelungen der Satzung <html:s>(§ 4 Abs. 4 Sätze 1 bis 5 der Fassung vom 18. März 2006.)</html:s>.</s>
+			</abs><!-- durch Satzungsänderung 2015 überflüssig -->
 			<abs>
 				<s>Austritt und Ausschluss werden auch für Jugendmitglieder durch die Satzung geregelt.</s>
 				<s>Die Jugendversammlung oder der Vereinsjugendausschuss können den Ausschluss eines Jugendmitgliedes beantragen, wenn die Voraussetzungen dafür vorliegen.</s>
@@ -83,10 +83,10 @@
 			<abs>
 				<s>Die Jugendversammlung ist ohne Rücksicht auf die Anzahl der erschienenen Mitglieder beschlussfähig.</s>
 				<s>Sie wird beschlussunfähig, wenn nur noch weniger als die Hälfte der erschienenen stimmberechtigten Mitglieder anwesend sind.</s>
-				<s>Muß eine beschlussunfähig gewordene Jugendversammlung aufgelöst werden, so ist die nächste Jugendversammlung mit gleicher Tagesordnung in jedem Fall beschlussfähig.</s>
+				<s>Muss eine beschlussunfähig gewordene Jugendversammlung aufgelöst werden, so ist die nächste Jugendversammlung mit gleicher Tagesordnung in jedem Fall beschlussfähig.</s>
 			</abs>
 			<abs>
-				<s>Die Jugendversammlung wird vom 1. Jugendwart, im Verhinderungsfall vom 2. Jugendwart, geleitet.</s>
+				<s>Die Jugendversammlung wird vom 1. Jugendwart, im Verhinderungsfall vom 2. Jugendwart geleitet.</s>
 			</abs>
 			<abs>
 				<s>Die Entscheidungen der Jugendversammlung werden mit einfacher Mehrheit der abgegebenen Stimmen getroffen.</s>
@@ -159,5 +159,6 @@
 		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>
-<!-- alte Rechtschreibung -->
+<!-- Rechtschreibung korrigiert: 2016-09 -->
 <!-- Aufnahme-Regelungen und Aufnahmegebühr von MV geändert -->
+<!-- Minderheitsbegehren sollte geändert werden analog zur Satzung -->
