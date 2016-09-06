@@ -3,15 +3,14 @@
 <!--
 
 XSLT conversion specification for 'SKGB-Regeln' to OpenDocument
-(c) 2005-2015 Segel- und Kanugemeinschaft Brucher Talsperre (SKGB)
-Proprietary/Confidential. All Rights Reserved.
+(c) 2005-2016 Segel- und Kanugemeinschaft Brucher Talsperre e. V. SKGB
 
 -->
 
 
-<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" exclude-result-prefixes="regeln">
+<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" exclude-result-prefixes="regeln html">
 	
-	<xsl:variable name="version" select="number(0.71)"/><!-- SKGB-Regeln format version -->
+	<xsl:variable name="version" select="number(0.80)"/><!-- SKGB-Regeln format version -->
 	
 	<xsl:template name='check-version'>
 		
@@ -26,8 +25,16 @@ Proprietary/Confidential. All Rights Reserved.
 		</xsl:if>
 	</xsl:template>
 	
+	<xsl:template name='check-structure'>
+		<xsl:for-each select="//regeln:nr/regeln:lit[2]">
+			<xsl:message>
+				<xsl:text>Warning: Document Structure Mismatch! The processed document conforms to 'SKGB-Regeln', but this XSLT doesn't support the kind of hierarchy it uses for its enumeration of clauses. The transformation results may not be what you expect.</xsl:text>
+			</xsl:message>
+		</xsl:for-each>
+	</xsl:template>
 	
-	<xsl:namespace-alias stylesheet-prefix="html" result-prefix="#default"/>
+	
+	<!--xsl:namespace-alias stylesheet-prefix="html" result-prefix="#default"/-->
 
 	<!-- Need to instruct the XSLT processor to use HTML output rules.
 		 See http://www.w3.org/TR/xslt#output for more details
@@ -42,11 +49,40 @@ Proprietary/Confidential. All Rights Reserved.
 		<xsl:copy-of select="."/>
 	</xsl:template>
 	
+	<xsl:template match="html:br">
+		<text:line-break/>
+	</xsl:template>
+	
+	<xsl:template match="html:em">
+		<text:span text:style-name="Emphasis">
+			<xsl:apply-templates/>
+		</text:span>
+	</xsl:template>
+	
+	<xsl:template match="html:i">
+		<text:span text:style-name="Emphasis">
+			<xsl:apply-templates/>
+		</text:span>
+	</xsl:template>
+	
+	<xsl:template match="html:b">
+		<text:span text:style-name="Strong_20_Emphasis">
+			<xsl:apply-templates/>
+		</text:span>
+	</xsl:template>
+	
+	<xsl:template match="html:u">
+		<text:span text:style-name="Underline_20_Emphasis">
+			<xsl:apply-templates/>
+		</text:span>
+	</xsl:template>
+	
 	<xsl:template match="/">
 		<xsl:call-template name="check-version"/>
+		<xsl:call-template name="check-structure"/>
 		<!--xsl:processing-instruction name="xml-stylesheet">href="#style" type="text/css"</xsl:processing-instruction-->
 		<office:document xml:lang="de" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
-			<office:meta><meta:generator>SKGB-intern/1.3 regeln2odf/<xsl:value-of select="$version"/></meta:generator></office:meta>
+			<office:meta><meta:generator>regeln2odf/<xsl:value-of select="$version"/></meta:generator></office:meta>
 			<!--head>
 				<title>
 					<xsl:value-of select="//regeln:name"/>
@@ -126,8 +162,14 @@ Proprietary/Confidential. All Rights Reserved.
 
 
 
+  <style:style style:name="Emphasis" style:display-name="Emphasis" style:family="text">
+   <style:text-properties fo:font-style="italic"/>
+  </style:style>
   <style:style style:name="Strong_20_Emphasis" style:display-name="Strong Emphasis" style:family="text">
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Underline_20_Emphasis" style:display-name="Underline Emphasis" style:family="text">
+   <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
   </style:style>
 
   <text:list-style style:name="SKGB-Regeln">
@@ -155,7 +197,7 @@ Proprietary/Confidential. All Rights Reserved.
   <style:style style:name="Caption_20_characters" style:display-name="Caption characters" style:family="text" style:hidden="true"/>
   <style:style style:name="Definition" style:family="text" style:hidden="true"/>
   <style:style style:name="Drop_20_Caps" style:display-name="Drop Caps" style:family="text" style:hidden="true"/>
-  <style:style style:name="Emphasis" style:family="text" style:hidden="true"/>
+  <!--style:style style:name="Emphasis" style:family="text" style:hidden="true"/-->
   <style:style style:name="Endnote_20_anchor" style:display-name="Endnote anchor" style:family="text" style:hidden="true"/>
   <style:style style:name="Example" style:family="text" style:hidden="true"/>
   <style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor" style:family="text" style:hidden="true"/>
@@ -369,9 +411,9 @@ Proprietary/Confidential. All Rights Reserved.
 	</xsl:template>
 	
 	<xsl:template match="regeln:postambel">
-		<p class="postamble">
+		<text:p text:style-name="SKGB-Regeln-Praeambel">
 			<xsl:apply-templates/>
-		</p>
+		</text:p>
 	</xsl:template>
 	
 	<xsl:template match='regeln:p'>
@@ -394,9 +436,11 @@ Proprietary/Confidential. All Rights Reserved.
 				<xsl:variable name="absCount" select="count(./regeln:abs) - count(./regeln:abs/@gestrichenam)"/>
 				<xsl:choose>
 					<xsl:when test="$absCount = 1">
-						<text:p text:style-name="SKGB-Regeln-Praeambel"><!-- TODO: this doesn't seem to make sense -->
-							<xsl:apply-templates/>
-						</text:p>
+						<!-- paragraph mit 1 absatz MIT <abs> -->
+	<!-- einstweilige loesung; dann nachbearbeiten, siehe regeln.pl
+	-->
+						<text:p text:style-name="SKGB-Regeln-Absatz-single"/>
+						<xsl:apply-templates/>
 					</xsl:when>
 					<xsl:otherwise>
 						<text:list>
@@ -406,14 +450,12 @@ Proprietary/Confidential. All Rights Reserved.
 				</xsl:choose>
 			</xsl:when>
 			<xsl:otherwise>
-				<!-- paragraph mit 1 absatz ohne <abs> -->
-				<!--div-->
+				<!-- paragraph mit 1 absatz OHNE <abs> -->
 	<!-- einstweilige loesung; dann nachbearbeiten, zB:
 perl -e '$_=join "",<>; s{<text:p text:style-name="SKGB-Regeln-Absatz-single"/>\s*<text:p text:style-name="SKGB-Regeln-Absatz">}{<text:p text:style-name="SKGB-Regeln-Absatz-single">}g; print;'
 	-->
-					<text:p text:style-name="SKGB-Regeln-Absatz-single"/>
-					<xsl:apply-templates/>
-				<!--/div-->
+				<text:p text:style-name="SKGB-Regeln-Absatz-single"/>
+				<xsl:apply-templates/>
 			</xsl:otherwise>
 		</xsl:choose>
 		</text:list-item>
@@ -444,10 +486,11 @@ perl -e '$_=join "",<>; s{<text:p text:style-name="SKGB-Regeln-Absatz-single"/>\
 	
 	<xsl:template match='regeln:nr/regeln:titel'>
 		<strong><xsl:value-of select="."/></strong><br/>
+		<!--text:p text:style-name="SKGB-Regeln-Absatz"><text:span text:style-name="Strong_20_Emphasis"><xsl:value-of select="."/></text:span><text:line-break/></text:p-->
 	</xsl:template>
 	
 	<xsl:template match='regeln:abs/regeln:titel'>
-		<em><xsl:value-of select="."/><xsl:text>:</xsl:text></em><br/>
+		<text:p text:style-name="SKGB-Regeln-Absatz"><text:span text:style-name="Emphasis"><xsl:value-of select="."/><xsl:text>:</xsl:text></text:span><text:line-break/></text:p>
 	</xsl:template>
 	
 	<xsl:template match='regeln:titel'>
@@ -572,7 +615,27 @@ perl -e '$_=join "",<>; s{</text:list>\s*<text:p text:style-name="SKGB-Regeln-Ab
 perl -e '$_=join "",<>; s{<text:p([^>]*)>\s*([^<>]+)\s*<text:list>}{<text:p\1>\2</text:p><text:list>}g; s{</text:list>\s*</text:p>}{</text:list>}g; s{</text:list>\s*([^<>]+)\s*</text:p>}{</text:list><text:p text:style-name="SKGB-Regeln-Buchstaben">\1</text:p>}g; print;'
 	-->
 	
-	<xsl:template match='regeln:nr[1]'>
+	<xsl:template match='regeln:abs/regeln:nr'>
+	</xsl:template>
+
+	<xsl:template match='regeln:abs/regeln:nr[1]'>
+		<text:list>
+			<text:list-item>
+				<text:list>
+					<text:list-item>
+						<xsl:call-template name="ins-del"/>
+					</text:list-item>
+					<xsl:for-each select="following-sibling::*[local-name()='nr']">
+						<text:list-item>
+							<xsl:call-template name="ins-del"/>
+						</text:list-item>
+					</xsl:for-each>
+				</text:list>
+			</text:list-item>
+		</text:list>
+	</xsl:template>
+	
+	<!--xsl:template match='regeln:nr[1]'>
 		<ol class="nr">
 			<li value="1">
 				<xsl:call-template name="ins-del"/>
@@ -586,12 +649,12 @@ perl -e '$_=join "",<>; s{<text:p([^>]*)>\s*([^<>]+)\s*<text:list>}{<text:p\1>\2
 				</li>
 			</xsl:for-each>
 		</ol>
-	</xsl:template>
+	</xsl:template-->
 	
-	<xsl:template match='regeln:nr'>
-	</xsl:template>
+	<!--xsl:template match='regeln:abs/regeln:nr'>
+	</xsl:template-->
 	
-	<xsl:template match='regeln:nr' mode="ins-del">
+	<xsl:template match='regeln:abs/regeln:nr' mode="ins-del">
 		<xsl:apply-templates/>
 	</xsl:template>
 	
@@ -623,10 +686,54 @@ perl -e '$_=join "",<>; s{<text:p([^>]*)>\s*([^<>]+)\s*<text:list>}{<text:p\1>\2
 		</xsl:choose>
 	</xsl:template>
 	
-	<xsl:template match='regeln:dump'>
-		<pre>
+	<xsl:template match='regeln:beitragsliste'>
+		<xsl:call-template name="ins-del"/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:beitragsliste' mode="ins-del">
+		
 			<xsl:apply-templates/>
-		</pre>
+		
+	</xsl:template>
+	
+	<xsl:template match='regeln:beitrag | regeln:gebuehr'>
+		<text:p text:style-name="SKGB-Regeln-Buchstaben">
+			<xsl:apply-templates select="./regeln:t"/>
+			<xsl:text>: </xsl:text>
+			<xsl:apply-templates select="./regeln:dm | ./regeln:euro"/>
+		</text:p>
+	</xsl:template>
+	
+	<xsl:template match='regeln:dm | regeln:euro'>
+		<xsl:call-template name="ins-del"/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:dm' mode="ins-del">
+		<xsl:apply-templates/>
+		<xsl:text>,– DM</xsl:text>
+	</xsl:template>
+	
+	<xsl:template match='regeln:euro' mode="ins-del">
+		<xsl:apply-templates/>
+		<xsl:text>,– €</xsl:text>
+	</xsl:template>
+	
+	<xsl:template match="regeln:dm[not(*) and not(normalize-space())] | regeln:euro[not(*) and not(normalize-space())]" mode="ins-del">
+		<!-- match empty element -->
+		<xsl:choose>
+			<xsl:when test="attribute::hinweis">
+				<xsl:value-of select="@hinweis"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:text>–</xsl:text>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	
+	<xsl:template match='regeln:dump'>
+		<!--text:p-->
+			<xsl:apply-templates/>
+		<!--/text:p-->
 	</xsl:template>
 	
 </xsl:transform>
