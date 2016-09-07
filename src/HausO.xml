@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.61" xmlns="http://www.skgb.de/2005/regeln">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
-		<name>Bootshausordnung</name>
+		<name abkuerzung="HausO">Bootshausordnung</name>
 		<p>
 			<titel>Grundsätzliche Verwendungszwecke</titel>
 			<s>Das Bootshaus dient in den Wintermonaten als Lager für Jollen und wird in der übrigen Zeit zur Durchführung geselliger Veranstaltungen und für Arbeiten an Booten oder anderem Material genutzt.</s>
@@ -23,14 +23,14 @@
 			<abs>
 				<s>Bei privaten Booten ist entsprechend die Anwesenheit des Eigners oder eines Vertreters erforderlich und außerdem die Einlagerungsgebühr gemäß Finanzordnung zu entrichten.</s>
 				<s>Der Steg- und Zeugwart führt  eine Liste, auf der sich betreffende Bootseigner einzutragen haben.</s>
-				<s>Der Verein haftet nicht für eingelagerte Gegenstände; der Eigner hat die Haftungsausschlußerklärung vor der ersten Einlagerung zu unterschreiben.</s>
+				<s>Der Verein haftet nicht für eingelagerte Gegenstände; der Eigner hat die Haftungsausschlusserklärung vor der ersten Einlagerung zu unterschreiben.</s>
 			</abs>
 			<abs>
-				<s>Der Zutritt zum Boothaus wird für diese Zeit eingeschränkt.</s>
+				<s>Der Zutritt zum Bootshaus wird für diese Zeit eingeschränkt.</s>
 			</abs>
 			<abs eingefuegtam="2001-10-27">
 				<s>Zum Winterlager können auch Boote auf dem Bootshausgelände abgestellt werden.</s>
-				<s>Die Stellplätze werden vom Steg - und Zeugwart zugewiesen.</s>
+				<s>Die Stellplätze werden vom Steg- und Zeugwart zugewiesen.</s>
 				<s>Die Boote müssen im Frühjahr spätestens zwei Wochen nach dem Stegaufbau abgeholt werden.</s>
 				<s>Ausnahmen kann der Vorstand in begründeten Fällen zulassen.</s>
 			</abs>
@@ -48,7 +48,7 @@
 			</abs>
 			<abs>
 				<s>Während des Winterlagers können auf der Waldseite des Bootshauses (bergauf gerichtete Seite) bis zu vier Dickschiffe einschließlich des Vereinsbootes gelagert werden.</s>
-				<s>Der vereinseigene 3fach-Trailer wird in Tornähe abgestellt, um Aktivitäten in dieser Zeit nicht zu behindern.</s>
+				<s>Der vereinseigene Dreifach-Trailer wird in Tornähe abgestellt, um Aktivitäten in dieser Zeit nicht zu behindern.</s>
 				<s>Auf der Seeseite neben dem Bootshaus können Jollen und Trailer, hinter dem Bootshaus Trailer und Slipwagen abgestellt werden.  </s>
 			</abs>
 			<abs>
@@ -71,11 +71,11 @@
 			<abs>
 				<s>Vereinsmitglieder können auch private Veranstaltungen im Bootshaus durchführen. Für solche private Veranstaltungen gelten folgende Bedingungen:</s>
 				<lit>
-					<s>Die Gäste müssen im wesentlichen Vereinsmitglieder sein.</s>
+					<s>Die Gäste müssen im Wesentlichen Vereinsmitglieder sein.</s>
 					<s>Ausnahmen kann der Vorstand in besonders begründeten Einzelfällen zulassen.</s>
 				</lit>
 				<lit>
-					<s>Die Zustimmung des Vorstandes muß rechtzeitig vorher eingeholt werden; wenn die Zustimmung vorliegt, wird der Termin durch Eintrag im Bootshauskalender reserviert.</s>
+					<s>Die Zustimmung des Vorstandes muss rechtzeitig vorher eingeholt werden; wenn die Zustimmung vorliegt, wird der Termin durch Eintrag im Bootshauskalender reserviert.</s>
 				</lit>
 			</abs>
 			<abs>
@@ -131,8 +131,9 @@
 		<p>
 			<titel>Inkrafttreten</titel>
 			<s>Diese Boothausordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen und tritt sofort in Kraft.</s>
-			<s nachgefuehrtam="2001-10-27 2008-03-08">§ 2 Abs. 5 eingefügt am 27. Oktober 2001, § 3 eingefügt am <stand>8. März 2008</stand>.</s>
+			<s eingefuegtam="2001-10-27">§ 2 Abs. 5 eingefügt am 27. Oktober 2001<t eingefuegtam="2008-03-08">, § 3 eingefügt am <stand>8. März 2008</stand></t>.</s>
 		</p>
-		<aktuell den="13. März 2008"/>
+		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>
+<!-- Rechtschreibung korrigiert: 2016-09 -->

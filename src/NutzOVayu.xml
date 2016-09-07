@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.64" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
-		<name>Nutzungsordnung für die vereinseigene Segeljolle vom Typ Sailhorse</name>
+		<name umgangssprachlich="Sailhorse-Nutzungsordnung">Nutzungsordnung für die vereinseigene Segeljolle vom Typ Sailhorse</name>
 		<p>
 			<titel>Verwendungszwecke</titel>
 			<abs>
 				<s>Das Schiff kann von Vereinsmitgliedern zu den nachfolgenden Bedingungen zum individuellen Segeln außerhalb bestimmter Vereinsveranstaltungen oder Kurse genutzt werden.</s>
-				<s>Das Segelrevier ist dabei grundsätzlich die Bruchertalsperre.</s>
+				<s>Das Segelrevier ist dabei grundsätzlich die Brucher Talsperre.</s>
 			</abs>
 			<abs>
 				<s>Das Schiff wird außerdem vom Verein zur Aus- und Fortbildung genutzt und auch von der Jugendabteilung zur Durchführung von Jugendmaßnahmen oder zu Zwecken der Aus- und Fortbildung eingesetzt.</s>
-				<s>Im Rahmen der Vereinsmaßnahmen kann das Schiff sowohl auf der Bruchertalsperre als auch auf anderen Segelrevieren eingesetzt werden.</s>
+				<s>Im Rahmen der Vereinsmaßnahmen kann das Schiff sowohl auf der Brucher Talsperre als auch auf anderen Segelrevieren eingesetzt werden.</s>
 			</abs>
 		</p>
 		<p>
@@ -24,50 +24,46 @@
 		<p>
 			<titel>Nutzungsbedingungen, Verwaltung und Pflege</titel>
 			<abs>
-				<html:em>Führerschein &amp; Mitgliedschaft:</html:em><html:br/>
-				<s>Wer das Vereinsboot nutzen möchte, muß aktives Mitglied der Segel- und Kanugemeinschaft Bruchertalsperre sein (Ausnahmen sind nur in besonders begründeten Einzelfällen möglich) und den Sportbootführerschein Binnen unter Segeln oder einen gleichwertigen Befähigungsnachweis (z.B. Segelführerschein A des DSV) besitzen.</s>
+				<titel>Führerschein &amp; Mitgliedschaft</titel>
+				<s>Wer das Vereinsboot nutzen möchte, muss aktives Mitglied der Segel- und Kanugemeinschaft Brucher Talsperre sein (Ausnahmen sind nur in besonders begründeten Einzelfällen möglich) und den Sportbootführerschein Binnen unter Segeln oder einen gleichwertigen Befähigungsnachweis (z.B. Segelführerschein A des DSV) besitzen.</s>
 				<s eingefuegtam="2004-03-20">Lebenspartner dieser Mitglieder, die selber Mitglied des Vereins sind und einen gleichwertigen Befähigungsnachweis besitzen, sind ohne zusätzliche Nutzungsgebühr nutzungsberechtigt.</s>
 				<s>Für Mitglieder der Jugendabteilung gelten untenstehende Sonderbedingungen.</s>
 			</abs>
 			<abs>
-				<html:em>Einweisung:</html:em><html:br/>
+				<titel>Einweisung</titel>
 				<s>Zu Saisonbeginn findet eine Einweisung für alle Mitglieder statt, die das Boot benutzen wollen.</s>
 				<s>Die Teilnahme hieran ist Pflicht, die evtl. Verhinderung zum genannten Termin ist umgehend mitzuteilen.</s>
 			</abs>
 			<abs>
-				<html:em>Nutzungsbeitrag &amp; Arbeiten:</html:em><html:br/>
+				<titel>Nutzungsbeitrag &amp; Arbeiten</titel>
 				<bereich gestrichenam="2002-03-09">
-					<!-- Originaltext nicht mehr verfügbar -->
-					<s>[…].</s>
-					<s>[…].</s>
+					<!-- gestrichenen Text rekonstruiert anhand Entwurf vom 23. Okt. 1999, Authentizität nicht gesichert! -->
+					<s>Ein Mitglied, das vom Vereinsvorstand benannt wird, ist für die organisatorischen Belange des Bootes zuständig.</s>
+					<s>Von diesem Beauftragten wird eine Liste geführt, auf der sich jeder, der das Vereinsboot segeln möchte, einzutragen hat.</s>
 				</bereich>
 				<bereich eingefuegtam="2002-03-09">
 					<s>Der Vereinsvorstand ernennt ein Mitglied zum Beauftragten für dieses Boot und ein weiteres zu dessen Stellvertreter; diese Mitglieder sollen zu den Nutzern des Bootes zählen.</s>
-					<s>Der Beauftragte ist für die organisatorischen Belange des Bootes zuständig ist<!-- [sic!] -->.</s>
+					<s>Der Beauftragte ist für die organisatorischen Belange des Bootes zuständig<t gestrichenam="2011-05-28"> ist<!-- [sic!] --></t>.</s>
 					<s>Er führt eine Liste, auf der sich jeder, der das Vereinsboot segeln möchte, einzutragen hat.</s>
 				</bereich>
 				<s>Mit der Unterschrift auf dieser Liste wird diese Nutzungsordnung anerkannt.</s>
-				<s>
-					<steil gestrichenam="2011-05-28">Der jeweilige Segler verpflichtet sich zur Zahlung des Jahresnutzungsbeitrages, der in der Finanzordnung geregelt ist und vom Schatzmeister zusammen mit dem Mitgliedsbeitrag abgebucht wird,</steil>
-					<steil eingefuegtam="2011-05-28">Der jeweilige Segler verpflichtet sich zur Zahlung der Nutzungsbeiträge, die in der Finanzordnung geregelt sind und vom Schatzmeister nach Ende der Saison abgebucht werden,</steil>
-					<steil>und verpflichtet sich zur Teilnahme an den allgemeinen Arbeiten, die im Zusammenhang mit dem Boot anfallen.</steil>
-				</s>
+				<s>Der jeweilige Segler verpflichtet sich zur Zahlung<t gestrichenam="2011-05-28"> des Jahresnutzungsbeitrages</t><t eingefuegtam="2011-05-28"> der Nutzungsbeiträge</t>,<t gestrichenam="2011-05-28"> der</t><t eingefuegtam="2011-05-28"> die</t> in der Finanzordnung geregelt<t gestrichenam="2011-05-28"> ist</t><t eingefuegtam="2011-05-28"> sind</t> und vom Schatzmeister<t gestrichenam="2011-05-28"> zusammen mit dem Mitgliedsbeitrag</t><t eingefuegtam="2011-05-28"> nach Ende der Saison</t> abgebucht<t gestrichenam="2011-05-28"> wird</t><t eingefuegtam="2011-05-28"> werden</t>, und verpflichtet sich zur Teilnahme an den allgemeinen Arbeiten, die im Zusammenhang mit dem Boot anfallen.</s>
 				<s>Diese Arbeiten sind insbesondere saisonbegleitende Wartungen bzw. Instandsetzungen nach Notwendigkeit, Reinigungen nach Bedarf und einmal jährlich vor dem Winterlager, sowie das jährliche Auf- und Abslippen.</s>
 			</abs>
 			<abs gestrichenam="2011-05-28">
-				<html:em>Gelegentliche Nutzung:</html:em><html:br/>
+				<titel>Gelegentliche Nutzung</titel>
 				<s>Wenn ein Mitglied nicht regelmäßig sondern nur gelegentlich das Boot benutzen möchte, ist dies möglich, sofern das Boot frei ist.</s>
 				<s>Ein Beitrag ist für die gelegentliche Nutzung, die sich auf wenige Termine in der Saison beschränkt, nicht zu entrichten.</s>
 			</abs>
 			<abs>
-				<html:em>Fahrtenbuch<steil gestrichenam="2010-03-05"> &amp; Reservierungen</steil>:</html:em><html:br/>
+				<titel>Fahrtenbuch<t gestrichenam="2010-03-05"> &amp; Reservierungen</t></titel>
 				<s>Jede Benutzung des Bootes, jede Beschädigung, Feststellung von Schäden und Instandsetzung ist mit Datum, Uhrzeit und Namen des Eintragenden im Fahrtenbuch des Bootes einzutragen.</s>
 				<s>Größere Schäden sind zudem umgehend an den Beauftragten zu melden.</s>
 				<s>Kleinere Schäden sollen sofort behoben werden, sofern dies möglich ist.</s>
 				<s>Für Materialkosten kommt der Verein auf.</s>
 			</abs>
 			<abs>
-				<steil nachgefuehrtam="2010-03-05"><html:em>Reservierungen:</html:em></steil><html:br/>
+				<titel><t eingefuegtam="2010-03-05">Reservierungen</t></titel>
 				<s>Wer einen bestimmten Termin zum Segeln wünscht und sichergehen möchte, dass das Boot zu dieser Zeit frei ist, kann sich ab Saisonbeginn im Fahrtenbuch eintragen und soll dabei auch die voraussichtliche Personenzahl an Bord angeben.</s>
 				<s>Wollen zur gleichen Zeit mehrere Berechtigte Mitglieder das Boot nutzen oder sich für die gleiche Zeit eintragen, sollen sie sich untereinander in gegenseitigem Einvernehmen einigen; auch die gleichzeitige Benutzung ist natürlich abhängig von der Anzahl der Personen möglich.</s>
 				<s>Zu diesem Zweck wird die Liste mit den Namen und Telefonnummern aller Nutzungsberechtigten an alle Nutzungsberechtigten ausgehändigt.</s>
@@ -80,19 +76,19 @@
 				<s>Auf bereits eingetragene Reservierungen wird dabei Rücksicht genommen.</s>
 			</abs>
 			<abs>
-				<html:em>Nutzungsausfall:</html:em><html:br/>
+				<titel>Nutzungsausfall</titel>
 				<s>Die Eintragung im Fahrtenbuch garantiert nicht, dass das Boot auch wirklich zur Verfügung steht, da es z.B. wegen einer Beschädigung oder anderer zwingender Gründe nicht einsatzklar sein könnte.</s>
 			</abs>
 			<abs>
-				<html:em>Gäste an Bord:</html:em><html:br/>
+				<titel>Gäste an Bord</titel>
 				<s>Jeder Segler, der zur Nutzung des Vereinsbootes berechtigt ist, kann im Rahmen der zulässigen Personenzahl Gäste mit an Bord nehmen.</s>
 				<s>Dabei ist besonders zu beachten, dass für jede Person an Bord eine ohnmachtssichere Rettungsweste vorhanden sein muss!</s>
 				<s>Hierfür ist der Verein nicht verantwortlich.</s>
 				<s>Der Verein haftet nicht bei Zuwiderhandlungen.</s>
 			</abs>
 			<abs>
-				<html:em>Nutzung durch Mitglieder der Jugendabteilung:</html:em><html:br/>
-				<s>Wenn Jugendliche Mitglieder, die nicht einem Vereinboot der Jugendflotte zugeteilt sind (z.B. weil sie nicht am regelmäßigen Training teilnehmen) das Boot nutzen wollen, werden sie wie aktive Mitglieder behandelt und haben die obigen Bestimmungen zu beachten.</s>
+				<titel>Nutzung durch Mitglieder der Jugendabteilung</titel>
+				<s>Wenn jugendliche Mitglieder, die nicht einem Vereinsboot der Jugendflotte zugeteilt sind (z. B. weil sie nicht am regelmäßigen Training teilnehmen) das Boot nutzen wollen, werden sie wie aktive Mitglieder behandelt und haben die obigen Bestimmungen zu beachten.</s>
 				<s>Andere Jugendmitglieder können ebenfalls mit dem Vereinsboot segeln, haben dabei aber folgendes zu beachten:</s>
 				<nr>
 					<s>Andere Vereinsmitglieder, die nur dieses Boot nutzen können, dürfen nicht dabei behindert werden; sie haben im Zweifel Vorrecht.</s>
@@ -118,8 +114,8 @@
 			<s>Schiffsführer kann ein nutzungsberechtigtes Mitglied im Sinne dieser Ordnung sein.</s>
 			<s>Sind mehrere berechtigte Mitglieder an Bord, haben sie den Schiffsführer vor Fahrtantritt zu bestimmen.</s>
 			<s>Der jeweilige Schiffsführer ist für alle Gefahren, die im Zusammenhang mit der Benutzung des Bootes entstehen können, selbst verantwortlich und haftet für alle Schäden, die er verursacht.</s>
-			<s>Der Schiffsführer muß sich insbesondere die Bewältigung der zur Zeit der Fahrt bestehenden Wetterverhältnisse sicher zutrauen.</s>
-			<s>Die Beriebsbereitschaft des Bootes ist vor jedem Ablegen zu überprüfen.</s>
+			<s>Der Schiffsführer muss sich insbesondere die Bewältigung der zur Zeit der Fahrt bestehenden Wetterverhältnisse sicher zutrauen.</s>
+			<s>Die Betriebsbereitschaft des Bootes ist vor jedem Ablegen zu überprüfen.</s>
 			<s>Eine Haftung des Vereins oder des Vereinsvorstandes ist ausgeschlossen!</s>
 		</p>
 		<p>
@@ -130,7 +126,7 @@
 				<s>Es gelten sinngemäß alle schon erwähnten Regeln.</s>
 			</abs>
 			<abs>
-				<s>Die beabsichtigte Regattateilnahme kann durch Eintrag im Fahrtenbuch angemeldet werden, wenn schon eine Einigung herbeigeführt wurde, ist sie umgehend einzutragen.</s>
+				<s>Die beabsichtigte Regattateilnahme kann durch Eintrag im Fahrtenbuch angemeldet werden; wenn schon eine Einigung herbeigeführt wurde, ist sie umgehend einzutragen.</s>
 				<s>Bei weiteren Regatten sollen dann andere interessierte Crews die Möglichkeit zur Teilnahme bekommen.</s>
 				<s>Sollte keine Einigung erzielt werden, wird die Reihenfolge der Anmeldungen zur Regattateilnahme im Fahrtenbuch zugrunde gelegt.</s>
 			</abs>
@@ -145,20 +141,21 @@
 				<s>Bei wiederholten oder groben Verstößen gegen diese Nutzungsordnung kann einem Segler die Nutzungsberechtigung vorübergehend oder dauerhaft entzogen werden; ein Anspruch auf Erstattung des anteiligen Nutzungsbeitrages besteht nicht.</s>
 			</abs>
 			<abs>
-				<s>Diese Nutzungsordnung wurde am 23. Oktober 1999 vom Vorstand beschlossen und am 11. März 2000 von der Mitgliederversammlung bestätigt.</s>
+				<s>Diese Nutzungsordnung wurde am 23. Oktober 1999 vom Vorstand beschlossen und am 11. März 2000 von der Mitgliederversammlung bestätigt.</s>
 				<s>Sie tritt sofort in Kraft.</s>
-				<s nachgefuehrtam="2002-03-09 2004-03-20 2011-05-28">Sie wurde geändert durch die Mitgliederversammlungen am 9. März 2002, 20. März 2004 und <stand>28. Mai 2011</stand>.</s>
+				<s eingefuegtam="2002-03-09">Sie wurde geändert durch die Mitgliederversammlung<t eingefuegtam="2004-03-20">en</t> am 9. März 2002<t eingefuegtam="2004-03-20"><t gestrichenam="2011-05-28"> und am</t><t eingefuegtam="2011-05-28">,</t> 20. März 2004</t><t eingefuegtam="2011-05-28"> und <stand>28. Mai 2011</stand></t>.</s>
 			</abs>
 		</p>
-		<postambel><bereich gestrichenam="2012-02-11">
-			<steil>Schlußbemerkung:</steil>
-			<s>Dieses Vereinsboot ist ein neues Projekt der SKGB.</s>
-			<s>Es lebt besonders von der Kooperation aller beteiligten Mitglieder.</s>
-			<s>Ein entscheidender Punkt ist dabei die Pflege und Instandhaltung des Schiffes durch die nutzenden Segler.</s>
-			<s>Selbstständiges Handeln der Segler ohne Inanspruchnahme des Beauftragten ist ein Ziel.</s>
-			<s>Absprachen mit und Informationen an den Beauftragten sind dagegen erwünscht; dies geschieht zum Teil auch über das Fahrtenbuch.</s>
-			<s>Alle beteiligten Mitglieder der SKGB sind angehalten, ihren Beitrag zuleisten<!-- [sic!] -->, damit das Projekt nicht fehlschlägt <!-- [sic!] -->sondern ein voller Erfolg wird.</s>
+		<postambel><bereich gestrichenam="2011-05-28">
+			Schlußbemerkung:
+			<html:br/>Dieses Vereinsboot ist ein neues Projekt der SKGB.
+			Es lebt besonders von der Kooperation aller beteiligten Mitglieder.
+			Ein entscheidender Punkt ist dabei die Pflege und Instandhaltung des Schiffes durch die nutzenden Segler.
+			Selbstständiges Handeln der Segler ohne Inanspruchnahme des Beauftragten ist ein Ziel.
+			Absprachen mit und Informationen an den Beauftragten sind dagegen erwünscht; dies geschieht zum Teil auch über das Fahrtenbuch.
+			Alle beteiligten Mitglieder der SKGB sind angehalten, ihren Beitrag zuleisten<!-- [sic!] -->, damit das Projekt nicht fehlschlägt <!-- [sic!] -->sondern ein voller Erfolg wird.
 		</bereich></postambel>
 		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>
+<!-- Rechtschreibung korrigiert: 2016-09 -->

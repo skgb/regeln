@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.71" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
-		<name>Steg- und Liegeplatzordnung</name>
+		<name abkuerzung="StegO">Steg- und Liegeplatzordnung</name>
 		<p>
 			<titel>Allgemeine Pflicht aller Mitglieder</titel>
 			<abs>
@@ -34,13 +34,13 @@
 		<p>
 			<titel>Erfordernisse für Liegeplatzinhaber, „gekaufte Box“</titel>
 			<abs>
-				<s>Liegeplatzinhabers <!--[sic!]--> kann nur sein, wer aktives Vereinsmitglied, Ehrenmitglied oder Mitglied der Jugendabteilung ist.</s>
+				<s>Liegeplatzinhaber kann nur sein, wer aktives Vereinsmitglied, Ehrenmitglied oder Mitglied der Jugendabteilung ist.</s>
 				<s>Es können auch mehrere Personen, die gemeinsam ein Boot besitzen, gemeinschaftlich Inhaber eines Liegeplatzes sein; alle Miteigner müssen dann die Voraussetzungen der Mitgliedschaft erfüllen.</s>
 			</abs>
 			<abs>
 				<s>In früheren Vereinsjahren konnten Mitglieder auch zu einem festgelegten Preis lebenslange Rechte an einem Stegliegeplatz erwerben („gekaufte Box“).</s>
 				<s>Dies ist nicht mehr möglich.</s>
-				<s>Für die Inhaber solcher Stegliegeplätze bleiben die Nutzungsrechte an  der erworbenen Stegbox erhalten; sie kann nur mit Zustimmung des Inhabers ausgetauscht werden (Bestandschutz).</s>
+				<s>Für die Inhaber solcher Stegliegeplätze bleiben die Nutzungsrechte an  der erworbenen Stegbox erhalten; sie kann nur mit Zustimmung des Inhabers ausgetauscht werden (Bestandsschutz).</s>
 				<s>Solange der Inhaber seinen Liegeplatz nicht belegt, kann dieser vom Verein vermietet werden; der Inhaber hat dabei keinen Anspruch auf eine Mietzahlung.</s>
 				<s>Die Rechte an der „gekauften Box“ enden mit Beendigung der Mitgliedschaft.</s>
 			</abs>
@@ -62,41 +62,29 @@
 				<s>Hierzu wird zu Saisonbeginn ein Stegdienstplan vom Steg- und Zeugwart erstellt, der am Steg ausgehängt wird und für alle aktiven Mitglieder verbindlich ist.</s>
 				<s>Verhinderte Mitglieder müssen selbst für Ersatz sorgen!</s>
 				<s>Auch Jugendmitglieder können ab einem Alter von 16 Jahren zu bestimmten Tätigkeiten herangezogen werden.</s>
-				<s>Kommt der planmäßig eingeteilte Stegdienst seiner Verpflichtung nicht nach, ist jedes Mitglied verpflichtet, einzuspringen und dringende Arbeiten auzuführen.</s>
+				<s>Kommt der planmäßig eingeteilte Stegdienst seiner Verpflichtung nicht nach, ist jedes Mitglied verpflichtet, einzuspringen und dringende Arbeiten auszuführen.</s>
 				<s>Hierzu werden mit dem Stegdienstplan die Telefonnummern aller betreffenden Mitglieder ausgehängt.</s>
 			</abs>
 			<abs>
 				<s>Im Rahmen des <html:b>Stegdienstes</html:b> bestehen folgende Verpflichtungen:</s>
-				<lit>
-					<s><html:b>Kontrolle des Steges, falls erforderlich an den Wasserstand anpassen;</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Reinigung des Steges (Entenkot!);</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Sichtkontrolle der Schwimmertanks, der Stegwinde, der Jollen an Land;</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Sichtkontrolle der Festmacher der am Steg liegenden Boote;</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Vereinsfremde, die sich unbefugt auf dem Steg oder auf Booten an Land aufhalten, freundlich und bestimmt vom Vereinsgelände verweisen.</html:b></s>
-				</lit>
-				<lit>
-					<s><html:b>Sichtkontrolle des Bootshausgeländes (Beschädigung an Gebäude oder Zäunen); prüfen, ob Türen und Tore verschlossen sind.</html:b></s>
-				</lit>
+				<lit><html:b>Kontrolle des Steges, falls erforderlich an den Wasserstand anpassen;</html:b></lit>
+				<lit><html:b>Reinigung des Steges (Entenkot!);</html:b></lit>
+				<lit><html:b>Sichtkontrolle der Schwimmertanks, der Stegwinde, der Jollen an Land;</html:b></lit>
+				<lit><html:b>Sichtkontrolle der Festmacher der am Steg liegenden Boote;</html:b></lit>
+				<lit><html:b>Vereinsfremde, die sich unbefugt auf dem Steg oder auf Booten an Land aufhalten, freundlich und bestimmt vom Vereinsgelände verweisen.</html:b></lit>
+				<lit><html:b>Sichtkontrolle des Bootshausgeländes (Beschädigung an Gebäude oder Zäunen); prüfen, ob Türen und Tore verschlossen sind.</html:b></lit>
 			</abs>
 			<abs eingefuegtam="2002-03-09"><!-- keine wörtliche Übernahme aus Protokoll möglich, daher sinngemäße Umschrift erfolgt (arne 2009-10-11, 2010-02-14) -->
 				<s>Aktive Vereinsmitglieder, die ihrer Verpflichtung zum Stegdienst nicht nachkommen, werden zu einer Ausgleichszahlung verpflichtet, deren Höhe die Finanzordnung regelt.</s>
-				<s>Ein Versäumnis liegt insbesondere vor, wenn für einen Dienstzeitraum im Stegbuch weder ein Eintrag des Mitgliedes noch ein Eintrag einer abgesprochenen Vertretung vorliegt oder wenn eine offensichtlich notwendige Anpassung des Steges an den Wasserstand nicht veranlaßt wurde.</s>
+				<s>Ein Versäumnis liegt insbesondere vor, wenn für einen Dienstzeitraum im Stegbuch weder ein Eintrag des Mitgliedes noch ein Eintrag einer abgesprochenen Vertretung vorliegt oder wenn eine offensichtlich notwendige Anpassung des Steges an den Wasserstand nicht veranlasst wurde.</s>
 			</abs>
 		</p>
 		<p>
 			<titel>Verhalten auf dem Steg</titel>
 			<abs>
-				<s>Das Rennen auf dem Steg ist aus Sicherheitsgünden<!-- [sic!] --> verboten.</s>
+				<s>Das Rennen auf dem Steg ist aus Sicherheitsgründen verboten.</s>
 				<s>Grundsätzlich darf vom Steg nicht ins Wasser gesprungen werden.</s>
-				<s>Das Schimmen<!-- [sic!] --> im Bereich der Steganlage und des Slipweges geschieht auf eigene Gefahr.</s>
+				<s>Das Schwimmen im Bereich der Steganlage und des Slipweges geschieht auf eigene Gefahr.</s>
 				<s>Dabei ist sorgfältig auf an- oder ablegende Boote zu achten, für die Schwimmer nur schwer zu erkennen sind!</s>
 				<s gestrichenam="2003-11-08">Die Steganlage soll nicht zum Sonnenbaden zweckentfremdet werden.</s>
 				<s eingefuegtam="2003-11-08">Die Steganlage darf nicht zum Sonnenbaden zweckentfremdet werden.</s>
@@ -114,11 +102,14 @@
 			<titel>Inkrafttreten</titel>
 			<abs>
 				<s>Diese Steg- und Liegeplatzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen.</s>
-				<s>Sie <steil gestrichenam="2010-04-17">tritt sofort in Kraft und</steil> löst die Stegordnung von November 1994 ab.</s>
-				<s nachgefuehrtam="2002-03-09 2003-11-08">Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002, 8. November 2003 und <stand>17. April 2010</stand>.</s>
-				<s eingefuegtam="2010-04-17">Sie tritt sofort in Kraft.</s>
+				<s>Sie <t gestrichenam="2010-04-17">tritt sofort in Kraft und</t> löst die Stegordnung von November 1994 ab.</s>
+				<bereich eingefuegtam="2010-04-17">
+					<s>Sie wurde geändert in den Mitgliederversammlungen am 9. März 2002, 8. November 2003 und <stand>17. April 2010</stand>.</s>
+					<s>Sie tritt sofort in Kraft.</s>
+				</bereich>
 			</abs>
 		</p>
-		<aktuell den="5. Dezember 2010"/>
+		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>
+<!-- Rechtschreibung korrigiert: 2016-09 -->

@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.70" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
-		<name>Jugendordnung</name>
+		<name abkuerzung="JO">Jugendordnung</name>
 		<praeambel>Alle Personen- und Amtsbezeichnungen werden in weiblicher und männlicher Form geführt.</praeambel>
 		<p>
 			<titel>Name und Mitgliedschaft</titel>
 			<abs>
-				<s>Mitglieder der Jugendabteilung der Segel- und Kanugemeinschaft Bruchertalsperre sind alle jugendlichen Vereinsmitglieder sowie die gewählten und berufenen Mitarbeiter der Jugendabteilung.</s>
+				<s>Mitglieder der Jugendabteilung der Segel- und Kanugemeinschaft Brucher Talsperre sind alle jugendlichen Vereinsmitglieder sowie die gewählten und berufenen Mitarbeiter der Jugendabteilung.</s>
 				<s>Ein Mitglied ist Jugendlicher bis zum Ablauf des Jahres, in dem er das 19. Lebensjahr vollendet.</s>
 			</abs>
 			<abs>
@@ -17,23 +17,19 @@
 		</p>
 		<p>
 			<titel>Aufgaben</titel>
-			<s>Die Jugendabteilung führt und verwaltet sich selbständig und entscheidet über die Verwendung der ihr zufließenden Mittel.</s>
+			<s>Die Jugendabteilung führt und verwaltet sich selbstständig und entscheidet über die Verwendung der ihr zufließenden Mittel.</s>
 			<s>Aufgabe der Jugendabteilung ist es insbesondere, eine segelsportliche Jugendarbeit anzubieten.</s>
 		</p>
 		<p>
-			<titel>Aufnahme, Austritt und Ausschluß</titel>
+			<titel>Aufnahme, Austritt und Ausschluss</titel>
 			<abs>
 				<s gestrichenam="2010-04-17">
-					<steil>Für die Aufnahme von Jugendmitgliedern gelten die Regelungen der Satzung (§4 Abs. 4) sinngemäß, jedoch tritt</steil>
-					<lit>
-						<steil>anstelle des Vorstandes der Vereinsjugendausschuss und</steil>
-					</lit>
-					<lit>
-						<steil>anstelle der Mitgliederversammlung die Jugendversammlung.</steil>
-					</lit>
+					Für die Aufnahme von Jugendmitgliedern gelten die Regelungen der Satzung (§4 Abs. 4) sinngemäß, jedoch tritt
+					<lit>anstelle des Vorstandes der Vereinsjugendausschuss und</lit>
+					<lit>anstelle der Mitgliederversammlung die Jugendversammlung.</lit>
 				</s>
-				<s eingefuegtam="2010-04-17">Die Aufnahme von Jugendmitgliedern erfolgt nach den Regelungen der Satzung (§ 4 Abs. 4 Sätze 1 bis 5 der Fassung vom 18. März 2006.).</s>
-			</abs>
+				<s eingefuegtam="2010-04-17">Die Aufnahme von Jugendmitgliedern erfolgt nach den Regelungen der Satzung <html:s>(§ 4 Abs. 4 Sätze 1 bis 5 der Fassung vom 18. März 2006.)</html:s>.</s>
+			</abs><!-- durch Satzungsänderung 2015 überflüssig -->
 			<abs>
 				<s>Austritt und Ausschluss werden auch für Jugendmitglieder durch die Satzung geregelt.</s>
 				<s>Die Jugendversammlung oder der Vereinsjugendausschuss können den Ausschluss eines Jugendmitgliedes beantragen, wenn die Voraussetzungen dafür vorliegen.</s>
@@ -41,48 +37,26 @@
 		</p>
 		<p>
 			<titel>Organe</titel>
-			<s>Organe der Jugendabteilung sind</s>
-			<lit>
-				<s>die Jugendversammlung</s>
-			</lit>
-			<lit>
-				<s>der Vereinsjugendausschuss</s>
-			</lit>
-			<lit>
-				<s>der 1. Jugendwart</s>
-			</lit>
+			<s>
+				Organe der Jugendabteilung sind
+				<lit>die Jugendversammlung</lit>
+				<lit>der Vereinsjugendausschuss</lit>
+				<lit>der 1. Jugendwart</lit>
+			</s>
 		</p>
 		<p>
 			<titel>Jugendversammlung</titel>
 			<abs>
 				<s>Aufgaben der Jugendversammlung ist insbesondere:</s>
-				<lit>
-					<s>Festlegung der Richtlinien für die Tätigkeit des Vereinsjugendausschusses</s>
-				</lit>
-				<lit>
-					<s>Entgegennahme der Berichte und des Kassenabschlusses des Vereinsjugendausschusses</s>
-				</lit>
-				<lit>
-					<s>Beratung der Jahresrechnung und Verabschiedung des Haushaltsplanes</s>
-				</lit>
-				<lit>
-					<s>Festlegung des Beitrages und der Aufnahmegebühr für Jugendmitglieder</s>
-				</lit>
-				<lit>
-					<s>Entlastung des Vereinsjugendausschusses und des 1. Jugendwartes</s>
-				</lit>
-				<lit>
-					<s>Wahl der Jugendwarte für die Dauer von zwei Jahren</s>
-				</lit>
-				<lit>
-					<s>Wahl der Jugendsprecher für die Dauer von einem Jahr</s>
-				</lit>
-				<lit>
-					<s>Wahl von Delegierten zu Jugendtagen, zu denen der Verein Delegationsrecht hat</s>
-				</lit>
-				<lit>
-					<s>Beschlussfassung über vorliegende Anträge</s>
-				</lit>
+				<lit>Festlegung der Richtlinien für die Tätigkeit des Vereinsjugendausschusses</lit>
+				<lit>Entgegennahme der Berichte und des Kassenabschlusses des Vereinsjugendausschusses</lit>
+				<lit>Beratung der Jahresrechnung und Verabschiedung des Haushaltsplanes</lit>
+				<lit>Festlegung des Beitrages und der Aufnahmegebühr für Jugendmitglieder</lit>
+				<lit>Entlastung des Vereinsjugendausschusses und des 1. Jugendwartes</lit>
+				<lit>Wahl der Jugendwarte für die Dauer von zwei Jahren</lit>
+				<lit>Wahl der Jugendsprecher für die Dauer von einem Jahr</lit>
+				<lit>Wahl von Delegierten zu Jugendtagen, zu denen der Verein Delegationsrecht hat</lit>
+				<lit>Beschlussfassung über vorliegende Anträge</lit>
 			</abs>
 			<abs>
 				<s>Ordentliche Jugendversammlungen finden zweimal im Jahr statt, je eine im Frühjahr und eine im Herbst.</s>
@@ -109,10 +83,10 @@
 			<abs>
 				<s>Die Jugendversammlung ist ohne Rücksicht auf die Anzahl der erschienenen Mitglieder beschlussfähig.</s>
 				<s>Sie wird beschlussunfähig, wenn nur noch weniger als die Hälfte der erschienenen stimmberechtigten Mitglieder anwesend sind.</s>
-				<s>Muß eine beschlussunfähig gewordene Jugendversammlung aufgelöst werden, so ist die nächste Jugendversammlung mit gleicher Tagesordnung in jedem Fall beschlussfähig.</s>
+				<s>Muss eine beschlussunfähig gewordene Jugendversammlung aufgelöst werden, so ist die nächste Jugendversammlung mit gleicher Tagesordnung in jedem Fall beschlussfähig.</s>
 			</abs>
 			<abs>
-				<s>Die Jugendversammlung wird vom 1. Jugendwart, im Verhinderungs fall vom 2. Jugendwart, geleitet.</s>
+				<s>Die Jugendversammlung wird vom 1. Jugendwart, im Verhinderungsfall vom 2. Jugendwart geleitet.</s>
 			</abs>
 			<abs>
 				<s>Die Entscheidungen der Jugendversammlung werden mit einfacher Mehrheit der abgegebenen Stimmen getroffen.</s>
@@ -130,22 +104,13 @@
 		<p>
 			<titel>Vereinsjugendausschuss</titel>
 			<abs>
-				<s>Der Vereinsjugendausschuss besteht aus</s>
-				<lit>
-					<s>dem 1. Jugendwart (Mindestalter 18 Jahre)</s>
-				</lit>
-				<lit>
-					<s>dem 2. Jugendwart (Mindestalter 18 Jahre)</s>
-				</lit>
-				<lit>
-					<s>dem 1. Jugendsprecher (Mindestalter 12 Jahre)</s>
-				</lit>
-				<lit>
-					<s>dem 2. Jugendsprecher (Mindestalter 12 Jahre)</s>
-				</lit>
-				<lit>
-					<s>bis zu zwei Beisitzern, die vom 1. Jugendwart berufen werden.</s>
-				</lit>
+				<s>Der Vereinsjugendausschuss besteht aus
+					<lit>dem 1. Jugendwart (Mindestalter 18 Jahre)</lit>
+					<lit>dem 2. Jugendwart (Mindestalter 18 Jahre)</lit>
+					<lit>dem 1. Jugendsprecher (Mindestalter 12 Jahre)</lit>
+					<lit>dem 2. Jugendsprecher (Mindestalter 12 Jahre)</lit>
+					<lit>bis zu zwei Beisitzern, die vom 1. Jugendwart berufen werden.</lit>
+				</s>
 			</abs>
 			<abs>
 				<s>Der 1. Jugendwart vertritt die Interessen der Vereinsjugend nach innen und außen.</s>
@@ -188,9 +153,12 @@
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s nachgefuehrtam="2010-04-17">Diese Jugendordnung wurde von der Jugendversammlung am 27. Oktober 2001 beschlossen, von der Mitgliederversammlung am 27. Oktober 2001 bestätigt und von der Mitgliederversammlung am <stand>17. April 2010</stand> geändert.</s>
+			<s>Diese Jugendordnung wurde von der Jugendversammlung am 27. Oktober 2001 beschlossen<t gestrichenam="2010-04-17"> und</t><t eingefuegtam="2010-04-17">,</t> von der Mitgliederversammlung am 27. Oktober 2001 bestätigt<t eingefuegtam="2010-04-17"> und von der Mitgliederversammlung am <stand>17. April 2010</stand> geändert</t>.</s>
 			<s>Sie tritt sofort in Kraft.</s>
 		</p>
-		<aktuell den="11. Juni 2010"/>
+		<aktuell den="14. Februar 2012"/>
 	</ordnung>
 </regeln>
+<!-- Rechtschreibung korrigiert: 2016-09 -->
+<!-- Aufnahme-Regelungen und Aufnahmegebühr von MV geändert -->
+<!-- Minderheitsbegehren sollte geändert werden analog zur Satzung -->

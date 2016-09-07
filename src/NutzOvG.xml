@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="regeln2html.xsl" type="application/xml"?>
-<regeln version="0.71" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
-		<name>Nutzungsordnung für das vereinseigene Segelboot vom Typ Lelievlet</name>
+		<name umgangssprachlich="Lelievlet-Nutzungsordnung">Nutzungsordnung für das vereinseigene Segelboot vom Typ Lelievlet</name>
 		<p>
 			<titel>Verwendungszwecke</titel>
 			<abs>
@@ -35,8 +35,8 @@
 			<s>Schiffsführer kann ein nutzungsberechtigtes Mitglied im Sinne dieser Ordnung sein.</s>
 			<s>Sind mehrere berechtigte Mitglieder an Bord, haben sie den Schiffsführer vor Fahrtantritt zu bestimmen.</s>
 			<s>Der jeweilige Schiffsführer ist für alle Gefahren, die im Zusammenhang mit der Benutzung des Bootes entstehen können, selbst verantwortlich und haftet für alle Schäden, die er verursacht.</s>
-			<s>Der Schiffsführer muß sich insbesondere die Bewältigung der zur Zeit der Fahrt bestehenden Wetterverhältnisse sicher zutrauen.</s>
-			<s>Die Beriebsbereitschaft des Bootes ist vor jedem Ablegen zu überprüfen.</s>
+			<s>Der Schiffsführer muss sich insbesondere die Bewältigung der zur Zeit der Fahrt bestehenden Wetterverhältnisse sicher zutrauen.</s>
+			<s>Die Betriebsbereitschaft des Bootes ist vor jedem Ablegen zu überprüfen.</s>
 			<s>Eine Haftung des Vereins oder des Vereinsvorstandes ist ausgeschlossen!</s>
 		</p>
 		<p>
@@ -51,10 +51,10 @@
 				<s>Bei Verstößen gegen diese Nutzungsordnung kann einem Segler die Nutzungsberechtigung vorübergehend oder dauerhaft entzogen werden; ein Anspruch auf Erstattung des anteiligen Nutzungsbeitrages besteht nicht.</s>
 			</abs>
 			<abs>
-				<s>Diese Nutzungsordnung wurde am <stand>11. Februar 2012</stand> vom Vorstand beschlossen <steil nachgefuehrtam="2012-02-11">und am 17. März 2012 von der Mitgliederversammlung bestätigt</steil>.</s>
-				<s>Sie tritt am 18. März 2012 in Kraft.</s>
+				<s>Diese Nutzungsordnung wurde am 11. Februar 2012 vom Vorstand beschlossen und am <stand>17. März 2012</stand> von der Mitgliederversammlung bestätigt.</s>
+				<s>Sie tritt am 18. März 2012 in Kraft.</s>
 			</abs>
 		</p>
-		<aktuell den="17. März 2012"/>
+		<aktuell den="6. September 2016"/>
 	</ordnung>
 </regeln>

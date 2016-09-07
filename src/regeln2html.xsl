@@ -3,8 +3,7 @@
 <!--
 
 XSLT conversion specification for 'SKGB-Regeln' to HTML
-(c) 2005-2010 Segel- und Kanugemeinschaft Brucher Talsperre (SKGB)
-Proprietary/Confidential. All Rights Reserved.
+(c) 2005-2016 Segel- und Kanugemeinschaft Brucher Talsperre e. V. SKGB
 
 -->
 
@@ -12,14 +11,14 @@ Proprietary/Confidential. All Rights Reserved.
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:regeln="http://www.skgb.de/2005/regeln" xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="regeln html">
 	
 	<xsl:template name='check-version'>
-		<xsl:variable name="version" select="number(0.71)"/><!-- SKGB-Regeln format version -->
+		<xsl:variable name="version" select="number(0.81)"/><!-- SKGB-Regeln format version -->
 		
 		<xsl:if test="number(/.//regeln:regeln//@version) &lt; $version">
 			<xsl:message>
 				<xsl:text>Warning: Document Format Version Mismatch! The processed document conforms to version </xsl:text>
-				<xsl:value-of select="number(/.//regeln:regeln//@version)"/>
+				<xsl:value-of select="format-number(number(/.//regeln:regeln//@version), '0.00')"/>
 				<xsl:text> of 'SKGB-Regeln', but this XSLT is made for version </xsl:text>
-				<xsl:value-of select="$version"/>
+				<xsl:value-of select="format-number($version, '0.00')"/>
 				<xsl:text>. The results may not be what you expect.</xsl:text>
 			</xsl:message>
 		</xsl:if>
@@ -32,10 +31,13 @@ Proprietary/Confidential. All Rights Reserved.
 		 See http://www.w3.org/TR/xslt#output for more details
 	-->
 	<xsl:output method="xml" media-type="application/xhtml+xml" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" omit-xml-declaration="no" standalone="no" indent="no"/>
-		
+	<!-- indent or cdata-section-elements ? -->
+	<!-- doctype: check out if counting LIs are in fact supported by Strict; check out XHTML5 -->
+	
 	<xsl:template match="html:*">
 		<!--xsl:copy><xsl:apply-templates/></xsl:copy-->
-		<xsl:element name="{local-name()}"><xsl:apply-templates/></xsl:element>
+		<!--xsl:element name="{local-name()}" use-attribute-sets="html:href"><xsl:apply-templates/></xsl:element-->
+		<xsl:copy-of select="."/>
 	</xsl:template>
 	
 	<xsl:template match="/">
@@ -46,6 +48,10 @@ Proprietary/Confidential. All Rights Reserved.
 				<title>
 					<xsl:value-of select="//regeln:name"/>
 					<xsl:text> – SKGB</xsl:text>
+					<xsl:if test="//regeln:entwurf">
+						<xsl:text> – Entwurf </xsl:text>
+						<xsl:value-of select="//regeln:entwurf/@revision"/>
+					</xsl:if>
 				</title>
 				<style type="text/css" id="style">
 					<xsl:text>
@@ -63,13 +69,22 @@ pre {
 	font-family: "Courier", "CMU Typewriter Text", "Free Mono", "Prestige Elite Std", "Courier New";
 }
 del, del *, ins del, ins del *, del ins, del ins *, li.gestrichen {
-	background: #f77;
+	background: #fbb;
+	-webkit-text-decoration-color: #a00;
+	text-decoration-color: #a00;
+}
+del dt {
+	text-decoration: line-through; /* for some reason this value is not inherited */
+}
+ins, ins * {
+	-webkit-text-decoration-color: #0a0;
+	text-decoration-color: #0a0;
 }
 h1 {
 	font-size: 1.5em;
 	font-weight: normal;
 	text-align: center;
-	background-image: url(logo_skgb.gif);
+	background-image: url(Stander.svg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	padding-top: 107px;
@@ -128,20 +143,51 @@ ol, li {
 ol {
 	padding-left: 3em;
 }
-.bylaws>ol>li, .rules>ol>li, .directive>ol>li, .bylaws>*>ol>li, .rules>*>ol>li, .directive>*>ol>li {
+.bylaws>ol>li, .rules>ol>li, .directive>ol>li, .bylaws>*>ol>li, .rules>*>ol>li, .directive>*>ol>li, dl {
 	margin: .5em 0;
 }
 ol.alleine {
 	padding-left: 0;
 }
-ol.alleine li {
+ol.alleine>li {
 	display: block;
 }
-address.signature span.signature {
-	padding-top: 56px;
-	display: inline-block;
+dt {
+	float: left;
+	clear: left;
+}
+dl::after {
+	display: block;
+	color: transparent;
+	height: 0;
+	content: '.'; 
+	clear: left;
+}
+dt::after {
+	content: ' '; 
+	padding-right: 1ex;
+}
+dd>ins, dd>del {
+	margin-right: .5ex;
+}
+dd {
+	font-weight: bold;
+}
+del dd, dd del {
+	font-weight: normal;
+}
+address.signature span.signature::after {
+	content: '.';
+	color: transparent;
+	top: -4ex;
+	left: 20.5em;
+	height: 48px;
+	width: 48px;
+	padding: 0;
+	display: block;
+	position: relative;
 	background-repeat: no-repeat;
-	background-position: 0 5px;
+	background-position: 0;
 	background-image: url(data:image/gif;base64,R0lGODlhMAAwAJEAAP%2F%2F%2FzxGUre7wXeAiiH5BAEAAAAALAAAAAAwADAAAAL%2FhI95MhP%2FhhCq2osYjNpxDFoCJI1DpQVUGI7PCjTUhL7s5cKGxEtR4ropHCcDjdGIEFWN2E4lfMI6qlck0PBIFtCbY%2FX9GnWT5LcLwLIcCCUal20e1JjRyro1ejZoJHKuo6BCg4WmRQNQBnGQNZJoZ2EVkPhgZIPzEyPD5qjQSVIkxmKy07FT1IYqyhaVNqlpCPS6QMHaqlkqx4AgJ3vLFQqZ1jaWaPAmRAQpg9TF6lE7e2P6dFoi52yDjKHsBPj49VkzmmUU89fkV9ppfAqiTltYIs04MYu6rSdXhJSlvVCPSKNjKGTwYoIFWrMZlTRtSkKQl8EFPbp1WPajH6WG96%2FgGesX51qeNDN0laOWcGQif40mmAi0LQ5FHycoTGoUx2W5CoMSzDumBUrKliU8eqpSs5ZNoFvSKTHYL9AQHotIWnVI6VjKMioxDOK6o5TWImqKdpvW0dyurCud6qETRY2LpjDuGRQodc2sqtLivIHbCtKRWqgoMQgkLIqwTMN8FoYKOISoQq96tVmRY04%2BWdlKsD1qqcvhD0MYn7mT190jzdH4bMiTwi6IyNAkDlwZ43W1EHBNMKbHMOElW7z5yUvyQqfrhp%2B9zBotiYRwf4Z%2FEUnlr1Cas9R%2BZabFtWY7SoV%2Fve1acKJ5Ty6wuNQpcP00v7dbFQAAOw==);
 }
 @media print {
@@ -160,8 +206,8 @@ address.signature span.signature {
 }
 					</xsl:text>
 				</style>
-				<link rel="stylesheet" title="Änderungen verbergen" type="text/css" href="data:text/css,ins%2Cins%20*%7Btext-decoration%3Anone%7Ddel%2Cdel%20*%2C.gestrichen%7Bdisplay%3Anone%7D"/>
-				<link rel="alternate stylesheet" title="Änderungen zeigen" type="text/css" href="data:text/css,ins%2Cins%20*%7Bbackground%3A%237f7%7Dspan.geaendert%7Bbackground%3A%23ff7%7D"/>
+				<link rel="alternate stylesheet" title="Änderungen verbergen" type="text/css" href="data:text/css,ins%2Cins%20*%7Btext-decoration%3Anone%7Ddel%2Cdel%20*%2C.gestrichen%7Bdisplay%3Anone%7D"/>
+				<link rel="stylesheet" title="Änderungen zeigen" type="text/css" href="data:text/css,ins%2Cins%20*%7Bbackground%3A%23bfb%7Dspan.geaendert%7Bbackground%3A%23ffa%7D"/>
 			</head>
 			<body>
 				<xsl:apply-templates/>
@@ -323,7 +369,15 @@ address.signature span.signature {
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match='regeln:steil'>
+	<xsl:template match='regeln:t'><!-- text (meaning "text without any other meaning / simple span of text") / Teil-Satz -->
+		<xsl:call-template name="ins-del"/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:t' mode="ins-del">
+		<xsl:apply-templates/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:steil'><!-- Satzteil; deprecated in favour of <t> -->
 		<xsl:call-template name="ins-del"/>
 	</xsl:template>
 	
@@ -340,24 +394,38 @@ address.signature span.signature {
 	</xsl:template>
 
 	<xsl:template name='ins-del'>
+		<xsl:variable name="eingefuegt">
+			<xsl:if test="@eingefuegtam and @eingefuegttop">
+				<xsl:text> (TOP </xsl:text>
+				<xsl:value-of select="@eingefuegttop"/>
+				<xsl:text>)</xsl:text>
+			</xsl:if>
+		</xsl:variable>
+		<xsl:variable name="gestrichen">
+			<xsl:if test="@gestrichenam and @gestrichentop">
+				<xsl:text> (TOP </xsl:text>
+				<xsl:value-of select="@gestrichentop"/>
+				<xsl:text>)</xsl:text>
+			</xsl:if>
+		</xsl:variable>
 		<xsl:choose>
 			<xsl:when test="@eingefuegtam and @gestrichenam">
-				<del datetime="{@gestrichenam}" title="gestrichen am {@gestrichenam}"><ins datetime="{@eingefuegtam}" title="eingefügt am {@eingefuegtam}">
+				<del datetime="{@gestrichenam}" title="eingefügt {@eingefuegtam}{$eingefuegt} und gestrichen {@gestrichenam}{$gestrichen}"><ins datetime="{@eingefuegtam}" title="eingefügt {@eingefuegtam}{$eingefuegt} und gestrichen {@gestrichenam}{$gestrichen}">
 					<xsl:apply-templates select="." mode="ins-del"/>
 				</ins></del>
 			</xsl:when>
 			<xsl:when test="@gestrichenam">
-				<del datetime="{@gestrichenam}" title="gestrichen am {@gestrichenam}">
+				<del datetime="{@gestrichenam}" title="gestrichen {@gestrichenam}{$gestrichen}">
 					<xsl:apply-templates select="." mode="ins-del"/>
 				</del>
 			</xsl:when>
 			<xsl:when test="@eingefuegtam">
-				<ins datetime="{@eingefuegtam}" title="eingefügt am {@eingefuegtam}">
+				<ins datetime="{@eingefuegtam}" title="eingefügt {@eingefuegtam}{$eingefuegt}">
 					<xsl:apply-templates select="." mode="ins-del"/>
 				</ins>
 			</xsl:when>
 			<xsl:when test="@nachgefuehrtam">
-				<span class="geaendert">
+				<span class="geaendert" title="nachgeführt {@nachgefuehrtam}">
 					<xsl:apply-templates select="." mode="ins-del"/>
 				</span>
 			</xsl:when>
@@ -368,13 +436,16 @@ address.signature span.signature {
 	</xsl:template>
 	
 	<xsl:template match='regeln:lit[1]'>
-		<ol type="a">
-			<li>
-				<xsl:apply-templates/>
+		<ol class="lit" type="a">
+			<li value="1">
+				<xsl:call-template name="ins-del"/>
 			</li>
 			<xsl:for-each select="following-sibling::*[local-name()='lit']">
-				<li>
-					<xsl:apply-templates/>
+			    <xsl:variable name="num">
+			    	<xsl:value-of select="1 + count(preceding-sibling::regeln:lit) - count(preceding-sibling::regeln:lit/@gestrichenam)"/>
+			    </xsl:variable>
+				<li value="{$num}">
+					<xsl:call-template name="ins-del"/>
 				</li>
 			</xsl:for-each>
 		</ol>
@@ -383,20 +454,31 @@ address.signature span.signature {
 	<xsl:template match='regeln:lit'>
 	</xsl:template>
 	
+	<xsl:template match='regeln:lit' mode="ins-del">
+		<xsl:apply-templates/>
+	</xsl:template>
+	
 	<xsl:template match='regeln:nr[1]'>
 		<ol class="nr">
-			<li>
-				<xsl:apply-templates/>
+			<li value="1">
+				<xsl:call-template name="ins-del"/>
 			</li>
 			<xsl:for-each select="following-sibling::*[local-name()='nr']">
-				<li>
-					<xsl:apply-templates/>
+			    <xsl:variable name="num">
+			    	<xsl:value-of select="1 + count(preceding-sibling::regeln:nr) - count(preceding-sibling::regeln:nr/@gestrichenam)"/>
+			    </xsl:variable>
+				<li value="{$num}">
+					<xsl:call-template name="ins-del"/>
 				</li>
 			</xsl:for-each>
 		</ol>
 	</xsl:template>
 	
 	<xsl:template match='regeln:nr'>
+	</xsl:template>
+	
+	<xsl:template match='regeln:nr' mode="ins-del">
+		<xsl:apply-templates/>
 	</xsl:template>
 	
 	<xsl:template match='regeln:entwurf'>
@@ -419,6 +501,54 @@ address.signature span.signature {
 					<span class="signature">Der Vorstand</span>
 				</address>
 			</xsl:when>
+		</xsl:choose>
+	</xsl:template>
+	
+	<xsl:template match='regeln:beitragsliste'>
+		<xsl:call-template name="ins-del"/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:beitragsliste' mode="ins-del">
+		<dl>
+			<xsl:apply-templates/>
+		</dl>
+	</xsl:template>
+	
+	<!-- <beitrag>/<gebuehr> unterstützen nicht ins/del ! -> simulieren durch geschachtelte <t>s -->
+	<xsl:template match='regeln:beitrag | regeln:gebuehr'>
+		<dt>
+			<!--xsl:value-of select="normalize-space(./text())"/-->
+			<xsl:apply-templates select="./regeln:t"/>
+			<xsl:text>:</xsl:text>
+		</dt>
+		<dd>
+			<xsl:apply-templates select="./regeln:dm | ./regeln:euro"/>
+		</dd>
+	</xsl:template>
+	
+	<xsl:template match='regeln:dm | regeln:euro'>
+		<xsl:call-template name="ins-del"/>
+	</xsl:template>
+	
+	<xsl:template match='regeln:dm' mode="ins-del">
+		<xsl:apply-templates/>
+		<xsl:text>,– DM</xsl:text>
+	</xsl:template>
+	
+	<xsl:template match='regeln:euro' mode="ins-del">
+		<xsl:apply-templates/>
+		<xsl:text>,– €</xsl:text>
+	</xsl:template>
+	
+	<xsl:template match="regeln:dm[not(*) and not(normalize-space())] | regeln:euro[not(*) and not(normalize-space())]" mode="ins-del">
+		<!-- match empty element -->
+		<xsl:choose>
+			<xsl:when test="attribute::hinweis">
+				<xsl:value-of select="@hinweis"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:text>–</xsl:text>
+			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 	
