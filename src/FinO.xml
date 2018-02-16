@@ -130,19 +130,22 @@
 						<euro eingefuegtam="2012-03-17" eingefuegttop="8" hinweis="keine"/>
 					</gebuehr>
 					<beitrag>
-						<t eingefuegtam="2011-05-28" eingefuegttop="8"><html:s>Boots-Nutzungsbeitrag Aktiv (pro Tag)</html:s></t>
-						<euro eingefuegtam="2011-05-28" eingefuegttop="8"><html:s>10</html:s></euro>
+						<t eingefuegtam="2011-05-28" eingefuegttop="8">Boots-Nutzungsbeitrag Aktiv (pro Tag)</t>
+						<euro eingefuegtam="2011-05-28" eingefuegttop="8" gestrichenam="2018-01-26" gestrichentop="7">10</euro>
+						<euro eingefuegtam="2018-01-26" eingefuegttop="7" hinweis="ohne"/>
 					</beitrag>
 					<beitrag>
 						<t gestrichenam="2010-04-17" gestrichentop="6, Antrag 3">Nutzungsbeitrag für die SAILHORSE-Jolle</t>
-						<t eingefuegtam="2010-04-17" eingefuegttop="6, Antrag 3"><html:s>Boots-Nutzungsbeitrag Aktiv</html:s></t>
-						<t eingefuegtam="2011-05-28" eingefuegttop="8"><html:s> (Höchstbetrag pro Jahr)</html:s></t>
+						<t eingefuegtam="2010-04-17" eingefuegttop="6, Antrag 3">Boots-Nutzungsbeitrag Aktiv</t>
+						<t eingefuegtam="2011-05-28" eingefuegttop="8"> (Höchstbetrag pro Jahr)</t>
 						<dm gestrichenam="2001-11-24" gestrichentop="4">150</dm>
-						<euro eingefuegtam="2001-11-24" eingefuegttop="4"><html:s>90</html:s></euro>
+						<euro eingefuegtam="2001-11-24" eingefuegttop="4" gestrichenam="2018-01-26" gestrichentop="7">90</euro>
+						<euro eingefuegtam="2018-01-26" eingefuegttop="7">0</euro>
 					</beitrag>
 					<beitrag>
-						<t eingefuegtam="2011-05-28" eingefuegttop="8"><html:s>Boots-Nutzungsbeitrag Aktiv in Schul- / Berufsausbildung o.ä. (Höchstbetrag pro Jahr)</html:s></t>
-						<euro eingefuegtam="2011-05-28" eingefuegttop="8"><html:s>55</html:s></euro>
+						<t eingefuegtam="2011-05-28" eingefuegttop="8">Boots-Nutzungsbeitrag Aktiv in Schul- / Berufsausbildung o.ä. (Höchstbetrag pro Jahr)</t>
+						<euro eingefuegtam="2011-05-28" eingefuegttop="8" gestrichenam="2018-01-26" gestrichentop="7">55</euro>
+						<euro eingefuegtam="2018-01-26" eingefuegttop="7">0</euro>
 					</beitrag>
 					<beitrag>
 						<t gestrichenam="2010-04-17" gestrichentop="6, Antrag 3">Nutzungsbeitrag für die Jugendboote</t>
@@ -245,8 +248,8 @@
 		<p>
 			<titel>Inkrafttreten</titel>
 			<abs>
-				<s>Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen<t eingefuegtam="2001-03-17" eingefuegttop="6" gestrichenam="2010-04-17" gestrichentop="6"> und zuletzt geändert von der Mitgliederversammlung am </t><t eingefuegtam="2001-03-17" eingefuegttop="6" gestrichenam="2001-10-27" gestrichentop="8, Antrag 1">17. März 2001</t><t eingefuegtam="2001-10-27" eingefuegttop="8, Antrag 1" gestrichenam="2002-03-09">27. Oktober 2001</t><t eingefuegtam="2002-03-09" gestrichenam="2006-03-18" gestrichentop="5">9. März 2002</t><t eingefuegtam="2010-04-17" eingefuegttop="6"> und geändert von den Mitgliederversammlungen am <!--t eingefuegtam="" eingefuegttop="">17. März 2001, </t-->27. Oktober 2001, 9. März 2002, </t><t eingefuegtam="2006-03-18" eingefuegttop="5">18. März 2006</t><t eingefuegtam="2010-04-17" eingefuegttop="6" gestrichenam="2011-05-28" gestrichentop="8"> und</t><t eingefuegtam="2011-05-28" eingefuegttop="8">,</t><t eingefuegtam="2010-04-17" eingefuegttop="6"> 17. April 2010</t><t eingefuegtam="2011-05-28" eingefuegttop="8" gestrichenam="2012-03-17" gestrichentop="8"> und</t><t eingefuegtam="2012-03-17" eingefuegttop="8">,</t><t eingefuegtam="2011-05-28" eingefuegttop="8"> 28. Mai 2011</t><t eingefuegtam="2012-03-17" eingefuegttop="8" gestrichenam="2014-04-05" gestrichentop="7"> und</t><t eingefuegtam="2014-04-05" eingefuegttop="7">,</t><t eingefuegtam="2012-03-17" eingefuegttop="8"> 17. März 2012</t><t eingefuegtam="2014-04-05" eingefuegttop="7" gestrichenam="2016-04-09" gestrichentop="7"> und</t><t eingefuegtam="2016-04-09" eingefuegttop="7">,</t><t eingefuegtam="2014-04-05" eingefuegttop="7"> 5. April 2014</t><t eingefuegtam="2016-04-09" eingefuegttop="7"> und <stand>9. April 2016</stand></t>.</s>
-				<s eingefuegtam="2010-09-04" eingefuegttop="4c">Sie gibt auch Beschlüsse des Vorstands aus seine<t gestrichenam="2014-04-05" gestrichentop="7">r</t><t eingefuegtam="2014-04-05" eingefuegttop="7">n</t> Sitzung<t eingefuegtam="2014-04-05" eingefuegttop="7">en</t> am <!--t eingefuegtam="" eingefuegttop="">24. November 2001, </t--><t eingefuegtam="2014-04-05" eingefuegttop="7">27. Mai 2007<!-- Mahngebühr (TOP 3) --> und </t>4. September 2010 wieder.</s>
+				<s>Diese Finanzordnung wurde von der Mitgliederversammlung am 11. März 2000 beschlossen<t eingefuegtam="2001-03-17" eingefuegttop="6" gestrichenam="2010-04-17" gestrichentop="6"> und zuletzt geändert von der Mitgliederversammlung am </t><t eingefuegtam="2001-03-17" eingefuegttop="6" gestrichenam="2001-10-27" gestrichentop="8, Antrag 1">17. März 2001</t><t eingefuegtam="2001-10-27" eingefuegttop="8, Antrag 1" gestrichenam="2002-03-09">27. Oktober 2001</t><t eingefuegtam="2002-03-09" gestrichenam="2006-03-18" gestrichentop="5">9. März 2002</t><t eingefuegtam="2010-04-17" eingefuegttop="6"> und geändert von den Mitgliederversammlungen am <!--t eingefuegtam="" eingefuegttop="">17. März 2001, </t-->27. Oktober 2001, 9. März 2002, </t><t eingefuegtam="2006-03-18" eingefuegttop="5">18. März 2006</t><t eingefuegtam="2010-04-17" eingefuegttop="6" gestrichenam="2011-05-28" gestrichentop="8"> und</t><t eingefuegtam="2011-05-28" eingefuegttop="8">,</t><t eingefuegtam="2010-04-17" eingefuegttop="6"> 17. April 2010</t><t eingefuegtam="2011-05-28" eingefuegttop="8" gestrichenam="2012-03-17" gestrichentop="8"> und</t><t eingefuegtam="2012-03-17" eingefuegttop="8">,</t><t eingefuegtam="2011-05-28" eingefuegttop="8"> 28. Mai 2011</t><t eingefuegtam="2012-03-17" eingefuegttop="8" gestrichenam="2014-04-05" gestrichentop="7"> und</t><t eingefuegtam="2014-04-05" eingefuegttop="7">,</t><t eingefuegtam="2012-03-17" eingefuegttop="8"> 17. März 2012</t><t eingefuegtam="2014-04-05" eingefuegttop="7" gestrichenam="2016-04-09" gestrichentop="7"> und</t><t eingefuegtam="2016-04-09" eingefuegttop="7">,</t><t eingefuegtam="2014-04-05" eingefuegttop="7"> 5. April 2014</t><t eingefuegtam="2016-04-09" eingefuegttop="7"> und 9. April 2016</t>.</s>
+				<s eingefuegtam="2010-09-04" eingefuegttop="4c">Sie gibt auch Beschlüsse des Vorstands aus seine<t gestrichenam="2014-04-05" gestrichentop="7">r</t><t eingefuegtam="2014-04-05" eingefuegttop="7">n</t> Sitzung<t eingefuegtam="2014-04-05" eingefuegttop="7">en</t> am <!--t eingefuegtam="" eingefuegttop="">24. November 2001, </t--><t eingefuegtam="2014-04-05" eingefuegttop="7">27. Mai 2007<!-- Mahngebühr (TOP 3) --></t><t eingefuegtam="2014-04-05" eingefuegttop="7" gestrichenam="2018-01-26" gestrichentop="7"> und</t><t eingefuegtam="2018-01-26" eingefuegttop="7">,</t><t eingefuegtam="2014-04-05" eingefuegttop="7"> 4. September 2010</t><t eingefuegtam="2018-01-26" eingefuegttop="7"> und <stand>26. Januar 2018</stand></t> wieder.</s>
 				<s>Sie tritt sofort in Kraft.</s>
 			</abs>
 			<abs eingefuegtam="2014-04-05" eingefuegttop="7">
@@ -256,7 +259,7 @@
 				<s>Boots-Nutzungsbeiträge nach den Nutzungsordnungen für die vereinseigenen Segelboote der Typen Sailhorse und Lelievlet werden in den Jahren 2016 und 2017 nicht erhoben.</s>
 			</abs>
 		</p>
-		<aktuell den="11. Mai 2016"/>
+		<aktuell den="15. Februar 2018"/>
 	</ordnung>
 </regeln>
 <!-- Rechtschreibung korrigiert: 2016-09 -->
