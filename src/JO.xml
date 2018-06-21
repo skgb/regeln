@@ -28,8 +28,8 @@
 					<lit>anstelle des Vorstandes der Vereinsjugendausschuss und</lit>
 					<lit>anstelle der Mitgliederversammlung die Jugendversammlung.</lit>
 				</s>
-				<s eingefuegtam="2010-04-17">Die Aufnahme von Jugendmitgliedern erfolgt nach den Regelungen der Satzung <html:s>(§ 4 Abs. 4 Sätze 1 bis 5 der Fassung vom 18. März 2006.)</html:s>.</s>
-			</abs><!-- durch Satzungsänderung 2015 überflüssig -->
+				<s eingefuegtam="2010-04-17">Die Aufnahme von Jugendmitgliedern erfolgt nach den Regelungen der Satzung<t gestrichenam="2018-03-17" gestrichentop="6"> (§ 4 Abs. 4 Sätze 1 bis 5 der Fassung vom 18. März 2006.)</t>.</s>
+			</abs>
 			<abs>
 				<s>Austritt und Ausschluss werden auch für Jugendmitglieder durch die Satzung geregelt.</s>
 				<s>Die Jugendversammlung oder der Vereinsjugendausschuss können den Ausschluss eines Jugendmitgliedes beantragen, wenn die Voraussetzungen dafür vorliegen.</s>
@@ -59,8 +59,8 @@
 				<lit>Beschlussfassung über vorliegende Anträge</lit>
 			</abs>
 			<abs>
-				<s>Ordentliche Jugendversammlungen finden zweimal im Jahr statt, je eine im Frühjahr und eine im Herbst.</s>
-				<s>Die Termine sollen vor den jeweiligen Mitgliederversammlungen liegen.</s>
+				<s>Ordentliche Jugendversammlungen finden<t gestrichenam="2018-03-17" gestrichentop="6"> zweimal</t><t eingefuegtam="2018-03-17" eingefuegttop="6"> einmal</t> im Jahr statt<t gestrichenam="2018-03-17" gestrichentop="6">, je eine im Frühjahr und eine im Herbst</t>.</s>
+				<s><t gestrichenam="2018-03-17" gestrichentop="6">Die </t><t eingefuegtam="2018-03-17" eingefuegttop="6">Der </t>Termin<t gestrichenam="2018-03-17" gestrichentop="6">e</t> soll<t gestrichenam="2018-03-17" gestrichentop="6">en</t> vor<t gestrichenam="2018-03-17" gestrichentop="6"> den</t><t eingefuegtam="2018-03-17" eingefuegttop="6"> der</t> jeweiligen Mitgliederversammlung<t gestrichenam="2018-03-17" gestrichentop="6">en</t> liegen.</s>
 			</abs>
 			<abs>
 				<s>Außerordentliche Jugendversammlungen finden statt,</s>
@@ -86,7 +86,7 @@
 				<s>Muss eine beschlussunfähig gewordene Jugendversammlung aufgelöst werden, so ist die nächste Jugendversammlung mit gleicher Tagesordnung in jedem Fall beschlussfähig.</s>
 			</abs>
 			<abs>
-				<s>Die Jugendversammlung wird vom 1. Jugendwart, im Verhinderungsfall vom 2. Jugendwart geleitet.</s>
+				<s>Die Jugendversammlung wird vom 1. Jugendwart, im Verhinderungsfall vom 2. Jugendwart<t eingefuegtam="2018-03-17" eingefuegttop="6"> oder einem anderen Vorstandsmitglied</t> geleitet.</s>
 			</abs>
 			<abs>
 				<s>Die Entscheidungen der Jugendversammlung werden mit einfacher Mehrheit der abgegebenen Stimmen getroffen.</s>
@@ -153,12 +153,14 @@
 		</p>
 		<p>
 			<titel>Inkrafttreten</titel>
-			<s>Diese Jugendordnung wurde von der Jugendversammlung am 27. Oktober 2001 beschlossen<t gestrichenam="2010-04-17"> und</t><t eingefuegtam="2010-04-17">,</t> von der Mitgliederversammlung am 27. Oktober 2001 bestätigt<t eingefuegtam="2010-04-17"> und von der Mitgliederversammlung am <stand>17. April 2010</stand> geändert</t>.</s>
+			<s>Diese Jugendordnung wurde von der Jugendversammlung am 27. Oktober 2001 beschlossen und von der Mitgliederversammlung am 27. Oktober 2001 bestätigt.</s>
+			<s eingefuegtam="2010-04-17">Sie wurde von der Mitgliederversammlung am 17. April 2010 geändert.</s>
+			<s eingefuegtam="2018-03-17">Sie wurde von der Jugendversammlung am <stand>17. März 2018</stand> geändert und von der Mitgliederversammlung am selben Tag bestätigt.</s>
 			<s>Sie tritt sofort in Kraft.</s>
 		</p>
-		<aktuell den="14. Februar 2012"/>
+		<aktuell den="21. Juni 2018"/>
 	</ordnung>
 </regeln>
 <!-- Rechtschreibung korrigiert: 2016-09 -->
-<!-- Aufnahme-Regelungen und Aufnahmegebühr von MV geändert -->
+<!-- Aufnahme-Regelungen von MV 2010 geändert und in JV 2018 stillschweigend bestätigt -->
 <!-- Minderheitsbegehren sollte geändert werden analog zur Satzung -->
