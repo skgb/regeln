@@ -25,6 +25,7 @@
 | 2016-04-09   | Änd. | Änd.  | \|    | \|    | ...    | \|        | \|      | \|    | \|    | \|       | \|     |
 | *2018-01-26* | \|   | *Änd.*| \|    | \|    | ...    | \|        | \|      | \|    | \|    | \|       | \|     |
 | 2018-03-17   | \|   | \|    | \|    | \|    | ...    | \|        | \|      | \|    | Änd.  | \|       | \|     |
+| MV 2019 Pl.  | \|   | \|    | \|    | \|    | neu    | entf.     | entf.   | \|    | \|    | \|       | \|     |
 
 Nur die Historie der aktuellen Generation des Regelwerks ist dargestellt.
 Die Satzung und Jugendordnung von 2001 lösten die Satzung (mit Jugendsatzung)
@@ -51,4 +52,6 @@ _**Beschl.** – Beschluss des Vorstands oder des zuständigen Gremiums (Datum d
 **JüngSV** – Jüngstensegel-Vorschrift
 
 **neu** – neu verabschiedet (ersetzt u. U. ein älteres Werk)  
-**Änd.** – Änderung
+**Änd.** – Änderung  
+**entf.** – entfällt  
+**Pl.** – geplant (in Vorbereitung)

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
+	<ordnung>
+		<name abkuerzung="ANutzO" umgangssprachlich="Allgemeine Nutzungsordnung">Allgemeine Nutzungsordnung für die vereinseigenen Boote</name>
+		<entwurf revision="A"/>
+		<p>
+			<titel>Allgemeines</titel>
+			<abs>
+				<s>Diese Nutzungsordnung gilt für alle vereinseigenen Wasserfahrzeuge und schwimmfähigen Sportgeräte („Boote“).</s>
+			</abs>
+			<abs>
+				<s>Der Vorstand kann für bestimmte Boote Sonderbestimmungen festlegen.</s>
+				<s>Diese haben Vorrang vor dieser Allgemeinen Nutzungsordnung.</s>
+				<s>Die Mitgliederversammlung kann dem Vorstand Änderungen empfehlen oder eigene Beschlüsse ergänzen.</s>
+			</abs>
+			<abs>
+				<s>Grundsätzlich gelten alle Boote mit Mast als Segelboote und alle anderen Boote mit Motorhalterung als Sicherungsboote.</s>
+				<s>Auf sonstige Boote (z. B. Kanus, Surfbretter) sind die Regelungen für Segelboote entsprechend anzuwenden.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Verwendungszwecke</titel>
+			<abs>
+				<s>Die Segel- und Sicherungsboote werden vom Verein zur Aus- und Fortbildung genutzt und auch von der Jugendabteilung zur Durchführung von Jugendmaßnahmen oder zu Zwecken der Aus- und Fortbildung eingesetzt.</s>
+			</abs>
+			<abs>
+				<s>Segelboote dürfen von Vereinsmitgliedern auf der Brucher Talsperre zum individuellen Segeln außerhalb bestimmter Vereinsveranstaltungen oder Kurse genutzt werden.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Nutzungsvoraussetzungen</titel>
+			<abs>
+				<s>
+					Segelboote des Vereins darf nur nutzen, wer
+					<lit>in die jeweilige Bootsklasse eingewiesen ist,</lit>
+					<lit>im Besitz des Sportbootführerscheins Binnen unter Segeln oder eines gleichwertigen Befähigungsnachweises (z. B. Segelführerschein A des DSV) ist,</lit>
+					<lit>aktives Mitglied, Ehrenmitglied oder Mitglied der Jugendabteilung ist.</lit>
+				</s>
+			</abs>
+			<abs>
+				<s>Die Einweisung hat in der Regel durch einen Übungsleiter des Vereins zu erfolgen.</s>
+				<s>Der Vorstand gibt hierfür zu Saisonbeginn einen Pflichttermin bekannt oder vereinbart individuelle Termine.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Nutzungsbeiträge</titel>
+			<abs>
+				<s>Es können Nutzungsbeiträge erhoben werden.</s>
+				<s>Näheres regelt die Finanzordnung.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Wartung und Pflege</titel>
+			<abs>
+				<s>Alle Nutzer sind zur Teilnahme an den allgemeinen Arbeiten verpflichtet, die im Zusammenhang mit dem Boot anfallen.</s>
+				<s>
+					Diese Arbeiten sind insbesondere:
+					<lit>saisonbegleitende Wartungen bzw. Instandsetzungen nach Notwendigkeit,</lit>
+					<lit>Reinigungen nach Bedarf und einmal jährlich vor dem Winterlager,</lit>
+					<lit>das jährliche Auf- und Abslippen der Kielboote,</lit>
+					<lit>die jährliche Bootsein- und auslagerung (Winterlager).</lit>
+				</s>
+			</abs>
+			<abs>
+				<s>Für alle aktiven Mitglieder zählen Arbeiten zu Erhalt und Pflege der Vereinsboote als Teil der Pflichtarbeitsstunden.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Beauftragter</titel>
+			<abs>
+				<s>Der Vorstand ernennt jeweils ein Mitglied zum Beauftragten für jedes Boot; er soll zu den Nutzern des Bootes zählen.</s>
+				<s>Der Beauftragte ist für die organisatorischen Belange des Boots zuständig.</s>
+			</abs>
+			<abs>
+				<s>Der Beauftragte führt die Liste der in die jeweilige Bootsklasse eingewiesenen Segler.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Führen des Fahrtenbuchs, Umgang mit Schäden</titel>
+			<abs>
+				<s>Für die Segelboote des Vereins wird ein gemeinsames Fahrtenbuch geführt.</s>
+				<s>Jede Benutzung der Boote sowie jede Beschädigung, Feststellung von Schäden und Instandsetzung ist mit Datum, Uhrzeit und Namen des Verantwortlichen darin einzutragen.</s>
+			</abs>
+			<abs>
+				<s>Alle Schäden sind umgehend an den Beauftragten zu melden.</s>
+				<s>Kleinere Schäden sollen sofort behoben werden, sofern dies möglich ist.</s>
+				<s>Für Materialkosten kommt der Verein auf.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Verantwortung an Bord und Haftung</titel>
+			<abs>
+				<s>Verantwortlich an Bord ist der Schiffsführer.</s>
+				<s>Sind mehrere berechtigte Mitglieder an Bord, haben sie den Schiffsführer vor dem Ablegen zu bestimmen.</s>
+				<s>Im Zweifel gilt dasjenige Mitglied als Schiffsführer, welches sich beim Ablegen am weitesten achtern befindet.</s>
+			</abs>
+			<abs>
+				<s>Der Schiffsführer muss sich die sichere Bewältigung der bestehenden Wetterverhältnisse zutrauen.</s>
+				<s>Die Betriebsbereitschaft des Boots ist vor jedem Ablegen zu überprüfen.</s>
+				<s>Jede Person an Bord soll eine Schwimmhilfe tragen (z. B. ohnmachtssichere Automatikweste).</s>
+			</abs>
+			<abs>
+				<s>Der Schiffsführer ist für alle Gefahren, die im Zusammenhang mit der Benutzung des Boots entstehen können, selbst verantwortlich und haftet gegenüber Dritten für alle Schäden, die er verursacht.</s>
+				<s>Eine Haftung des Vereins oder seiner Vertreter ist ausgeschlossen.</s>
+			</abs>
+			<abs>
+				<s>Für die Vereinsboote besteht Haftpflicht-Versicherungsschutz über die Sporthilfe e. V. beim Landessportbund, sofern sie für satzungsgemäße Vereinszwecke eingesetzt werden.</s>
+				<s>Weiterer Versicherungsschutz besteht nicht.</s>
+				<s>Bei unberechtigter Nutzung besteht <html:em>kein</html:em> Versicherungsschutz.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Teilnahme an Regatten</titel>
+			<abs>
+				<s>Die Teilnahme an Regatten auf der Brucher Talsperre mit Segelbooten ist erwünscht.</s>
+				<s>Hierzu sollen sich die Nutzer untereinander absprechen und einigen.</s>
+			</abs>
+			<abs>
+				<s>Bei Regattateilnahme ist die Besatzung grundsätzlich auf zwei Personen beschränkt.</s>
+				<s>Mitsegelnde Kinder oder andere Ausnahmen sind mit der Wettfahrtleitung abzusprechen.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Reservierungen, Nutzungsausfall</titel>
+			<abs>
+				<s>Der Vorstand kann ein System zur verbindlichen Reservierung von Vereinsbooten einrichten.</s>
+			</abs>
+			<abs>
+				<s>Ist ein Boot wegen einer Beschädigung oder anderer zwingender Gründe trotz Reservierung nicht einsatzklar, soll der Vorstand versuchen, ein Ersatzboot bereitzustellen.</s>
+				<s>Benutzung durch den Verein oder die Jugendabteilung zählt dabei nicht als zwingender Grund.</s>
+			</abs>
+			<abs>
+				<s>Wollen zur gleichen Zeit mehrere berechtigte Mitglieder dasselbe Boot nutzen, sollen sie sich untereinander in gegenseitigem Einvernehmen einigen; auch die gleichzeitige Benutzung ist natürlich abhängig von der Anzahl der Personen möglich.</s>
+				<s>Kommt eine Einigung nicht zustande, ist die Nutzungszeit des zuerst Anwesenden auf zunächst zwei Stunden begrenzt.</s>
+				<s>Warten nach dem nachfolgenden Segler weitere Segler, so wird sinngemäß weiter verfahren.</s>
+			</abs>
+		</p>
+		<p>
+			<titel>Verstöße, Inkrafttreten</titel>
+			<abs>
+				<s>Bei wiederholten oder groben Verstößen gegen diese Nutzungsordnung kann der Vorstand einem Segler die Nutzungsberechtigung vorübergehend oder dauerhaft entziehen; ein Anspruch auf Erstattung des anteiligen Nutzungsbeitrags besteht nicht.</s>
+			</abs>
+			<abs>
+				<s>Diese Nutzungsordnung wurde von der Mitgliederversammlung am XX. März 2019 beschlossen.</s>
+				<s>Sie löst die Nutzungsordnung für die vereinseigene Segeljolle vom Typ Sailhorse vom 23. Oktober 1999 und die Nutzungsordnung für das vereinseigene Segelboot vom Typ Lelievlet vom 17. März 2012 ab.</s>
+				<s>Sie tritt sofort in Kraft.</s>
+			</abs>
+		</p>
+	</ordnung>
+</regeln>
