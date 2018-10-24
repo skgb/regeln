@@ -4,7 +4,7 @@
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name abkuerzung="ANutzO" umgangssprachlich="Allgemeine Nutzungsordnung">Allgemeine Nutzungsordnung für die vereinseigenen Boote</name>
-		<entwurf revision="B"/><stand stand="14. Oktober 2018 (Entwurf B)"/>
+		<entwurf revision="B"/><stand stand="24. Oktober 2018 (Entwurf B)"/>
 		<p>
 			<titel>Allgemeines</titel>
 			<abs>
@@ -56,7 +56,7 @@
 			<abs>
 				<s>Alle Nutzer sind zur Teilnahme an den allgemeinen Arbeiten verpflichtet, die im Zusammenhang mit dem Boot anfallen.</s>
 				<s>
-					Diese Arbeiten sind insbesondere:
+					Diese Arbeiten sind insbesondere
 					<lit>saisonbegleitende Wartungen bzw. Instandsetzungen nach Notwendigkeit,</lit>
 					<lit>Reinigungen nach Bedarf und einmal jährlich vor dem Winterlager,</lit>
 					<lit>das jährliche Auf- und Abslippen der Kielboote,</lit>
@@ -70,7 +70,7 @@
 		<p>
 			<titel>Beauftragter</titel>
 			<abs>
-				<s>Der Vorstand ernennt jeweils ein Mitglied zum Beauftragten für jedes Boot; er soll zu den Nutzern des Bootes zählen.</s>
+				<s>Der Vorstand ernennt jeweils ein Mitglied zum Beauftragten für jedes Boot; er soll zu den Nutzern des Boots zählen.</s>
 				<s>Der Beauftragte ist für die organisatorischen Belange des Boots zuständig.</s>
 			</abs>
 			<abs>
