@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="regeln2html.xsl" type="text/xsl"?>
-<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln" xmlns:html="http://www.w3.org/1999/xhtml">
+<regeln version="0.81" xmlns="http://www.skgb.de/2005/regeln">
 	<!-- Segel- und Kanugemeinschaft Brucher Talsperre (SKGB), Marienheide -->
 	<ordnung>
 		<name abkuerzung="ANutzO" umgangssprachlich="Allgemeine Nutzungsordnung">Allgemeine Nutzungsordnung für die vereinseigenen Boote</name>
-		<entwurf revision="C"/><stand stand="6. Dezember 2018 (Entwurf C)"/>
+		<entwurf revision="D"/><stand stand="3. Januar 2019 (Entwurf D)"/>
 		<p>
 			<titel>Allgemeines</titel>
 			<abs>
@@ -106,9 +106,8 @@
 				<s>Eine Haftung des Vereins oder seiner Vertreter ist ausgeschlossen.</s>
 			</abs>
 			<abs>
-				<s>Für die Vereinsboote besteht Haftpflicht-Versicherungsschutz über die Sporthilfe e. V. beim Landessportbund, sofern sie für satzungsgemäße Vereinszwecke bzw. im üblichen Sportbetrieb eingesetzt werden.</s>
+				<s>Für die Vereinsboote besteht Versicherungsschutz über die Sporthilfe e. V. beim Landessportbund, sofern sie nach den Bedingungen dieser Nutzungsordnung eingesetzt werden.</s>
 				<s>Weiterer Versicherungsschutz besteht nicht.</s>
-				<s>Bei unberechtigter Nutzung besteht <html:em>kein</html:em> Versicherungsschutz.</s>
 			</abs>
 		</p>
 		<p>
