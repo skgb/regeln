@@ -1,33 +1,32 @@
 Regelwerk der SKGB
 ==================
 
-Dieses Repository enthält die **Satzung und Vereinsordnungen** der [SKGB][]
-(in `src`). Es soll die Information der Mitglieder verbessern sowie die
+Dieses Repository enthielt früher die Satzung und Vereinsordnungen der
+[SKGB][]. Es sollte die Information der Mitglieder verbessern sowie die
 Diskussion um die Fortbildung des Regelwerks fördern.
+
+Seit etwa 24. November 2019 entwickelt der Vorstand das Regelwerk jedoch
+unabhängig von diesem Repository weiter, so dass es nicht länger sinnvoll
+erscheint, die **möglicherweise veralteten** XML-Rohfassungen hier
+prominent bereitzustellen. Sie wurden deshalb im April 2021 aus dem
+Verzeichnis `src` entfernt.
 
 
 Ich will doch bloß die Satzung lesen!
 -------------------------------------
 
 Eine druckfertige PDF-Fassung unserer Satzung mitsamt der Vereinsordnungen
-findest Du im Impressum unserer Website (unter [Kontakt][] im Hauptmenü).
+findest du im Impressum unserer Website (unter [Kontakt][] im Hauptmenü).
 
 
 Über dieses Repository
 ----------------------
 
-Der `stable`-Branch soll nur Textfassungen enthalten, welche die offiziellen,
-von den Vereinsorganen beschlossenen Regelungen bestmöglich wiedergeben. Er
-kommt damit einer verbindlichen Quelle für die Gesamtfassung am nächsten.
-Wirklich verbindlich sind indes allein die Wortlaute der jeweiligen Beschlüsse!
-
-Der `master`-Branch ist der Default-Branch. Er dient der Arbeit an
+Der `stable`-Branch enthält die XML-Fassungen, die im März 2019 zur Erzeugung
+der offiziellen PDFs verwendet wurden.
+Der `master`-Branch ist der Default-Branch. Er diente früher der Arbeit an
 der Umsetzung der Beschlüsse in griffige Formulierungen und korrekte
-XML-Auszeichnung. Wenn aktuell keine Änderungen anstehen, sollten `master`
-und `stable` somit auf dem gleichen Stand sein.
-
-Weitere Branches können fallweise für Ordnungsentwürfe zur Vorbereitung
-von Änderungen oder zu experimentellen Zwecken genutzt werden.
+XML-Auszeichnung.
 
 Die Idee, das SKGB-Regelwerk in [XML][] zu kodieren, entstand um 2005 aus der
 Notwendigkeit, identische Inhalte sowohl im Web-Browser als auch in gedruckter
@@ -40,40 +39,9 @@ Tatsächlich stellte sich die gewünschte Umwandlung mit XSL wie auch die
 notwendige präzise Nachführung der XML-Quelldokumente als eher mühselig
 heraus. Mittlerweile existiert jedoch eine Toolchain, welche die Erzeugung
 der benötigten Dokumente zumindest soweit vereinfacht, dass nur noch wenig
-Handarbeit nötig ist. Die bestehende Technik kann daher bis auf Weiteres
-weiter genutzt werden. Perspektivisch könnte theoretisch die bisher gepflegte
-Kennzeichnung der Änderungsgeschichte über XML-Attribute entfallen, falls
-sich im Vorstand stattdessen die Nutzung dieses Repositories etabliert.
+Handarbeit nötig ist.
 
-Neue **Issues und Pull Requests** sind in diesem Repository gerne gesehen,
-stellen jedoch **keine** Anträge für Regeländerungen dar. Vielmehr erlauben
-Issues und Pull Requests hier (neben Fehlerkorrekturen), das Regelwerk offen
-zu diskutieren und Ideen zu entwickeln, die später einmal den Vereinsorganen
-zur Abstimmung vorgelegt werden könnten oder auch nicht.
-
-Wenn du zeitnah eine konkrete Regeländerung wünschst, nimmst du also am besten
-formlos [Kontakt][] mit dem Vereinsvorstand auf, idealerweise mindestens drei
-Monate vor der nächsten Mitgliederversammlung.
-
-
-Abkürzungen
------------
-
-Die einzelnen Dokumente sind mit Abkürzungen gekennzeichnet, um die Dateinamen
-übersichtlich kurz zu halten. Diese Abkürzungen sind größtenteils nicht
-allgemein üblich. Sie sollten in der normalen Kommunikation durch die folgenden
-umgangssprachlichen Kurznamen ersetzt werden:
-
-**ANutzO** – Allgemeine Vereinsboots-Nutzungsordnung  
-**DSE** – Datenschutzerklärung  
-**FinO** – Finanzordnung  
-**HausO** – Bootshausordnung  
-**JO** – Jugendordnung  
-**JungSV** – Jüngstensegel-Vorschrift  
-**NutzOJuB** – Jugendboot-Nutzungsordnung  
-**NutzOVayu** – Sailhorse-Nutzungsordnung  
-**NutzOvG** – Lelievlet-Nutzungsordnung  
-**StegO** – Steg- und Liegeplatzordnung
+Der verwendete XML-Namespace lautete `http://www.skgb.de/2005/regeln`.
 
 
 Weiterverwendung
